@@ -15,7 +15,7 @@ app.use(bodyParser.json())
 
 // Index route
 app.get('/', function (req, res) {
-	res.send($_GET(["hub_challenge"]));
+	res.send(req.query['hub.challenge'])
 })
 
 // for Facebook verification
