@@ -171,7 +171,7 @@ function sendRingButtonMessage(sender, text){
 	          {
 	            "type":"postback",
 	            "title":"Individual Rings",
-	            "payload":"indivRings"
+	            "payload":"ringall"
 	          }
 	        ]
 	      }
