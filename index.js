@@ -198,6 +198,7 @@ function sendIndividualRingButtonMessage(sender, text){
 	            "title":"Ring 3",
 	            "payload":"ring3"
 	          }
+	        ]
 	      }
 	    }
 	}
