@@ -131,15 +131,7 @@ function decideMessage(sender, textInput){
 		sendText(sender, "pittwushu@gmail.com or 555-555-5555")
 	} else {
 		sendText(sender, 
-			"Sorry, we didn't recognize that input! \n \n" + 
-			"For information on what's happening in the rings today, type 'rings' \n \n"+ 
-			"For the venue map, type 'venue' \n \n"+ 
-			// "To see the current events happening, type 'schedule' \n \n"+ 
-			// "To see scores, type 'scores' \n \n"+ 
-			// "For information on food trucks (ONLY AVAILABLE ON DAY OF COMPETITION), type 'foodtrucks' \n \n"+ 
-			"For information on local restaurants, type 'local' \n \n"+ 
-			"For contact information, type 'contact' \n \n"+ 
-			"To see all this info again, type 'help'")
+			"Sorry, we didn't recognize that input! Try typing 'help'")
 	}
 }
 
