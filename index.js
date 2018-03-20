@@ -79,7 +79,7 @@ function decideMessage(sender, textInput){
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
 		sendRingButtonMessage(sender, "What would you like to see?")
-	} else if (text.includes("indivRings")){
+	} else if (text == "indivRings"){
 		sendIndividualRingButtonMessage(sender, "Choose a ring to view.")
 	//rings
 	} else if (text.includes("ringall")){
