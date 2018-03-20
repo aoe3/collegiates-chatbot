@@ -187,8 +187,8 @@ function sendLocalButtonMessage(sender, text){
 	        "buttons":[
 	          {
 	            "type":"postback",
-	            "title":"1$",
-	            "payload":"ring1"
+	            "title":"$",
+	            "payload":"1$"
 	          },
 	          {
 	          	"type":"postback",
