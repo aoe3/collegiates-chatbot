@@ -59,6 +59,15 @@ function decideMessage(sender, textInput){
 			"For contact information, type 'contact' \n \n"+ 
 			"To see all this info again, type 'help'")
 
+	//greetings
+	} else if (text == "hi") {
+		sendText(sender, "Hello! I'm the ACWT Helper ChatBot! To best learn how to use me, type 'help' as a message!")
+	} else if (text == "hello"){
+		sendText(sender, "Hi! I'm a helper chatbot for the ACWT! Want to know what I can do? Type 'help' as a message!")
+	} else if (text == "hey"){
+		sendText(sender, "Hey! I'm the ACWT Chatbot! I can give you the best info on where to eat, what's going on, and who to contact! To find out more, type 'help' as a message!")
+	//end greetings
+
 	// map of venue with rings/food truck locations?
 	} else if (text == "venue"){ 
 		sendText(sender, "There will be three rings today...")
