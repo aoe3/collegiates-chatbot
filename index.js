@@ -78,9 +78,7 @@ function decideMessage(sender, textInput){
 		sendText(sender, "There will be three rings today...")
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
-		sendRingButtonMessage(sender, "What would you like to see?")
-	} else if (text.includes("indivRings")){
-		sendIndividualRingButtonMessage(sender, "Choose a ring to view.")
+		sendRingButtonMessage(sender, "What would you like to see? Or type ringall to see EVERYTHING")
 	//rings
 	} else if (text.includes("ringall")){
 		sendText(sender, 	"Ring 1 \n"+
@@ -160,36 +158,6 @@ function sendRingButtonMessage(sender, text){
 	        "buttons":[
 	          {
 	            "type":"postback",
-	            "title":"All Rings",
-	            "payload":"ringall"
-	          },
-	          {
-	            "type":"postback",
-	            "title":"Individual Rings",
-	            "payload":"indivRings"
-	          },
-	          {
-	            "type":"postback",
-	            "title":"Individual Rings",
-	            "payload":"ringall"
-	          }
-	        ]
-	      }
-	    }
-	}
-	sendRequest(sender, messageData)
-}
-
-function sendIndividualRingButtonMessage(sender, text){
-	let messageData = {
-		"attachment":{
-	      "type":"template",
-	      "payload":{
-	        "template_type":"button",
-	        "text": text,
-	        "buttons":[
-	          {
-	            "type":"postback",
 	            "title":"Ring 1",
 	            "payload":"ring1"
 	          },
@@ -208,7 +176,6 @@ function sendIndividualRingButtonMessage(sender, text){
 	    }
 	}
 	sendRequest(sender, messageData)
-			  
 }
 
 function sendImageMessage(sender, text){
