@@ -36,12 +36,61 @@ app.post('/webhook/', function (req, res) {
 		let sender = event.sender.id
 		if (event.message && event.message.text) {
 			let text = event.message.text
-			sendText(sender, "Text echo: \n" + text.substring(0, 100) + "\n \n lololol")
+			decideMessage(sender, text)
+			//sendText(sender, "Text echo: \n" + text.substring(0, 100) + "\n \n lololol")
 		}
 	}
 
 	res.sendStatus(200)
 })
+
+function decideMessage(sender, textInput){
+	let text = textInput.toLowerCase()
+	//give instructions for use
+	if (text == "help"){
+		sendText(sender, 
+			"You asked for help! \n \n" + 
+			"For information on what's happening in the rings today, type 'rings' \n"+ 
+			"For the venue map, type 'venue' \n"+ 
+			"To see the current events happening, type 'schedule' \n"+ 
+			"To see scores, type 'scores' \n"+ 
+			"For information on food trucks (ONLY ON DAY OF COMPETITION), type 'foodtrucks' \n"+ 
+			"For information on local restaurants, type 'local' \n"+ 
+			"For contact information, type 'contact'")
+
+	// map of venue with rings/food truck locations?
+	} else if (text == "venue"){ 
+		sendText(sender, "There will be three rings today...")
+	//what happens on what ring throughout day
+	} else if (text == "rings"){
+		sendText(sender, "What's on the three rings?!")
+	//POTENTIAL real-time schedule... what's happening now?
+	// } else if (text == "schedule"){
+
+	// //POTENTIAL real-time scores... let's see?
+	// } else if (text == "scores"){
+
+	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
+	} else if (text == "local"){
+		sendText(sender, "Grab food here!")
+	//food trucks available (day of)... menus?
+	} else if (text == "foodtrucks"){
+		sendText(sender, "Competition day fuel!")
+	//pitt wushu contact stuff
+	} else if (text == "contact"){
+		sendText(sender, "pittwushu@gmail.com or 555-555-5555")
+	} else {
+		sendText(sender, 
+			"Sorry, we didn't recognize that input! \n \n" + 
+			"For information on what's happening in the rings today, type 'rings' \n"+ 
+			"For the venue map, type 'venue' \n"+ 
+			"To see the current events happening, type 'schedule' \n"+ 
+			"To see scores, type 'scores' \n"+ 
+			"For information on food trucks (ONLY ON DAY OF COMPETITION), type 'foodtrucks' \n"+ 
+			"For information on local restaurants, type 'local' \n"+ 
+			"For contact information, type 'contact'")
+	}
+}
 
 function sendText(sender, text) {
 	let messageData = {text: text}
