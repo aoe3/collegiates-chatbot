@@ -75,7 +75,9 @@ function decideMessage(sender, textInput){
 
 	// map of venue with rings/food truck locations?
 	} else if (text == "venue"){ 
-		sendText(sender, "There will be three rings today...")
+		let venueText = {vText: "Here is a map of the venue"}
+		sendRequest(sender, venueText)
+		sendVenueImageMessage(sender)
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
 		sendRingButtonMessage(sender, "What would you like to see? Or type ringall to see EVERYTHING")
@@ -147,6 +149,42 @@ function sendText(sender, text) {
 	sendRequest(sender, messageData)
 }
 
+// function sendGenericMessage(sender){
+// 	let messageData = {
+// 		  "attachment":{
+// 	      "type":"template",
+// 	      "payload":{
+// 	        "template_type":"generic",
+// 	        "elements":[
+// 	           {
+// 	            "title":"Venue Map",
+// 	            "image_url":"https://petersfancybrownhats.com/company_image.png",
+// 	            "subtitle":"To see what's on each ring, type 'rings'",
+// 	            "default_action": {
+// 	              "type": "web_url",
+// 	              "url": "https://petersfancybrownhats.com/view?item=103",
+// 	              "messenger_extensions": false,
+// 	              "webview_height_ratio": "tall",
+// 	              "fallback_url": "https://petersfancybrownhats.com/"
+// 	            },
+// 	            "buttons":[
+// 	              {
+// 	                "type":"web_url",
+// 	                "url":"https://petersfancybrownhats.com",
+// 	                "title":"View Website"
+// 	              },{
+// 	                "type":"postback",
+// 	                "title":"Start Chatting",
+// 	                "payload":"DEVELOPER_DEFINED_PAYLOAD"
+// 	              }              
+// 	            ]      
+// 	          }
+// 	        ]
+// 	      }
+// 	    }
+// 	}
+// }
+
 function sendRingButtonMessage(sender, text){
 	let messageData = {
 		"attachment":{
@@ -207,8 +245,16 @@ function sendLocalButtonMessage(sender, text){
 	sendRequest(sender, messageData)
 }
 
-function sendImageMessage(sender, text){
-
+function sendVenueImageMessage(sender){
+	let messageData = {
+		"attachment":{
+			"type": "image",
+			"payload":{
+				"url":"https://i.pinimg.com/originals/fd/35/9e/fd359e342d25047aee75ebdd93fb8222.jpg"
+			}
+		}
+	}
+	sendRequest(sender, messageData)
 }
 
 function sendRequest(sender, messageData) {
