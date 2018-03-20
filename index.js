@@ -50,12 +50,12 @@ function decideMessage(sender, textInput){
 	if (text == "help"){
 		sendText(sender, 
 			"You asked for help! \n \n" + 
-			"For information on what's happening in the rings today, type 'rings' \n"+ 
-			"For the venue map, type 'venue' \n"+ 
-			"To see the current events happening, type 'schedule' \n"+ 
-			"To see scores, type 'scores' \n"+ 
-			"For information on food trucks (ONLY ON DAY OF COMPETITION), type 'foodtrucks' \n"+ 
-			"For information on local restaurants, type 'local' \n"+ 
+			"For information on what's happening in the rings today, type 'rings' \n \n"+ 
+			"For the venue map, type 'venue' \n \n"+ 
+			// "To see the current events happening, type 'schedule' \n \n"+ 
+			// "To see scores, type 'scores' \n \n"+ 
+			"For information on food trucks (ONLY ON DAY OF COMPETITION), type 'foodtrucks' \n \n"+ 
+			"For information on local restaurants, type 'local' \n \n"+ 
 			"For contact information, type 'contact'")
 
 	// map of venue with rings/food truck locations?
@@ -82,12 +82,12 @@ function decideMessage(sender, textInput){
 	} else {
 		sendText(sender, 
 			"Sorry, we didn't recognize that input! \n \n" + 
-			"For information on what's happening in the rings today, type 'rings' \n"+ 
-			"For the venue map, type 'venue' \n"+ 
-			"To see the current events happening, type 'schedule' \n"+ 
-			"To see scores, type 'scores' \n"+ 
-			"For information on food trucks (ONLY ON DAY OF COMPETITION), type 'foodtrucks' \n"+ 
-			"For information on local restaurants, type 'local' \n"+ 
+			"For information on what's happening in the rings today, type 'rings' \n \n"+ 
+			"For the venue map, type 'venue' \n \n"+ 
+			// "To see the current events happening, type 'schedule' \n \n"+ 
+			// "To see scores, type 'scores' \n \n"+ 
+			"For information on food trucks (ONLY AVAILABLE ON DAY OF COMPETITION), type 'foodtrucks' \n \n"+ 
+			"For information on local restaurants, type 'local' \n \n"+ 
 			"For contact information, type 'contact'")
 	}
 }
