@@ -57,7 +57,7 @@ function decideMessage(sender, textInput){
 			"For information on food trucks (ONLY ON DAY OF COMPETITION), type 'foodtrucks' \n \n"+ 
 			"For information on local restaurants, type 'local' \n \n"+ 
 			"For contact information, type 'contact' \n \n"+ 
-			"To see all this again, type 'help'")
+			"To see all this info again, type 'help'")
 
 	// map of venue with rings/food truck locations?
 	} else if (text == "venue"){ 
@@ -90,7 +90,7 @@ function decideMessage(sender, textInput){
 			"For information on food trucks (ONLY AVAILABLE ON DAY OF COMPETITION), type 'foodtrucks' \n \n"+ 
 			"For information on local restaurants, type 'local' \n \n"+ 
 			"For contact information, type 'contact' \n \n"+ 
-			"To see all this again, type 'help'")
+			"To see all this info again, type 'help'")
 	}
 }
 
