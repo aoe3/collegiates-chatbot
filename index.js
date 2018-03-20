@@ -54,14 +54,14 @@ function decideMessage(sender, textInput){
 	//give instructions for use
 	if (text == "help"){
 		sendText(sender, 
-			"You asked for help! \n \n" + 
-			"For information on what's happening in the rings today, type 'rings' \n \n"+ 
-			"For the venue map, type 'venue' \n \n"+ 
+			"You asked for help!\n \n" + 
+			"For information on what's happening in the rings today, type 'rings'\n \n"+ 
+			"For the venue map, type 'venue'\n \n"+ 
 			// "To see the current events happening, type 'schedule' \n \n"+ 
 			// "To see scores, type 'scores' \n \n"+ 
 			// "For information on food trucks (ONLY ON DAY OF COMPETITION), type 'foodtrucks' \n \n"+ 
-			"For information on local restaurants, type 'local' \n \n"+ 
-			"For contact information, type 'contact' \n \n"+ 
+			"For information on local restaurants, type 'local'\n \n"+ 
+			"For contact information, type 'contact'\n \n"+ 
 			"To see all this info again, type 'help'")
 
 	//greetings
@@ -75,7 +75,7 @@ function decideMessage(sender, textInput){
 
 	// map of venue with rings/food truck locations?
 	} else if (text == "venue"){ 
-		let venueText = {text: "Here is a map of the venue"}
+		let venueText = {text: "Here is a map of the venue:"}
 		sendRequest(sender, venueText)
 		sendVenueImageMessage(sender)
 	//what happens on what ring throughout day
@@ -83,38 +83,38 @@ function decideMessage(sender, textInput){
 		sendRingButtonMessage(sender, "What would you like to see? Or type ringall to see EVERYTHING")
 	//rings
 	} else if (text.includes("ringall")){
-		sendText(sender, 	"Ring 1 \n"+
-							"Beg CQ \n"+
-							"Int CQ \n"+
-							"Adv CQ \n"+
-							"Beg TJ \n \n"+
-							"Ring 2 \n"+
-							"Beg NQ \n"+
-							"Int NQ \n"+
-							"Adv NQ \n"+
-							"Int TJ \n \n"+
-							"Ring 3 \n"+
-							"Beg Trad. \n"+
-							"Int Trad. \n"+
-							"Adv Trad. \n"+
+		sendText(sender, 	"Ring 1\n"+
+							"Beg CQ\n"+
+							"Int CQ\n"+
+							"Adv CQ\n"+
+							"Beg TJ\n \n"+
+							"Ring 2\n"+
+							"Beg NQ\n"+
+							"Int NQ\n"+
+							"Adv NQ\n"+
+							"Int TJ\n \n"+
+							"Ring 3\n"+
+							"Beg Trad.\n"+
+							"Int Trad.\n"+
+							"Adv Trad.\n"+
 							"Adv TJ")
 	} else if (text.includes("ring1")){
-		sendText(sender, 	"Ring 1 \n"+
-							"Beg CQ \n"+
-							"Int CQ \n"+
-							"Adv CQ \n"+
+		sendText(sender, 	"Ring 1\n"+
+							"Beg CQ\n"+
+							"Int CQ\n"+
+							"Adv CQ\n"+
 							"Beg TJ")
 	} else if(text.includes("ring2")){
-		sendText(sender,	"Ring 2 \n"+
-							"Beg NQ \n"+
-							"Int NQ \n"+
-							"Adv NQ \n"+
+		sendText(sender,	"Ring 2\n"+
+							"Beg NQ\n"+
+							"Int NQ\n"+
+							"Adv NQ\n"+
 							"Int TJ")
 	} else if(text.includes("ring3")){
-		sendText(sender,	"Ring 3 \n"+
-							"Beg Trad. \n"+
-							"Int Trad. \n"+
-							"Adv Trad. \n"+
+		sendText(sender,	"Ring 3\n"+
+							"Beg Trad.\n"+
+							"Int Trad.\n"+
+							"Adv Trad.\n"+
 							"Adv TJ")
 	//POTENTIAL real-time schedule... what's happening now?
 	// } else if (text == "schedule"){
@@ -124,7 +124,7 @@ function decideMessage(sender, textInput){
 
 	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
 	} else if ((text == "local") || (text.includes("hungry")) || (text.includes("food")) || (text.includes("eat")) || (text.includes("restaurant"))){
-		sendLocalButtonMessage(sender, "Choose a price point! \n $ = roughly less than $15\n $$ = roughly $15 to $25\n $$$ = greater than $25")
+		sendLocalButtonMessage(sender, "Choose a price point!\n$ = roughly less than $15\n$$ = roughly $15 to $25\n$$$ = greater than $25")
 	//price point breakdown
 	} else if (text.includes("1$")){
 		sendText(sender, "blah")
@@ -137,7 +137,7 @@ function decideMessage(sender, textInput){
 	// 	sendText(sender, "Competition day fuel!")
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
-		sendText(sender, "E-mail: pittwushu@gmail.com \n Tel: 555-555-5555")
+		sendText(sender, "E-mail: pittwushu@gmail.com\nTel: 555-555-5555")
 	} else {
 		sendText(sender, 
 			"Sorry, we didn't recognize that input! Try typing 'help'")
