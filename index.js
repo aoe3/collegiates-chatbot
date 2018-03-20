@@ -39,6 +39,11 @@ app.post('/webhook/', function (req, res) {
 			decideMessage(sender, text)
 			//sendText(sender, "Text echo: \n" + text.substring(0, 100) + "\n \n lololol")
 		}
+		if(event.postback) {
+			let text = JSON.stringify(event.postback)
+			decideMessage(sender, text)
+			continue
+		}
 	}
 
 	res.sendStatus(200)
@@ -73,7 +78,7 @@ function decideMessage(sender, textInput){
 		sendText(sender, "There will be three rings today...")
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
-		sendText(sender, "What's on the three rings?!")
+		sendRingButtonMessage(sender, "What would you like to see?")
 	//POTENTIAL real-time schedule... what's happening now?
 	// } else if (text == "schedule"){
 
@@ -89,6 +94,42 @@ function decideMessage(sender, textInput){
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
 		sendText(sender, "pittwushu@gmail.com or 555-555-5555")
+
+	//rings
+	} else if (text == "ringall"){
+		sendText(sender, 	"Ring 1 \n"+
+							"Beg CQ \n"+
+							"Int CQ \n"+
+							"Adv CQ \n"+
+							"Beg TJ \n \n"+
+							"Ring 2 \n"+
+							"Beg NQ \n"+
+							"Int NQ \n"+
+							"Adv NQ \n"+
+							"Int TJ \n \n"+
+							"Ring 3 \n"+
+							"Beg Trad. \n"+
+							"Int Trad. \n"+
+							"Adv Trad. \n"+
+							"Adv TJ")
+	} else if (text == "ring1"){
+		sendText(sender, 	"Ring 1 \n"+
+							"Beg CQ \n"+
+							"Int CQ \n"+
+							"Adv CQ \n"+
+							"Beg TJ")
+	} else if(text == "ring2"){
+		sendText(sender,	"Ring 2 \n"+
+							"Beg NQ \n"+
+							"Int NQ \n"+
+							"Adv NQ \n"+
+							"Int TJ")
+	} else if(text == "ring3"){
+		sendText(sender,	"Ring 3 \n"+
+							"Beg Trad. \n"+
+							"Int Trad. \n"+
+							"Adv Trad. \n"+
+							"Adv TJ")
 	} else {
 		sendText(sender, 
 			"Sorry, we didn't recognize that input! \n \n" + 
@@ -105,6 +146,45 @@ function decideMessage(sender, textInput){
 
 function sendText(sender, text) {
 	let messageData = {text: text}
+	sendRequest(sender, messageData)
+}
+
+function sendRingButtonMessage(sender, text){
+	let messageData = {
+		"attachment":{
+	      "type":"template",
+	      "payload":{
+	        "template_type":"button",
+	        "text": text,
+	        "buttons":[
+	          {
+	            "type":"postback",
+	            "title":"All Rings",
+	            "payload":"ringall"
+	          },
+	          {
+	            "type":"postback",
+	            "title":"Ring 1",
+	            "payload":"ring1"
+	          },
+	          {
+	          	"type":"postback",
+	            "title":"Ring 2",
+	            "payload":"ring2"
+	          },
+	          {
+	          	"type":"postback",
+	            "title":"Ring 3",
+	            "payload":"ring3"
+	          }
+	        ]
+	      }
+	    }
+	}
+	sendRequest(sender, messageData)
+}
+
+function sendRequest(sender, messageData) {
 	request({
 		url: "https://graph.facebook.com/v2.6/me/messages",
 		qs : {access_token : token},
