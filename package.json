@@ -1,7 +1,7 @@
 {
   "name": "acwt_bot_app",
   "version": "1.0.0",
-  "description": "ACWT Bot App",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,9 @@
   "keywords": [
     "wushu",
     "collegiates",
-    "tournament",
-    "messenger"
+    "facebook",
+    "messenger",
+    "chatbot"
   ],
   "author": "Andrew Eccles",
   "license": "ISC",
