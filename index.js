@@ -54,7 +54,7 @@ function decideMessage(sender, textInput){
 			"For the venue map, type 'venue' \n \n"+ 
 			// "To see the current events happening, type 'schedule' \n \n"+ 
 			// "To see scores, type 'scores' \n \n"+ 
-			"For information on food trucks (ONLY ON DAY OF COMPETITION), type 'foodtrucks' \n \n"+ 
+			// "For information on food trucks (ONLY ON DAY OF COMPETITION), type 'foodtrucks' \n \n"+ 
 			"For information on local restaurants, type 'local' \n \n"+ 
 			"For contact information, type 'contact' \n \n"+ 
 			"To see all this info again, type 'help'")
@@ -81,11 +81,11 @@ function decideMessage(sender, textInput){
 	// } else if (text == "scores"){
 
 	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
-	} else if (text == "local"){
-		sendText(sender, "Grab food here!")
+	} else if ((text == "local") || (text.includes("hungry")) || (text.includes("food")) || (text.includes("eat")) || (text.includes("restaurant"))){
+		sendText(sender, "Grab food at these locations to be listed below!")
 	//food trucks available (day of)... menus?
-	} else if (text == "foodtrucks"){
-		sendText(sender, "Competition day fuel!")
+	// } else if (text == "foodtrucks"){
+	// 	sendText(sender, "Competition day fuel!")
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
 		sendText(sender, "pittwushu@gmail.com or 555-555-5555")
@@ -96,7 +96,7 @@ function decideMessage(sender, textInput){
 			"For the venue map, type 'venue' \n \n"+ 
 			// "To see the current events happening, type 'schedule' \n \n"+ 
 			// "To see scores, type 'scores' \n \n"+ 
-			"For information on food trucks (ONLY AVAILABLE ON DAY OF COMPETITION), type 'foodtrucks' \n \n"+ 
+			// "For information on food trucks (ONLY AVAILABLE ON DAY OF COMPETITION), type 'foodtrucks' \n \n"+ 
 			"For information on local restaurants, type 'local' \n \n"+ 
 			"For contact information, type 'contact' \n \n"+ 
 			"To see all this info again, type 'help'")
