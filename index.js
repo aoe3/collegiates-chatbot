@@ -42,6 +42,7 @@ app.post('/webhook/', function (req, res) {
 		if(event.postback) {
 			let text = JSON.stringify(event.postback)
 			decideMessage(sender, text)
+			continue
 		}
 	}
 
@@ -78,22 +79,8 @@ function decideMessage(sender, textInput){
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
 		sendRingButtonMessage(sender, "What would you like to see?")
-	//POTENTIAL real-time schedule... what's happening now?
-	// } else if (text == "schedule"){
-
-	// //POTENTIAL real-time scores... let's see?
-	// } else if (text == "scores"){
-
-	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
-	} else if ((text == "local") || (text.includes("hungry")) || (text.includes("food")) || (text.includes("eat")) || (text.includes("restaurant"))){
-		sendText(sender, "Grab food at these locations to be listed below!")
-	//food trucks available (day of)... menus?
-	// } else if (text == "foodtrucks"){
-	// 	sendText(sender, "Competition day fuel!")
-	//pitt wushu contact stuff
-	} else if (text == "contact"){
-		sendText(sender, "pittwushu@gmail.com or 555-555-5555")
-
+	} else if (text == "indivRings"){
+		sendIndividualRingButtonMessage(sender, "Choose a ring to view.")
 	//rings
 	} else if (text == "ringall"){
 		sendText(sender, 	"Ring 1 \n"+
@@ -129,6 +116,21 @@ function decideMessage(sender, textInput){
 							"Int Trad. \n"+
 							"Adv Trad. \n"+
 							"Adv TJ")
+	//POTENTIAL real-time schedule... what's happening now?
+	// } else if (text == "schedule"){
+
+	// //POTENTIAL real-time scores... let's see?
+	// } else if (text == "scores"){
+
+	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
+	} else if ((text == "local") || (text.includes("hungry")) || (text.includes("food")) || (text.includes("eat")) || (text.includes("restaurant"))){
+		sendText(sender, "Grab food at these locations to be listed below!")
+	//food trucks available (day of)... menus?
+	// } else if (text == "foodtrucks"){
+	// 	sendText(sender, "Competition day fuel!")
+	//pitt wushu contact stuff
+	} else if (text == "contact"){
+		sendText(sender, "pittwushu@gmail.com or 555-555-5555")
 	} else {
 		sendText(sender, 
 			"Sorry, we didn't recognize that input! \n \n" + 
@@ -163,6 +165,26 @@ function sendRingButtonMessage(sender, text){
 	          },
 	          {
 	            "type":"postback",
+	            "title":"Individual Rings",
+	            "payload":"indivRings"
+	          }
+	        ]
+	      }
+	    }
+	}
+	sendRequest(sender, messageData)
+}
+
+function sendIndividualRingButtonMessage(sender, text){
+	let messageData = {
+		"attachment":{
+	      "type":"template",
+	      "payload":{
+	        "template_type":"button",
+	        "text": text,
+	        "buttons":[
+	          {
+	            "type":"postback",
 	            "title":"Ring 1",
 	            "payload":"ring1"
 	          },
@@ -176,11 +198,15 @@ function sendRingButtonMessage(sender, text){
 	            "title":"Ring 3",
 	            "payload":"ring3"
 	          }
-	        ]
 	      }
 	    }
 	}
 	sendRequest(sender, messageData)
+			  
+}
+
+function sendImageMessage(sender, text){
+
 }
 
 function sendRequest(sender, messageData) {
