@@ -80,7 +80,7 @@ function decideMessage(sender, textInput){
 		sendVenueImageMessage(sender)
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
-		sendRingButtonMessage(sender, "What would you like to see? Or type ringall to see EVERYTHING")
+		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
 	//rings
 	} else if (text.includes("ringall")){
 		sendText(sender, 	"Ring 1\n"+
