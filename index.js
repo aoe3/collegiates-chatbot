@@ -122,13 +122,20 @@ function decideMessage(sender, textInput){
 
 	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
 	} else if ((text == "local") || (text.includes("hungry")) || (text.includes("food")) || (text.includes("eat")) || (text.includes("restaurant"))){
-		sendText(sender, "Grab food at these locations to be listed below!")
+		sendLocalButtonMessage(sender, "Choose a price point! \n $ = roughly less than $15\n $$ = roughly $15 to $25\n $$$ = greater than $25")
+	//price point breakdown
+	} else if (text.includes("1$")){
+		sendText(sender, "blah")
+	} else if(text.includes("2$")){
+		sendText(sender, "blahblah")
+	} else if(text.includes("3$")){
+		sendText(sender, "blahblahblah")
 	//food trucks available (day of)... menus?
 	// } else if (text == "foodtrucks"){
 	// 	sendText(sender, "Competition day fuel!")
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
-		sendText(sender, "pittwushu@gmail.com or 555-555-5555")
+		sendText(sender, "E-mail: pittwushu@gmail.com \n Tel: 555-555-5555")
 	} else {
 		sendText(sender, 
 			"Sorry, we didn't recognize that input! Try typing 'help'")
@@ -162,6 +169,36 @@ function sendRingButtonMessage(sender, text){
 	          	"type":"postback",
 	            "title":"Ring 3",
 	            "payload":"ring3"
+	          }
+	        ]
+	      }
+	    }
+	}
+	sendRequest(sender, messageData)
+}
+
+function sendLocalButtonMessage(sender, text){
+	let messageData = {
+		"attachment":{
+	      "type":"template",
+	      "payload":{
+	        "template_type":"button",
+	        "text": text,
+	        "buttons":[
+	          {
+	            "type":"postback",
+	            "title":"1$",
+	            "payload":"ring1"
+	          },
+	          {
+	          	"type":"postback",
+	            "title":"$$",
+	            "payload":"2$"
+	          },
+	          {
+	          	"type":"postback",
+	            "title":"$$$",
+	            "payload":"3$"
 	          }
 	        ]
 	      }
