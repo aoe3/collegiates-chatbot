@@ -79,10 +79,10 @@ function decideMessage(sender, textInput){
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
 		sendRingButtonMessage(sender, "What would you like to see?")
-	} else if (text == "indivRings"){
+	} else if (text.includes("indivRings")){
 		sendIndividualRingButtonMessage(sender, "Choose a ring to view.")
 	//rings
-	} else if (text == "ringall"){
+	} else if (text.includes("ringall")){
 		sendText(sender, 	"Ring 1 \n"+
 							"Beg CQ \n"+
 							"Int CQ \n"+
@@ -98,19 +98,19 @@ function decideMessage(sender, textInput){
 							"Int Trad. \n"+
 							"Adv Trad. \n"+
 							"Adv TJ")
-	} else if (text == "ring1"){
+	} else if (text.includes("ring1")){
 		sendText(sender, 	"Ring 1 \n"+
 							"Beg CQ \n"+
 							"Int CQ \n"+
 							"Adv CQ \n"+
 							"Beg TJ")
-	} else if(text == "ring2"){
+	} else if(text.includes("ring2")){
 		sendText(sender,	"Ring 2 \n"+
 							"Beg NQ \n"+
 							"Int NQ \n"+
 							"Adv NQ \n"+
 							"Int TJ")
-	} else if(text == "ring3"){
+	} else if(text.includes("ring3")){
 		sendText(sender,	"Ring 3 \n"+
 							"Beg Trad. \n"+
 							"Int Trad. \n"+
