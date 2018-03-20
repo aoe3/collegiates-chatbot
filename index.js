@@ -75,7 +75,7 @@ function decideMessage(sender, textInput){
 
 	// map of venue with rings/food truck locations?
 	} else if (text == "venue"){ 
-		let venueText = {vText: "Here is a map of the venue"}
+		let venueText = {text: "Here is a map of the venue"}
 		sendRequest(sender, venueText)
 		sendVenueImageMessage(sender)
 	//what happens on what ring throughout day
@@ -148,42 +148,6 @@ function sendText(sender, text) {
 	let messageData = {text: text}
 	sendRequest(sender, messageData)
 }
-
-// function sendGenericMessage(sender){
-// 	let messageData = {
-// 		  "attachment":{
-// 	      "type":"template",
-// 	      "payload":{
-// 	        "template_type":"generic",
-// 	        "elements":[
-// 	           {
-// 	            "title":"Venue Map",
-// 	            "image_url":"https://petersfancybrownhats.com/company_image.png",
-// 	            "subtitle":"To see what's on each ring, type 'rings'",
-// 	            "default_action": {
-// 	              "type": "web_url",
-// 	              "url": "https://petersfancybrownhats.com/view?item=103",
-// 	              "messenger_extensions": false,
-// 	              "webview_height_ratio": "tall",
-// 	              "fallback_url": "https://petersfancybrownhats.com/"
-// 	            },
-// 	            "buttons":[
-// 	              {
-// 	                "type":"web_url",
-// 	                "url":"https://petersfancybrownhats.com",
-// 	                "title":"View Website"
-// 	              },{
-// 	                "type":"postback",
-// 	                "title":"Start Chatting",
-// 	                "payload":"DEVELOPER_DEFINED_PAYLOAD"
-// 	              }              
-// 	            ]      
-// 	          }
-// 	        ]
-// 	      }
-// 	    }
-// 	}
-// }
 
 function sendRingButtonMessage(sender, text){
 	let messageData = {
