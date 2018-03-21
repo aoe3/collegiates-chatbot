@@ -296,7 +296,7 @@ function sendLunch(sender){
 	            "title":"Here is the link to the food court's menus!",
 	             "default_action": {
 	              "type": "web_url",
-	              "url": "http://www.pc.pitt.edu/dining/locations/petersenEvents.php",
+	              "url": "https://www.facebook.com/",
 	              "messenger_extensions": true,
 	              "fallback_url": "https://www.facebook.com/"
 	            },
@@ -304,7 +304,7 @@ function sendLunch(sender){
 	              {
 	                "type":"web_url",
 	                "title": "open link",
-	                "url":"http://www.pc.pitt.edu/dining/locations/petersenEvents.php"
+	                "url":"https://www.pc.pitt.edu/dining/locations/petersenEvents.php"
 	              }              
 	            ]      
 	          }
