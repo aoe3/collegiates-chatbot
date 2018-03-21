@@ -180,7 +180,7 @@ function decideMessage(sender, textInput){
 	} else if((text == "thanks") || (text == "thank you")){
 		sendText(sender, "You're welcome! You're my favorite human!")
 	} else if(text.includes("i love you")) {
-		sendText(sender, "WHAT IS LOVE?\nBABY, DON'T HURT ME\nDON'T HURT ME\nNO MORE!")
+		sendText(sender, "WHAT IS LOVE?\nBABY, DON'T HURT ME!\nDON'T HURT ME!\nNO MORE!")
 	} else {
 		sendText(sender, 
 			"Sorry, I didn't recognize that input! Try typing 'help'")
