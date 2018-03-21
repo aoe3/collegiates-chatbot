@@ -293,18 +293,14 @@ function sendLunch(sender){
 	        "template_type":"generic",
 	        "elements":[
 	           {
-	            "title":"Here is the link to the food court's menus!",
-	             "default_action": {
-	              "type": "web_url",
-	              "url": "https://www.facebook.com/",
-	              "messenger_extensions": true,
-	              "fallback_url": "https://www.facebook.com/"
-	            },
+	            "title":"Petersen Food Court (DAY OF)",
+	            "image_url":"http://www.utimes.pitt.edu/wp-content/uploads/2014/06/seal.jpg",
+	            "subtitle":"Click here to see what's available for lunch!",
 	            "buttons":[
 	              {
 	                "type":"web_url",
-	                "title": "open link",
 	                "url":"https://www.pc.pitt.edu/dining/locations/petersenEvents.php"
+	                "title": "View Website",
 	              }              
 	            ]      
 	          }
