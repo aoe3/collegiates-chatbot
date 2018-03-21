@@ -128,49 +128,49 @@ function decideMessage(sender, textInput){
 	//price point breakdown
 	} else if (text.includes("1$")){
 		sendText(sender, 
-					"Pamela's Diner(CASH ONLY)\nAmerican\ndesc\naddress\n\n"+
+					"Pamela's Diner(CASH ONLY)\nAmerican\n- desc\naddress\n\n"+
 
-					"Primanti's\nAmerican\ndesc\naddress\n\n"+ 
+					"Primanti's\n- American\n- desc\naddress\n\n"+ 
 
-					"The Yard\nAmerican\ndesc\naddress\n\n"+
+					"The Yard\n- American\n- desc\naddress\n\n"+
 
-					"Chengdu Gourmet\nAsian\ndesc\naddress\n\n"+
+					"Chengdu Gourmet\n- Asian\n- desc\naddress\n\n"+
 
-					"Everyday Noodles\nAsian\ndesc\naddress\n\n"+
+					"Everyday Noodles\n- Asian\n- desc\naddress\n\n"+
 
-					"How Lee\nAsian\ndesc\naddress\n\n"+
+					"How Lee\n- Asian\n- desc\naddress\n\n"+
 
-					"Noodlehead(CASH ONLY)\nAsian\ndesc\naddress\n\n"+
+					"Noodlehead(CASH ONLY)\n- Asian\n- desc\naddress\n\n"+
 
-					"Klavon's Ice Cream Parlor\nDessert\ndesc\naddress\n\n"+
+					"Klavon's Ice Cream Parlor\n- Dessert\n- desc\naddress\n\n"+
 
-					"S&D Polish Deli\nEuropean\ndesc\naddress")
+					"S&D Polish Deli\n- European\n- desc\naddress")
 	} else if(text.includes("2$")){
 		sendText(sender, 
-					"Meat and Potatoes\nAmerican\ndesc\naddress\n\n"+
+					"Meat and Potatoes\n- American\n- desc\naddress\n\n"+
 
-					"The Porch\nAmerican\ndesc\naddress\n\n"+ 
+					"The Porch\n- American\n- desc\naddress\n\n"+ 
 
-					"Sichuan Gourmet\nAsian\ndesc\naddress\n\n"+
+					"Sichuan Gourmet\n- Asian\n- desc\naddress\n\n"+
 
-					"Hoffbrauhaus Pittsburgh\nEuropean\ndesc\naddress\n\n"+
+					"Hoffbrauhaus Pittsburgh\n- European\n- desc\naddress\n\n"+
 
-					"Church Brew Works\nOther\ndesc\naddress\n\n"+
+					"Church Brew Works\n- Other\n- desc\naddress\n\n"+
 
-					"täkō\nMexican\ndesc\naddress")
+					"täkō\n- Mexican\n- desc\naddress")
 	} else if(text.includes("3$")){
 		sendText(sender, 
-					"Legume\nAmerican\ndesc\naddress\n\n"+
+					"Legume\n- American\n- desc\naddress\n\n"+
 
-					"The Butcher and the Rye\nAmerican\ndesc\naddress\n\n"+ 
+					"The Butcher and the Rye\n- American\n- desc\naddress\n\n"+ 
 
-					"Texas de Brazil\nBrazilian\ndesc\naddress\n\n"+
+					"Texas de Brazil\n- Brazilian\n- desc\naddress\n\n"+
 
-					"The Melting Pot\nOther\ndesc\naddress\n\n"+
+					"The Melting Pot\n- Other\n- desc\naddress\n\n"+
 
-					"Grand Concourse\nSeafood\ndesc\naddress\n\n"+
+					"Grand Concourse\n- Seafood\n- desc\naddress\n\n"+
 
-					"Monterey Bay Fish Grotto\nSeafood\ndesc\naddress")
+					"Monterey Bay Fish Grotto\n- Seafood\n- desc\naddress")
 	//food trucks available (day of)... menus?
 	// } else if (text == "foodtrucks"){
 	// 	sendText(sender, "Competition day fuel!")
