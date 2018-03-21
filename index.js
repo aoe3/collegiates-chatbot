@@ -176,10 +176,14 @@ function decideMessage(sender, textInput){
 	// 	sendText(sender, "Competition day fuel!")
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
-		sendText(sender, "E-mail: pittwushu@gmail.com\nTel: 555-555-5555")
+		sendText(sender, "To get in touch:\n\nE-mail: pittwushu@gmail.com\nTel: 555-555-5555")
+	} else if((text == "thanks") || (text == "thank you")){
+		sendText(sender, "You're welcome! You're my favorite human!")
+	} else if(text.includes("i love you")) {
+		sendText(sender, "WHAT IS LOVE?\nBABY, DON'T HURT ME\nDON'T HURT ME\nNO MORE!")
 	} else {
 		sendText(sender, 
-			"Sorry, we didn't recognize that input! Try typing 'help'")
+			"Sorry, I didn't recognize that input! Try typing 'help'")
 	}
 }
 
