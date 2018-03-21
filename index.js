@@ -228,12 +228,12 @@ function sendLocalButtonMessage(sender, text){
 	        "buttons":[
 	          {
 	            "type":"postback",
-	            "title":"$ (less than $15 roughly)",
+	            "title":"$ (less than $15)",
 	            "payload":"1$"
 	          },
 	          {
 	          	"type":"postback",
-	            "title":"$$ (roughly between $15 and $25)",
+	            "title":"$$ ($15 to $25)",
 	            "payload":"2$"
 	          },
 	          {
