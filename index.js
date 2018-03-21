@@ -127,11 +127,50 @@ function decideMessage(sender, textInput){
 		sendLocalButtonMessage(sender, "Choose a price point!\n$ = roughly less than $15\n$$ = roughly $15 to $25\n$$$ = greater than $25")
 	//price point breakdown
 	} else if (text.includes("1$")){
-		sendText(sender, "blah")
+		sendText(sender, 
+					"Pamela's Diner(CASH ONLY)\nAmerican\ndesc\naddress\n\n"+
+
+					"Primanti's\nAmerican\ndesc\naddress\n\n"+ 
+
+					"The Yard\nAmerican\ndesc\naddress\n\n"+
+
+					"Chengdu Gourmet\nAsian\ndesc\naddress\n\n"+
+
+					"Everyday Noodles\nAsian\ndesc\naddress\n\n"+
+
+					"How Lee\nAsian\ndesc\naddress\n\n"+
+
+					"Noodlehead(CASH ONLY)\nAsian\ndesc\naddress\n\n"+
+
+					"Klavon's Ice Cream Parlor\nDessert\ndesc\naddress\n\n"+
+
+					"S&D Polish Deli\nEuropean\ndesc\naddress")
 	} else if(text.includes("2$")){
-		sendText(sender, "blahblah")
+		sendText(sender, 
+					"Meat and Potatoes\nAmerican\ndesc\naddress\n\n"+
+
+					"The Porch\nAmerican\ndesc\naddress\n\n"+ 
+
+					"Sichuan Gourmet\nAsian\ndesc\naddress\n\n"+
+
+					"Hoffbrauhaus Pittsburgh\nEuropean\ndesc\naddress\n\n"+
+
+					"Church Brew Works\nOther\ndesc\naddress\n\n"+
+
+					"täkō\nMexican\ndesc\naddress")
 	} else if(text.includes("3$")){
-		sendText(sender, "blahblahblah")
+		sendText(sender, 
+					"Legume\nAmerican\ndesc\naddress\n\n"+
+
+					"The Butcher and the Rye\nAmerican\ndesc\naddress\n\n"+ 
+
+					"Texas de Brazil\nBrazilian\ndesc\naddress\n\n"+
+
+					"The Melting Pot\nOther\ndesc\naddress\n\n"+
+
+					"Grand Concourse\nSeafood\ndesc\naddress\n\n"+
+
+					"Monterey Bay Fish Grotto\nSeafood\ndesc\naddress")
 	//food trucks available (day of)... menus?
 	// } else if (text == "foodtrucks"){
 	// 	sendText(sender, "Competition day fuel!")
@@ -189,17 +228,17 @@ function sendLocalButtonMessage(sender, text){
 	        "buttons":[
 	          {
 	            "type":"postback",
-	            "title":"$",
+	            "title":"$ (less than $15 roughly)",
 	            "payload":"1$"
 	          },
 	          {
 	          	"type":"postback",
-	            "title":"$$",
+	            "title":"$$ (roughly between $15 and $25)",
 	            "payload":"2$"
 	          },
 	          {
 	          	"type":"postback",
-	            "title":"$$$",
+	            "title":"$$$ (over $25)",
 	            "payload":"3$"
 	          }
 	        ]
