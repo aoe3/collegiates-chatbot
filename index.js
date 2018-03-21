@@ -67,7 +67,7 @@ function decideMessage(sender, textInput){
 	//greetings
 	} else if (text.includes("hi")) {
 		sendText(sender, "Hello! I'm the ACWT Helper ChatBot! To best learn how to use me, type 'help' as a message!")
-	} else if (text,includes("hello")){
+	} else if (text.includes("hello")){
 		sendText(sender, "Hi! I'm a helper chatbot for the ACWT! Want to know what I can do? Type 'help' as a message!")
 	} else if (text.includes("hey")){
 		sendText(sender, "Hey! I'm the ACWT Chatbot! I can give you the best info on where to eat, what's going on, and who to contact! To find out more, type 'help' as a message!")
