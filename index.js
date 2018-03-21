@@ -124,6 +124,8 @@ function decideMessage(sender, textInput){
 
 	//food court available (day of)
 	} else if ((text == "foodcourt") || (text == "lunch")){
+		let lunchText = {text: "The food court will be open from 11 A.M. to 6 P.M. ONLY on the day of the competition!"}
+		sendRequest(sender, lunchText)
 		sendLunch(sender)
 	// 	sendText(sender, "Competition day fuel!")
 	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
