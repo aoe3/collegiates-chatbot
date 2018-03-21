@@ -170,7 +170,7 @@ function decideMessage(sender, textInput){
 
 					"Grand Concourse\n- Seafood\n- Train station turned upscale restaurant with seafood & steaks plus a more casual attached saloon.\n- 100 W Station Square Dr, Pittsburgh, PA 15219\n\n"+
 
-					"Monterey Bay Fish Grotto\n- Seafood\n- White-tablecloth eatery & bar with panoramic riverside views offers elegantly plated seafood.\n- 1411 Grandview Ave, Pittsburgh, PA 15211")
+					"<strong>Monterey Bay Fish Grotto<strong>\n- Seafood\n- White-tablecloth eatery & bar with panoramic riverside views offers elegantly plated seafood.\n- 1411 Grandview Ave, Pittsburgh, PA 15211")
 	//food trucks available (day of)... menus?
 	// } else if (text == "foodtrucks"){
 	// 	sendText(sender, "Competition day fuel!")
