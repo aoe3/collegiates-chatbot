@@ -286,8 +286,7 @@ function sendRequest(sender, messageData) {
 }
 
 function sendLunch(sender){
-	let messageData = {
-	    "attachment":{
+	let messageData = { "attachment":{
 	      "type":"template",
 	      "payload":{
 	        "template_type":"generic",
@@ -299,8 +298,8 @@ function sendLunch(sender){
 	            "buttons":[
 	              {
 	                "type":"web_url",
-	                "url":"https://www.pc.pitt.edu/dining/locations/petersenEvents.php"
-	                "title": "View Website",
+	                "url":"https://www.pc.pitt.edu/dining/locations/petersenEvents.php",
+	                "title": "View Website"
 	              }              
 	            ]      
 	          }
