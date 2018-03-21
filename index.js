@@ -59,7 +59,7 @@ function decideMessage(sender, textInput){
 			"For the venue map, type 'venue'\n \n"+ 
 			// "To see the current events happening, type 'schedule' \n \n"+ 
 			// "To see scores, type 'scores' \n \n"+ 
-			// "For information on food trucks (ONLY ON DAY OF COMPETITION), type 'foodtrucks' \n \n"+ 
+			"For information on the food court (ONLY FOR LUNCH ON DAY OF COMPETITION), type 'foodcourt' or 'lunch' \n \n"+ 
 			"For information on local restaurants, type 'local'\n \n"+ 
 			"For contact information, type 'contact'\n \n"+ 
 			"To see all this info again, type 'help'")
@@ -73,7 +73,7 @@ function decideMessage(sender, textInput){
 		sendText(sender, "Hey! I'm the ACWT Chatbot! I can give you the best info on where to eat, what's going on, and who to contact! To find out more, type 'help' as a message!")
 	//end greetings
 
-	// map of venue with rings/food truck locations?
+	// map of venue with rings
 	} else if (text == "venue"){ 
 		let venueText = {text: "Here is a map of the venue:"}
 		sendRequest(sender, venueText)
@@ -122,6 +122,10 @@ function decideMessage(sender, textInput){
 	// //POTENTIAL real-time scores... let's see?
 	// } else if (text == "scores"){
 
+	//food court available (day of)
+	} else if ((text == "foodcourt") || (text == "lunch")){
+		sendLunch(sender)
+	// 	sendText(sender, "Competition day fuel!")
 	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
 	} else if ((text == "local") || (text.includes("hungry")) || (text.includes("food")) || (text.includes("eat")) || (text.includes("restaurant"))){
 		sendLocalButtonMessage(sender, "Choose a price point!\n$ = roughly less than $15\n$$ = roughly $15 to $25\n$$$ = greater than $25")
@@ -171,9 +175,6 @@ function decideMessage(sender, textInput){
 					"Grand Concourse\n- Seafood\n- Train station turned upscale restaurant with seafood & steaks plus a more casual attached saloon.\n- 100 W Station Square Dr, Pittsburgh, PA 15219\n\n"+
 
 					"Monterey Bay Fish Grotto\n- Seafood\n- White-tablecloth eatery & bar with panoramic riverside views offers elegantly plated seafood.\n- 1411 Grandview Ave, Pittsburgh, PA 15211")
-	//food trucks available (day of)... menus?
-	// } else if (text == "foodtrucks"){
-	// 	sendText(sender, "Competition day fuel!")
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
 		sendText(sender, "To get in touch:\n\nE-mail: pittwushu@gmail.com\nTel: 555-555-5555")
@@ -282,6 +283,36 @@ function sendRequest(sender, messageData) {
 			console.log("response body error")
 		}
 	})
+}
+
+function sendLunch(sender){
+	let messageData = {
+	    "attachment":{
+	      "type":"template",
+	      "payload":{
+	        "template_type":"generic",
+	        "elements":[
+	           {
+	            "title":"Here is the link to the food court's menus!",
+	             "default_action": {
+	              "type": "web_url",
+	              "url": "http://www.pc.pitt.edu/dining/locations/petersenEvents.php",
+	              "messenger_extensions": true,
+	              "fallback_url": "https://www.facebook.com/"
+	            },
+	            "buttons":[
+	              {
+	                "type":"web_url",
+	                "title": "open link",
+	                "url":"http://www.pc.pitt.edu/dining/locations/petersenEvents.php"
+	              }              
+	            ]      
+	          }
+	        ]
+	      }
+	    }
+	}
+	sendRequest(sender, messageData)
 }
 
 let wushuMemes = 	["https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-12/29134107_10155852780251634_897366883_n.jpg?oh=4ed630117311ed82f489fa0ddebda7b7&oe=5AB3EA45",
