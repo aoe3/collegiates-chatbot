@@ -295,7 +295,7 @@ let wushuMemes = 	["https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-12/29134107_101
 					"https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-0/p173x172/29003887_10155852780291634_702017091_n.jpg?oh=f273af681614967d1d8396128932df39&oe=5AB3E49B"];
 
 function sendMeme(sender){
-	let url = wushuMemes[Math.floor(Math.random * wushuMemes.length)]
+	let url = wushuMemes[Math.floor(Math.random() * wushuMemes.length)]
 	let messageData = {
 		"attachment":{
 			"type": "image",
