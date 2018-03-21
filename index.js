@@ -259,7 +259,7 @@ function sendVenueImageMessage(sender){
 		"attachment":{
 			"type": "image",
 			"payload":{
-				"url":"https://imgur.com/h6LQiPl"
+				"url":"https://i.imgur.com/h6LQiPl.png"
 			}
 		}
 	}
