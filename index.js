@@ -128,49 +128,49 @@ function decideMessage(sender, textInput){
 	//price point breakdown
 	} else if (text.includes("1$")){
 		sendText(sender, 
-					"Pamela's Diner(CASH ONLY)\nAmerican\n- desc\naddress\n\n"+
+					"Pamela's Diner(CASH ONLY)\nAmerican\n- Charming, retro breakfast & lunch spot for specialty crepe-hotcakes, omelets & burgers. Cash only.\n3703 Forbes Ave, Pittsburgh, PA 15213\n\n"+
 
-					"Primanti's\n- American\n- desc\naddress\n\n"+ 
+					"Primanti Bros.\n- American\n- Pittsburgh-born counter-serve chain known for its sandwiches.\n3803 Forbes Ave, Pittsburgh, PA 15213\n\n"+ 
 
-					"The Yard\n- American\n- desc\naddress\n\n"+
+					"The Yard\n- American\n- Brick-walled bar with TVs, craft beer & pub grub, including a gourmet grilled-cheese menu.\n736 Bellefonte St, Pittsburgh, PA 15232\nAlt: 100 Fifth Ave, Pittsburgh, PA 15222\n\n"+
 
-					"Chengdu Gourmet\n- Asian\n- desc\naddress\n\n"+
+					"Chengdu Gourmet\n- Asian\n- Basic Sichuan spot offering both traditional and American-style Chinese eats in simple surrounds.\n5840 Forward Ave, Pittsburgh, PA 15217\n\n"+
 
-					"Everyday Noodles\n- Asian\n- desc\naddress\n\n"+
+					"Everyday Noodles\n- Asian\n- A casual Chinese eatery specializing in noodle dishes that's known for its kitchen viewing window.\n5875 Forbes Ave, Pittsburgh, PA 15217\n\n"+
 
-					"How Lee\n- Asian\n- desc\naddress\n\n"+
+					"How Lee\n- Asian\n- Spartan establishment with a large menu including familiar fare & specialty Sichuan entrees.\n5888 Forbes Ave, Pittsburgh, PA 15217\n\n"+
 
-					"Noodlehead(CASH ONLY)\n- Asian\n- desc\naddress\n\n"+
+					"Noodlehead(CASH ONLY)\n- Asian\n- BYOB, cash-only Thai joint featuring street-market noodles & other bites in cool, industrial digs.\n242 S Highland Ave, Pittsburgh, PA 15206\n\n"+
 
-					"Klavon's Ice Cream Parlor\n- Dessert\n- desc\naddress\n\n"+
+					"Klavon's Ice Cream Parlor\n- Dessert\n- Charming, old-school spot for shakes, floats & sundaes made Penn State Creamery ice cream.\n2801 Penn Ave, Pittsburgh, PA 15222\n\n"+
 
-					"S&D Polish Deli\n- European\n- desc\naddress")
+					"S&D Polish Deli\n- European\n- Simple Polish deli with traditional fare plus meats, sweets & products imported from Eastern Europe.\n2204 Penn Ave, Pittsburgh, PA 15222")
 	} else if(text.includes("2$")){
 		sendText(sender, 
-					"Meat and Potatoes\n- American\n- desc\naddress\n\n"+
+					"Meat and Potatoes\n- American\n- Chic, modern gastropub making New American dinners, eclectic brunch items & inventive mixed drinks.\n649 Penn Ave, Pittsburgh, PA 15222\n\n"+
 
-					"The Porch\n- American\n- desc\naddress\n\n"+ 
+					"The Porch\n- American\n- Laid-back eatery with a patio for seasonal menus crafted using ingredients from local producers.\n221 Schenley Drive, Pittsburgh, PA 15213\n\n"+ 
 
-					"Sichuan Gourmet\n- Asian\n- desc\naddress\n\n"+
+					"Sichuan Gourmet\n- Asian\n- Casual Chinese eatery offering a menu of staples plus many spicy Sichuan dishes in a bright space.\n1900 Murray Ave, Pittsburgh, PA 15217\n\n"+
 
-					"Hoffbrauhaus Pittsburgh\n- European\n- desc\naddress\n\n"+
+					"Hoffbrauhaus Pittsburgh\n- European\n- German brewery modeled like the Munich original has seasonal beer, Bavarian fare & costumed servers.\n2705 S Water St, Pittsburgh, PA 15203\n\n"+
 
-					"Church Brew Works\n- Other\n- desc\naddress\n\n"+
+					"Church Brew Works\n- Other\n- Former church is now a lofty space for house-brewed beers, plus a mix of pizza, pierogi & bratwurst.\n3525 Liberty Ave, Pittsburgh, PA 15201\n\n"+
 
-					"täkō\n- Mexican\n- desc\naddress")
+					"täkō\n- Mexican\n- Lively taqueria with sidewalk seating serving inventive Mexican street food in chill digs.\n214 6th St, Pittsburgh, PA 15222")
 	} else if(text.includes("3$")){
 		sendText(sender, 
-					"Legume\n- American\n- desc\naddress\n\n"+
+					"Legume\n- American\n- Sleek bistro serving seasonal, locally sourced fare, with drinks from the attached bar, Butterjoint.\n214 N Craig St, Pittsburgh, PA 15213\n\n"+
 
-					"The Butcher and the Rye\n- American\n- desc\naddress\n\n"+ 
+					"The Butcher and the Rye\n- American\n- Trendy outpost serving innovative New American cuisine & craft cocktails in a rustic-chic space.\n212 6th St, Pittsburgh, PA 15222s\n\n"+ 
 
-					"Texas de Brazil\n- Brazilian\n- desc\naddress\n\n"+
+					"Texas de Brazil\n- Brazilian\n- Upscale Brazilian eatery featuring all-you-can-eat grilled meat carved tableside & a salad bar.\n240 W. Station Square Drive, Suite D1, Pittsburgh, PA 15219\n\n"+
 
-					"The Melting Pot\n- Other\n- desc\naddress\n\n"+
+					"The Melting Pot\n- Other\n- Fondue restaurant chain offering heated pots of cheese, chocolate or broth for dipping & cooking.\n125 W Station Square Dr, Pittsburgh, PA 15219\n\n"+
 
-					"Grand Concourse\n- Seafood\n- desc\naddress\n\n"+
+					"Grand Concourse\n- Seafood\n- Train station turned upscale restaurant with seafood & steaks plus a more casual attached saloon.\n100 W Station Square Dr, Pittsburgh, PA 15219\n\n"+
 
-					"Monterey Bay Fish Grotto\n- Seafood\n- desc\naddress")
+					"Monterey Bay Fish Grotto\n- Seafood\n- White-tablecloth eatery & bar with panoramic riverside views offers elegantly plated seafood.\n1411 Grandview Ave, Pittsburgh, PA 15211")
 	//food trucks available (day of)... menus?
 	// } else if (text == "foodtrucks"){
 	// 	sendText(sender, "Competition day fuel!")
