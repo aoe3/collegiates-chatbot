@@ -259,7 +259,7 @@ function sendVenueImageMessage(sender){
 		"attachment":{
 			"type": "image",
 			"payload":{
-				"url":"images/pittcollegiatesfloormap.png"
+				"url":"https://imgur.com/h6LQiPl"
 			}
 		}
 	}
