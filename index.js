@@ -181,6 +181,8 @@ function decideMessage(sender, textInput){
 		sendText(sender, "You're welcome! You're my favorite human!")
 	} else if(text.includes("i love you")) {
 		sendText(sender, "WHAT IS LOVE?\nBABY, DON'T HURT ME!\nDON'T HURT ME!\nNO MORE!")
+	} else if(text == "meme") {
+		sendMeme(sender)	
 	} else {
 		sendText(sender, 
 			"Sorry, I didn't recognize that input! Try typing 'help'")
@@ -280,6 +282,29 @@ function sendRequest(sender, messageData) {
 			console.log("response body error")
 		}
 	})
+}
+
+let wushuMemes = 	["https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-12/29134107_10155852780251634_897366883_n.jpg?oh=4ed630117311ed82f489fa0ddebda7b7&oe=5AB3EA45",
+					"https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-0/s261x260/29019269_10155852777861634_2022816261_n.jpg?_nc_cat=0&oh=fcb8a22170812642f50e55885547d9aa&oe=5AB3CCF2",
+					"https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-0/p160x160/29134838_10155852780256634_1495910984_n.jpg?_nc_cat=0&oh=3684fb47d1467616af4946e450f2e929&oe=5AB4D899",
+					"https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-0/p235x165/29004292_10155852780261634_2022813090_n.jpg?oh=92c2083e2b9ccddf3851a027872ca725&oe=5AB3BCC0",
+					"https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-0/p173x172/29137970_10155852780266634_437161095_n.jpg?oh=c9561f8ff8a19740939cb5fb48b1d355&oe=5AB3F63B",
+					"https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-0/s261x260/29134750_10155852780276634_606042746_n.jpg?_nc_cat=0&oh=5e29fad0cd35cc773317a6e66b2c8dff&oe=5AB3B240",
+					"https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-0/p173x172/29138552_10155852780281634_1290475951_n.jpg?_nc_cat=0&oh=37f910462311487fea58836ed25cc447&oe=5AB4C424",
+					"https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-0/s261x260/29344890_10155852780286634_914066600_n.jpg?_nc_cat=0&oh=23bc1920c546155539b88a37122044db&oe=5AB3D5BF",
+					"https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-0/p173x172/29003887_10155852780291634_702017091_n.jpg?oh=f273af681614967d1d8396128932df39&oe=5AB3E49B"];
+
+function sendMeme(sender){
+	let url = wushuMemes[Math.floor(Math.random * wushuMemes.length)]
+	let messageData = {
+		"attachment":{
+			"type": "image",
+			"payload":{
+				"url":url
+			}
+		}
+	}
+	sendRequest(sender, messageData)
 }
 
 app.listen(app.get('port'), function(){
