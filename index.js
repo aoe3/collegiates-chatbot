@@ -683,15 +683,19 @@ function decideMessage(sender, textInput){
 		let venueText = {text: "Here is a map of the venue:"}
 		sendRequest(sender, venueText)
 		sendVenueImageMessage(sender)
-
+	}else if(text.includes("when")){
+		sendText(sender, "The 22nd Annual Collegiate Wushu Tournament is April 7th, 2018.")
+	} else if((text.includes("where")) || (text.includes("location"))){
+		sendText(sender, "The 22nd Annual Collegiate Wushu Tournament is being held at Fitzgeral Fieldhouse in Pittsburgh, PA")
+	}
 	//view events
-	} else if (text == "events"){
+	} else if (text.includes("events")){
 		sendText(sender, "Please type 'beg', 'int', 'adv', 'beginner', 'intermediate', or 'advanced' to continue to that category.")
-	} else if ((text == "beg") || (text == "beginner")){
+	} else if ((text.includes("beg")) || (text.includes("beginner"))){
 		sendBeginner(sender)
-	} else if ((text == "int") || (text == "intermediate")){
+	} else if ((text.includes("int")) || (text.includes("intermediate"))){
 		sendIntermediate(sender)
-	} else if ((text == "adv") || (text == "advanced")){
+	} else if ((text.includes("adv")) || (text.includes("advanced"))){
 		sendAdvanced(sender)
 	} else if (text.includes("begchangquan")){
 	sendText(sender, begChangquan)	
