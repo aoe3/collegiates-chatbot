@@ -683,9 +683,9 @@ function decideMessage(sender, textInput){
 		let venueText = {text: "Here is a map of the venue:"}
 		sendRequest(sender, venueText)
 		sendVenueImageMessage(sender)
-	}else if(text.includes("when")){
+	} else if (text.includes("when")){
 		sendText(sender, "The 22nd Annual Collegiate Wushu Tournament is April 7th, 2018.")
-	} else if((text.includes("where")) || (text.includes("location"))){
+	} else if ((text.includes("where")) || (text.includes("location"))){
 		sendText(sender, "The 22nd Annual Collegiate Wushu Tournament is being held at Fitzgeral Fieldhouse in Pittsburgh, PA")
 	}
 	//view events
