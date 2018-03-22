@@ -50,7 +50,7 @@ app.post('/webhook/', function (req, res) {
 })
 
 let beginner = 
-"Female Chhangquan\n\n"+
+"Female Changquan\n"+
 "- Janet Abou Elias\n"+
 "- Shyanne Amoyo\n"+
 "- Michelle Chen\n"+
@@ -89,7 +89,7 @@ let beginner =
 "- Gabrianna Zacharias\n"+
 "- Kelly Zhang\n\n\n"+
 
-"Male Changquan\n\n"+
+"Male Changquan\n"+
 "- Kyle Chan\n"+
 "- Benjamin Chen\n"+
 "- Lucas Cheng\n"+
@@ -108,29 +108,29 @@ let beginner =
 "- Everett White\n"+
 "- Michael Yeh\n\n\n"+
 
-"Female Nanquan\n\n"+
+"Female Nanquan\n"+
 "- Olivia Kuziel\n"+
 "- Sara Moore\n"+
 "- Samantha Ono\n"+
 "- Unique Wei\n"+
 "- Alexis Weyh\n\n\n"+
 
-"Male Nanquan\n\n"+
+"Male Nanquan\n"+
 "- Lucas Verde\n\n\n"+
 
-"Female 24 Taiji\n\n"+
+"Female 24 Taiji\n"+
 "- Jin Yun Chow\n"+
 "- Jo Lin\n"+
 "- Jessica Luo\n\n\n"+
 
-"Male 24 Taiji\n\n"+
+"Male 24 Taiji\n"+
 "- Arie Dash\n"+
 "- Kevin Marston\n\n\n"+
 
-"Female Open Yang\n\n"+
+"Female Open Yang\n"+
 "- Deborah Ma\n\n\n"+
 
-"Female Traditional Open Barehand\n\n"+
+"Female Traditional Open Barehand\n"+
 "- Shyanne Amoyo\n"+
 "- Olivia Guo\n"+
 "- Shannon Tsang\n"+
@@ -141,33 +141,33 @@ let beginner =
 "- Justin Lu\n"+
 "- Allen Peng\n\n\n"+
 
-"Female Broadsword\n\n"+
+"Female Broadsword\n"+
 "- Janet Abou Elias\n"+
 "- Deborah Ma\n"+
 "- Cj Rogers\n"+
 "- Claire Tsau\n"+
 "- Gabrianna Zacharias\n\n\n"+
 
-"Male Broadsword\n\n"+
+"Male Broadsword\n"+
 "- Robin Calvo\n"+
 "- William Lund\n"+
 "- Lucas Verde\n"+
 "- Everett White\n\n\n"+
 
-"Female Straightsword\n\n"+
+"Female Straightsword\n"+
 "- Olivia Guo\n"+
 "- Lillian Lee\n"+
 "- Janet Nguyen\n"+
 "- Michelle Nguyen\n"+
 "- Kelly Zhang\n\n\n"+
 
-"Male Straightsword\n\n"+
+"Male Straightsword\n"+
 "- Allen Peng"
 
-"Female Other Weapon\n\n"+
+"Female Other Weapon\n"+
 "- Samantha Ono\n\n\n"+
 
-"Female Staff\n\n"+
+"Female Staff\n"+
 "- Janet Abou Elias\n"+
 "- Bryanna Geiger\n"+
 "- Christine Hwang\n"+
@@ -176,7 +176,7 @@ let beginner =
 "- Claire Weber\n"+
 "- Gabrianna Zacharias\n\n\n"+
 
-"Male Staff\n\n"+
+"Male Staff\n"+
 "- Kyle Chan\n"+
 "- Benjamin Chen\n"+
 "- Lucas Cheng\n"+
@@ -190,7 +190,7 @@ let beginner =
 "- Simon Nguyen\n\n\n"
 
 let intermediate = 
-"Female Changquan\n\n"+
+"Female Changquan\n"+
 "- Mekenzie Dyer\n"+
 "- Winni Gao\n"+
 "- Kimberly Gomez\n"+
@@ -215,7 +215,7 @@ let intermediate =
 "- Kelly Zhang\n"+
 "- Jessica Zhu\n\n\n"+
 
-"Male Changquan\n\n"+
+"Male Changquan\n"+
 "- Akshara Aditya\n"+
 "- Chinmaya Aditya\n"+
 "- Danny Be\n"+
@@ -239,13 +239,13 @@ let intermediate =
 "- Robert Yang\n"+
 "- Tommy Yang\n\n\n"+
 
-"Female Nanquan\n\n"+
+"Female Nanquan\n"+
 "- Annmarie Cong\n"+
 "- Kimberly Gomez\n"+
 "- Shirley Mach\n"+
 "- Jasmine Pham\n\n\n"+
 
-"Male Nanquan\n\n"+
+"Male Nanquan\n"+
 "- John Caldas\n"+
 "- Alexandre Gunnerson\n"+
 "- Jeffrey Guo\n"+
@@ -256,10 +256,10 @@ let intermediate =
 "- Eric Wang\n"+
 "- Anthony Wang\n\n\n"+
 
-"Female Open Barehand\n\n"+
+"Female Open Barehand\n"+
 "- Jae Hee Jang\n\n\n"+
 
-"Female 24 Taiji\n\n"+
+"Female 24 Taiji\n"+
 "- Annie Hanichak\n"+
 "- Melodee Li\n"+
 "- Adanna Liu\n"+
@@ -267,16 +267,16 @@ let intermediate =
 "- Annie Shi\n"+
 "- Erika Yu\n\n\n"+
 
-"Female Open Taiji\n\n"+
+"Female Open Taiji\n"+
 "- Julie Wang\n\n\n"+
 
-"Male Open Chen\n\n"+
+"Male Open Chen\n"+
 "- Carlos Estrada\n\n\n"+
 
-"Female 42 Fist\n\n"+
+"Female 42 Fist\n"+
 "- Erika Yu\n\n\n"+
 
-"Female Traditional Open Barehand\n\n"+
+"Female Traditional Open Barehand\n"+
 "- Jasmine Chen\n"
 "- Sunny Chiu\n"
 "- Clarity Chua\n"
@@ -285,18 +285,18 @@ let intermediate =
 "- Julie Wang\n"
 "- Lisa Yu\n\n\n"+
 
-"Male Traditional Open Barehand\n\n"+
+"Male Traditional Open Barehand\n"+
 "- Akshara Aditya\n"+
 "- Simon Lee\n"+
 "- Vincent Ngo\n"+
 "- Henderson Wong\n\n\n"+
 
-"Female Broadsword\n\n"+
+"Female Broadsword\n"+
 "- Karen Kuang\n"+
 "- Kristi Lin\n"+
 "- Katie Zhao\n\n\n"+
 
-"Male Broadsword\n\n"+
+"Male Broadsword\n"+
 "- Chinmaya Aditya\n"+
 "- Danny Be\n"+
 "- Carlos Estrada\n"+
@@ -305,7 +305,7 @@ let intermediate =
 "- Anthony Wang\n"+
 "- Joshua Ya\n\n\n"+
 
-"Female Straightsword\n\n"+
+"Female Straightsword\n"+
 "- Winni Gao\n"+
 "- Annie Hanichak\n"+
 "- Melodee Li\n"+
@@ -316,70 +316,70 @@ let intermediate =
 "- Jasmine Wong\n"+
 "- Rebecca Yap\n\n\n"+
 
-"Male Straightsword\n\n"+
+"Male Straightsword\n"+
 "- Kenneth Chen\n"+
 "- Haejin Park\n"+
 "- Ryan Wang\n\n\n"+
 
-"Male Nandao\n\n"+
+"Male Nandao\n"+
 "- Noah Mastruserio\n"+
 "- Mohammad Ullah\n\n\n"+
 
-"Female Other Weapon\n\n"+
+"Female Other Weapon\n"+
 "- Tiffany Hwu\n"+
 "- Shirley Mach\n"+
 "- Vivienne Nguyen\n"+
 "- Sharon Shu\n\n\n"+
 
-"Male Other Weapon\n\n"+
+"Male Other Weapon\n"+
 "- Henderson Wong\n\n\n"+
 
-"Female Staff\n\n"+
+"Female Staff\n"+
 "- Tiffany Hwu\n"+
 "- Karen Kuang\n\n\n"+
 
-"Male Staff\n\n"+
+"Male Staff\n"+
 "- Ethan Green\n"+
 "- Kwynn Johnson\n\n\n"+
 
-"Female Spear\n\n"+
+"Female Spear\n"+
 "- Annmarie Cong\n"+
 "- Julia Leung\n"+
 "- Michelle Tu\n\n\n"+
 
-"Male Spear\n\n"+
+"Male Spear\n"+
 "- Kenneth Chen\n"+
 "- Ryan Wang\n\n\n"+
 
-"Female Southern Staff\n\n"+
+"Female Southern Staff\n"+
 "- Jasmine Wong\n\n\n"+
 
-"Male Southern Staff\n\n"+
+"Male Southern Staff\n"+
 "- John Caldas\n"+
 "- Eric Wang\n\n\n"+
 
-"Female Traditional Long Weapon\n\n"+
+"Female Traditional Long Weapon\n"+
 "- Lisa Yu\n\n\n"+
 
-"Male Traditional Long Weapon\n\n"+
+"Male Traditional Long Weapon\n"+
 "- Erick Partida\n"+
 "- Eric Wang\n\n\n"+
 
-"Female Traditional Short Weapon\n\n"+
+"Female Traditional Short Weapon\n"+
 "- Sunny Chiu\n"+
 "- Clarity Chua\n"+
 "- Kristi Lin\n"+
 "- Kelly Zhang\n\n\n"+
 
-"Male Traditional Short Weapon\n\n"+
+"Male Traditional Short Weapon\n"+
 "- Simon Lee\n\n\n"
 
 let advanced = 
-"Male Changquan(nandu)\n\n"+
+"Male Changquan(nandu)\n"+
 "- Patrick Moua\n"+
 "- Tim Wang\n\n\n"+
 
-"Female Changquan\n\n"+
+"Female Changquan\n"+
 "- Rebecca Chinn\n"+
 "- Caitlin Escudero\n"+
 "- Emily Fan\n"+
@@ -391,7 +391,7 @@ let advanced =
 "- Joy Zeng\n"+
 "- Daisy Zheng\n\n\n"+
 
-"Male Changquan\n\n"+
+"Male Changquan\n"+
 "- Jeffson Atienza\n"+
 "- Mario Caballero\n"+
 "- Oey Chang\n"+
@@ -419,63 +419,63 @@ let advanced =
 "- Jemmy Zhou\n"+
 "- Jason Zou\n\n\n"+
 
-"Female Nanquan\n\n"+
+"Female Nanquan\n"+
 "- Sabrina Chiang\n"+
 "- Queenie Li\n\n\n"+
 
-"Male Nanquan\n\n"+
+"Male Nanquan\n"+
 "- Darren Deng\n\n\n"+
 
-"Male Open Barehand\n\n"+
+"Male Open Barehand\n"+
 "- Robert Yu\n\n\n"+
 
-"Female 24 Taiji\n\n"+
+"Female 24 Taiji\n"+
 "- Gina Bao\n"+
 "- Marianne Dang\n"+
 "- Amy Pribadi\n\n\n"+
 
-"Male 24 Taiji\n\n"+
+"Male 24 Taiji\n"+
 "- Kevin Chen\n"+
 "- Michael Fang\n"+
 "- Jonathan Li\n"+
 "- Richard Nguyen\n"+
 "- Ying Hong Tham\n\n\n"+
 
-"Male Open Yang\n\n"+
+"Male Open Yang\n"+
 "- William Du\n"+
 "- Ethyn Leong\n\n\n"+
 
-"Female Open Chen\n\n"+
+"Female Open Chen\n"+
 "- Gina Bao\n"+
 "- Marianne Dang\n"+
 "- Amy Pribadi\n"+
 "- Dimei Wu\n\n\n"+
 
-"Male Open Chen\n\n"+
+"Male Open Chen\n"+
 "- William Du\n"+
 "- Michael Fang\n"+
 "- Philip Hwang\n"+
 "- Ying Hong Tham\n\n\n"+
 
-"Female 42 Fist\n\n"+
+"Female 42 Fist\n"+
 "- Marianne Dang]n"+
 "- Amy Pribadi\n\n\n"+
 
-"Male 42 Fist\n\n"+
+"Male 42 Fist\n"+
 "- Michael Fang\n"+
 "- Ying Hong Tham\n\n\n"+
 
-"Female Internal Open Fist\n\n"+
+"Female Internal Open Fist\n"+
 "- Cecilia Springer\n\n\n"+
 
-"Male Internal Open Fist\n\n"+
+"Male Internal Open Fist\n"+
 "- Richard Nguyen\n\n\n"+
 
-"Female Traditional Open Barehand\n\n"+
+"Female Traditional Open Barehand\n"+
 "- Rebecca Chinn\n"+
 "- Cecilia Springer\n\n\n"+
 
-"Male Traditional Open Barehand\n\n"+
+"Male Traditional Open Barehand\n"+
 "- Oey Chang\n"+
 "- Connor Hum\n"+
 "- Kristian Koeser\n"+
@@ -483,7 +483,7 @@ let advanced =
 "- Alexander Lu\n"+
 "- Linfeng Wu\n\n\n"+
 
-"Female Broadsword\n\n"+
+"Female Broadsword\n"+
 "- Zoe Chan\n"+
 "- Sabrina Chiang\n"+
 "- Rebecca Chinn\n"+
@@ -493,7 +493,7 @@ let advanced =
 "- Kaitlyn Trinh\n"+
 "- Daisy Zheng\n\n\n"+
 
-"Male Broadsword\n\n"+
+"Male Broadsword\n"+
 "- Jeffson Atienza\n"+
 "- Oey Chang\n"+
 "- Chuan Chen\n"+
@@ -506,7 +506,7 @@ let advanced =
 "- Alexander Wu\n"+
 "- Jason Zou\n\n\n"+
 
-"Female Straightsword\n\n"+
+"Female Straightsword\n"+
 "- Kasey Chan\n"+
 "- Emily Fan\n"+
 "- Hannah Ho\n"+
@@ -517,7 +517,7 @@ let advanced =
 "- Emily Yang\n"+
 "- Joy Zeng\n\n\n"+
 
-"Male Straightsword\n\n"+
+"Male Straightsword\n"+
 "- Mario Caballero\n"+
 "- Kevin Chen\n"+
 "- Dominic Chow\n"+
@@ -533,37 +533,37 @@ let advanced =
 "- Ryan Zheng\n"+
 "- Jemmy Zhou\n\n\n"+
 
-"Female 42 Sword\n\n"+
+"Female 42 Sword\n"+
 "- Amy Pribadi\n"+
 "- Dimei Wu\n\n\n"+
 
-"Male 42 Sword\n\n"+
+"Male 42 Sword\n"+
 "- Ying Hong Tham\n\n\n"+
 
-"Female Taiji Weapon\n\n"+
+"Female Taiji Weapon\n"+
 "- Gina Bao\n"+
 "- Marianne Dang\n\n\n"+
 
-"Male Taiji Weapon\n\n"+
+"Male Taiji Weapon\n"+
 "- William Du\n"+
 "- Ethyn Leong\n"+
 "- Richard Nguyen\n\n\n"+
 
-"Female Other Weapon\n\n"+
+"Female Other Weapon\n"+
 "- Zoe Chan\n\n\n"+
 
-"Male Other Weapon\n\n"+
+"Male Other Weapon\n"+
 "- Kevin Chen\n"+
 "- Irwin Hui\n"+
 "- Winston Lee\n"+
 "- Linfeng Wu\n\n\n"+
 
-"Female Staff\n\n"+
+"Female Staff\n"+
 "- Rebecca Chinn\n"+
 "- Bridget Keeney\n"+
 "- Queenie Li\n\n\n"+
 
-"Male Staff\n\n"+
+"Male Staff\n"+
 "- Jeffson Atienza\n"+
 "- Oey Chang\n"+
 "- Chuan Chen\n"+
@@ -577,36 +577,36 @@ let advanced =
 "- Ryan Zheng\n"+
 "- Jason Zou\n\n\n"+
 
-"Female Spear\n\n"+
+"Female Spear\n"+
 "- Kasey Chan\n"+
 "- Emily Fan\n"+
 "- Alyssa Lo\n"+
 "- Emily Yang\n\n\n"+
 
-"Male Spear\n\n"+
+"Male Spear\n"+
 "- Irwin Hui\n"+
 "- Kristian Koeser\n"+
 "- Jason Tang\n"+
 "- Robert Yu\n"+
 "- Jemmy Zhou\n\n\n"+
 
-"Male Southern Staff\n\n"+
+"Male Southern Staff\n"+
 "- Darren Deng\n\n\n"+
 
-"Female Long Weapon\n\n"+
+"Female Long Weapon\n"+
 "- Cecilia Springer\n\n\n"+
 
-"Female Traditional Short Weapon\n\n"+
+"Female Traditional Short Weapon\n"+
 "- Michelle Chin\n"+
 "- Cecilia Springer\n\n\n"+
 
-"Male Traditional Short Weapon\n\n"+
+"Male Traditional Short Weapon\n"+
 "- Alexander Wu\n\n\n"+
 
-"Female Traditional Soft Weapon\n\n"+
+"Female Traditional Soft Weapon\n"+
 "- Queenie Li\n\n\n"+
 
-"Male Traditional Soft Weapon\n\n"+
+"Male Traditional Soft Weapon\n"+
 "- Eric Fu\n\n\n"
 
 function decideMessage(sender, textInput){
