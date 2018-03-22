@@ -1161,7 +1161,7 @@ function sendIntermediate(sender){
               {
                 "type": "postback",
                 "title": "Intermediate Changquan",
-                "payload": "intChangquan"
+                "payload": "intchangquan"
               },
               {
                 "type": "postback",
