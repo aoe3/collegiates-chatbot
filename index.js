@@ -655,7 +655,7 @@ let advTradSoftWeapon =
 "- Eric Fu\n\n\n"
 
 //greetings
-greetings =["Hello! I'm the ACWT Helper ChatBot! To best learn how to use me, type 'help' as a message!",
+let greetings =["Hello! I'm the ACWT Helper ChatBot! To best learn how to use me, type 'help' as a message!",
 			"Hi! I'm a helper chatbot for the ACWT! Want to know what I can do? Type 'help' as a message!",
 			"Hey! I'm the ACWT Chatbot! I can give you the best info on where to eat, what's going on, and who to contact! To find out more, type 'help' as a message!"]
 
