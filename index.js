@@ -1160,7 +1160,7 @@ function sendIntermediate(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Intermediate Changquan",
                 "payload": "intChangquan"
               },
               {
