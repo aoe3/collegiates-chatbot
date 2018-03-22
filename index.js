@@ -51,7 +51,7 @@ app.post('/webhook/', function (req, res) {
 
 //Beginner
 let begChangquan =
-"Female Chhangquan\n\n"+
+"Female Changquan\n\n"+
 "- Janet Abou Elias\n"+
 "- Shyanne Amoyo\n"+
 "- Michelle Chen\n"+
@@ -1165,12 +1165,12 @@ function sendIntermediate(sender){
               },
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Nanquan",
                 "payload": "intNanquan"
               },
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Open BH",
                 "payload": "intOpenBH"
               }
             ]
@@ -1180,17 +1180,17 @@ function sendIntermediate(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int 24 Taiji",
                 "payload": "int24Taiji"
               },
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Open Taiji",
                 "payload": "intOpenTaiji"
               },
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Open Chen",
                 "payload": "intOpenChen"
               }
             ]
@@ -1200,17 +1200,17 @@ function sendIntermediate(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int 42 Fist",
                 "payload": "int42Fist"
               },
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Trad Open BH",
                 "payload": "intTradOpenBH"
               },
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Broadsword",
                 "payload": "intBroadsword"
               }
             ]
@@ -1220,17 +1220,17 @@ function sendIntermediate(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Straightsword",
                 "payload": "intStraightsword"
               },
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Nandao",
                 "payload": "intNandao"
               },
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Other Weapon",
                 "payload": "intOtherWeapon"
               }
             ]
@@ -1240,17 +1240,17 @@ function sendIntermediate(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Staff",
                 "payload": "intStaff"
               },
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Spear",
                 "payload": "intSpear"
               },
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Southern Staff",
                 "payload": "intSouthernStaff"
               }
             ]
@@ -1260,12 +1260,12 @@ function sendIntermediate(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Trad Long Weapon",
                 "payload": "intTradLongWeapon"
               },
               {
                 "type": "postback",
-                "title": "Intermediate",
+                "title": "Int Trad Short Weapon",
                 "payload": "intTradShortWeapon"
               }
             ]
