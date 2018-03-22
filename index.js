@@ -1076,17 +1076,17 @@ function sendBeginner(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Beginner",
+                "title": "Beg Changquan",
                 "payload": "begChangquan"
               },
               {
                 "type": "postback",
-                "title": "Beginner",
+                "title": "Beg Nanquan",
                 "payload": "begNanquan"
               },
               {
                 "type": "postback",
-                "title": "Beginner",
+                "title": "Beg 24 Taiji",
                 "payload": "beg24Taiji"
               }
             ]
@@ -1096,17 +1096,17 @@ function sendBeginner(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Beginner",
+                "title": "Beg Open Yang",
                 "payload": "begOpenYang"
               },
               {
                 "type": "postback",
-                "title": "Beginner",
+                "title": "Beg Trad Open BH",
                 "payload": "begTradOpenBH"
               },
               {
                 "type": "postback",
-                "title": "Beginner",
+                "title": "Beg Broadsword",
                 "payload": "begBroadsword"
               }
             ]
@@ -1116,17 +1116,17 @@ function sendBeginner(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Beginner",
+                "title": "Beg Straightsword",
                 "payload": "begStraightsword"
               },
               {
                 "type": "postback",
-                "title": "Beginner",
+                "title": "Beg Other Weapon",
                 "payload": "begOtherWeapon"
               },
               {
                 "type": "postback",
-                "title": "Beginner",
+                "title": "Beg Staff",
                 "payload": "begStaff"
               }
             ]
@@ -1136,7 +1136,7 @@ function sendBeginner(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Beginner",
+                "title": "Beg Trad Short Weapon",
                 "payload": "begTradShortWeapon"
               }
             ]
@@ -1160,8 +1160,8 @@ function sendIntermediate(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Intermediate Changquan",
-                "payload": "intchangquan"
+                "title": "Int Changquan",
+                "payload": "intChangquan"
               },
               {
                 "type": "postback",
