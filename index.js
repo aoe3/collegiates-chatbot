@@ -641,11 +641,11 @@ function decideMessage(sender, textInput){
 	//view events by experience level
 	} else if (text == "events"){
 		sendEventButtonMessage(sender, "Choose a division button, or type 'beginner', 'intermediate', or 'advanced' to view.")
-	} else if (text == "beginner"){
+	} else if (text.includes("beginner")){
 		sendText(sender, beginner)
-	} else if (text == "intermediate"){
+	} else if (text.includes("intermediate")){
 		sendText(sender, intermediate)
-	} else if (text == "advanced"){
+	} else if (text.includes("advanced")){
 		sendText(sender, advanced)
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
