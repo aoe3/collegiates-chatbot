@@ -693,101 +693,101 @@ function decideMessage(sender, textInput){
 		sendIntermediate(sender)
 	} else if ((text == "adv") || (text == "advanced")){
 		sendAdvanced(sender)
-	} else if (text == "begchangquan"){
+	} else if (text.includes("begchangquan")){
 	sendText(sender, begChangquan)	
-	} else if (text == "begnanquan"){
+	} else if (text.includes("begnanquan")){
 		sendText(sender, begNanquan)	
-	} else if (text == "beg24taiji"){
+	} else if (text.includes("beg24taiji")){
 		sendText(sender, beg24Taiji)	
-	} else if (text == "begopenyang"){
+	} else if (text.includes("begopenyang")){
 		sendText(sender, begOpenYang)	
-	} else if (text == "begtradopenbh"){
+	} else if (text.includes("begtradopenbh")){
 		sendText(sender, begTradOpenBH)	
-	} else if (text == "begbroadsword"){
+	} else if (text.includes("begbroadsword")){
 		sendText(sender, begBroadsword)	
-	} else if (text == "begstraightsword"){
+	} else if (text.includes("begstraightsword")){
 		sendText(sender, begStraightsword)	
-	} else if (text == "begotherweapon"){
+	} else if (text.includes("begotherweapon")){
 		sendText(sender, begOtherWeapon)	
-	} else if (text == "begstaff"){
+	} else if (text.includes("begstaff")){
 		sendText(sender, begStaff)	
-	} else if (text == "begtradshortweapon"){
+	} else if (text.includes("begtradshortweapon")){
 		sendText(sender, begTradShortWeapon)	
-	} else if (text == "intchangquan"){
+	} else if (text.includes("intchangquan")){
 		sendText(sender, intChangquan)	
-	} else if (text == "intnanquan"){
+	} else if (text.includes("intnanquan")){
 		sendText(sender, intNanquan)	
-	} else if (text == "intopenbh"){
+	} else if (text.includes("intopenbh")){
 		sendText(sender, intOpenBH)	
-	} else if (text == "int24taiji"){
+	} else if (text.includes("int24taiji")){
 		sendText(sender, int24Taiji)	
-	} else if (text == "intopentaiji"){
+	} else if (text.includes("intopentaiji")){
 		sendText(sender, intOpenTaiji)	
-	} else if (text == "intopenchen"){
+	} else if (text.includes("intopenchen")){
 		sendText(sender, intOpenChen)	
-	} else if (text == "int42fist"){
+	} else if (text.includes("int42fist")){
 		sendText(sender, int42Fist)	
-	} else if (text == "inttradopenbh"){
+	} else if (text.includes("inttradopenbh")){
 		sendText(sender, intTradOpenBH)	
-	} else if (text == "intbroadsword"){
+	} else if (text.includes("intbroadsword")){
 		sendText(sender, intBroadsword)	
-	} else if (text == "intstraightsword"){
+	} else if (text.includes("intstraightsword")){
 		sendText(sender, intStraightsword)	
-	} else if (text == "intnandao"){
+	} else if (text.includes("intnandao")){
 		sendText(sender, intNandao)	
-	} else if (text == "intotherweapon"){
+	} else if (text.includes("intotherweapon")){
 		sendText(sender, intOtherWeapon)	
-	} else if (text == "intstaff"){
+	} else if (text.includes("intstaff")){
 		sendText(sender, intStaff)	
-	} else if (text == "intspear"){
+	} else if (text.includes("intspear")){
 		sendText(sender, intSpear)	
-	} else if (text == "intsouthernstaff"){
+	} else if (text.includes("intsouthernstaff")){
 		sendText(sender, intSouthernStaff)	
-	} else if (text == "inttradlongweapon"){
+	} else if (text.includes("inttradlongweapon")){
 		sendText(sender, intTradLongWeapon)	
-	} else if (text == "inttradshortweapon"){
+	} else if (text.includes("inttradshortweapon")){
 		sendText(sender, intTradShortWeapon)	
-	} else if (text == "advchangquannandu"){
+	} else if (text.includes("advchangquannandu")){
 		sendText(sender, advChangquanNandu)	
-	} else if (text == "advchangquan"){
+	} else if (text.includes("advchangquan")){
 		sendText(sender, advChangquan)	
-	} else if (text == "advnanquan"){
+	} else if (text.includes("advnanquan")){
 		sendText(sender, advNanquan)	
-	} else if (text == "advopenbh"){
+	} else if (text.includes("advopenbh")){
 		sendText(sender, advOpenBH)	
-	} else if (text == "adv24taiji"){
+	} else if (text.includes("adv24taiji")){
 		sendText(sender, adv24Taiji)	
-	} else if (text == "advopenyang"){
+	} else if (text.includes("advopenyang")){
 		sendText(sender, advOpenYang)	
-	} else if (text == "advopenchen"){
+	} else if (text.includes("advopenchen")){
 		sendText(sender, advOpenChen)	
-	} else if (text == "adv42fist"){
+	} else if (text.includes("adv42fist")){
 		sendText(sender, adv42Fist)	
-	} else if (text == "advinternalopenfist"){
+	} else if (text.includes("advinternalopenfist")){
 		sendText(sender, advInternalOpenFist)	
-	} else if (text == "advtradopenbh"){
+	} else if (text.includes("advtradopenbh")){
 		sendText(sender, advTradOpenBH)	
-	} else if (text == "advbroadsword"){
+	} else if (text.includes("advbroadsword")){
 		sendText(sender, advBroadsword)	
-	} else if (text == "advstraightsword"){
+	} else if (text.includes("advstraightsword")){
 		sendText(sender, advStraightsword)	
-	} else if (text == "adv42sword"){
+	} else if (text.includes("adv42sword")){
 		sendText(sender, adv42Sword)	
-	} else if (text == "advtaijiweapon"){
+	} else if (text.includes("advtaijiweapon")){
 		sendText(sender, advTaijiWeapon)	
-	} else if (text == "advotherweapon"){
+	} else if (text.includes("advotherweapon")){
 		sendText(sender, advOtherWeapon)	
-	} else if (text == "advstaff"){
+	} else if (text.includes("advstaff")){
 		sendText(sender, advStaff)	
-	} else if (text == "advspear"){
+	} else if (text.includes("advspear")){
 		sendText(sender, advSpear)	
-	} else if (text == "advsouthernstaff"){
+	} else if (text.includes("advsouthernstaff")){
 		sendText(sender, advSouthernStaff)	
-	} else if (text == "advlongweapon"){
+	} else if (text.includes("advlongweapon")){
 		sendText(sender, advLongWeapon)	
-	} else if (text == "advtradshortweapon"){
+	} else if (text.includes("advtradshortweapon")){
 		sendText(sender, advTradShortWeapon)	
-	} else if (text == "advtradsoftweapon"){
+	} else if (text.includes("advtradsoftweapon")){
 		sendText(sender, advTradSoftWeapon)	
 	/**DEPRECATED BUT KEEPING FOR REFERENCE**/
 	// } else if (text == "events"){
