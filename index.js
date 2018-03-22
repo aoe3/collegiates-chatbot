@@ -1289,17 +1289,17 @@ function sendAdvanced(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv CQ Nandu",
                 "payload": "advChangquanNandu"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Changquan",
                 "payload": "advChangquan"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Nanquan",
                 "payload": "advNanquan"
               }
             ]
@@ -1309,17 +1309,17 @@ function sendAdvanced(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Open BH",
                 "payload": "advOpenBH"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv 24 Taiji",
                 "payload": "adv24Taiji"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Open Yang",
                 "payload": "advOpenYang"
               }
             ]
@@ -1329,17 +1329,17 @@ function sendAdvanced(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Open Chen",
                 "payload": "advOpenChen"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv 42 Fist",
                 "payload": "adv42Fist"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Internal Open Fist",
                 "payload": "advInternalOpenFist"
               }
             ]
@@ -1349,17 +1349,17 @@ function sendAdvanced(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Trad Open BH",
                 "payload": "advTradOpenBH"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Broadsword",
                 "payload": "advBroadsword"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Straightsword",
                 "payload": "advStraightsword"
               }
             ]
@@ -1369,17 +1369,17 @@ function sendAdvanced(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv 42 Sword",
                 "payload": "adv42Sword"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Taiji Weapon",
                 "payload": "advTaijiWeapon"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Other Weapon",
                 "payload": "advOtherWeapon"
               }
             ]
@@ -1389,17 +1389,17 @@ function sendAdvanced(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Staff",
                 "payload": "advStaff"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Spear",
                 "payload": "advSpear"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Southern Staff",
                 "payload": "advSouthernStaff"
               }
             ]
@@ -1409,17 +1409,17 @@ function sendAdvanced(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Long Weapon",
                 "payload": "advLongWeapon"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Trad Short Weapon",
                 "payload": "advTradShortWeapon"
               },
               {
                 "type": "postback",
-                "title": "Advanced",
+                "title": "Adv Trad Soft Weapon",
                 "payload": "advTradSoftWeapon"
               }
             ]
