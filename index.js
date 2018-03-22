@@ -681,9 +681,9 @@ function decideMessage(sender, textInput){
 				(text.includes("ello")) || (text.includes("yo"))){
 		sendText(sender, greetings[Math.floor(Math.random() * greetings.length)])
 		//end greetings
-	} else if ((text.includes"yes")&&("coming")){
+	} else if ((text.includes("yes"))&&(text.includes("coming"))){
 		sendText(sender, "Would you like a map of the venue? If yes, type 'venue'")
-	} else if ((text.includes"no")&&("coming")){
+	} else if ((text.includes("no"))&&(text.includes("coming"))){
 		sendText(sender, "Okay. I'm sorry to hear that. We will remove you from the lineup")
 	} else if (text == "schedule"){ 
 		sendText(sender, "Ring 1: Beginner Changquan\nRing2: Beginner Nanquan\nRing 3: Beginner 24 Taiji(starting soon!)")
