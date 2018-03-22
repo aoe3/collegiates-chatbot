@@ -49,8 +49,9 @@ app.post('/webhook/', function (req, res) {
 	res.sendStatus(200)
 })
 
-let beginner = 
-"Female Changquan\n"+
+//Beginner
+let begChangquan =
+"Female Chhangquan\n\n"+
 "- Janet Abou Elias\n"+
 "- Shyanne Amoyo\n"+
 "- Michelle Chen\n"+
@@ -87,8 +88,9 @@ let beginner =
 "- Doris Xu\n"+
 "- Dielai Yang\n"+
 "- Gabrianna Zacharias\n"+
-"- Kelly Zhang\n\n"+
-"Male Changquan\n"+
+"- Kelly Zhang\n\n\n"+
+
+"Male Changquan\n\n"+
 "- Kyle Chan\n"+
 "- Benjamin Chen\n"+
 "- Lucas Cheng\n"+
@@ -105,63 +107,85 @@ let beginner =
 "- Dylan Sanfilippo\n"+
 "- Christopher Tran\n"+
 "- Everett White\n"+
-"- Michael Yeh\n\n"+
-"Female Nanquan\n"+
+"- Michael Yeh\n\n\n"
+
+let begNanquan =
+"Female Nanquan\n\n"+
 "- Olivia Kuziel\n"+
 "- Sara Moore\n"+
 "- Samantha Ono\n"+
 "- Unique Wei\n"+
-"- Alexis Weyh\n\n"+
-"Male Nanquan\n"+
-"- Lucas Verde\n\n"+
-"Female 24 Taiji\n"+
+"- Alexis Weyh\n\n\n"+
+
+"Male Nanquan\n\n"+
+"- Lucas Verde\n\n\n"
+
+let beg24Taiji =
+"Female 24 Taiji\n\n"+
 "- Jin Yun Chow\n"+
 "- Jo Lin\n"+
-"- Jessica Luo\n\n"+
-"Male 24 Taiji\n"+
+"- Jessica Luo\n\n\n"+
+
+"Male 24 Taiji\n\n"+
 "- Arie Dash\n"+
-"- Kevin Marston\n\n"+
-"Female Open Yang\n"+
-"- Deborah Ma\n\n"+
-"Female Traditional Open Barehand\n"+
+"- Kevin Marston\n\n\n"
+
+let begOpenYang =
+"Female Open Yang\n\n"+
+"- Deborah Ma\n\n\n"
+
+let begTradOpenBH =
+"Female Traditional Open Barehand\n\n"+
 "- Shyanne Amoyo\n"+
 "- Olivia Guo\n"+
 "- Shannon Tsang\n"+
 "- Claire Tsau\n"+
-"- Unique Wei\n\n"+
-"Male Traditional Open Barehand\n"+
+"- Unique Wei\n\n\n"+
+
+"Male Traditional Open Barehand\n\n"+
 "- Justin Lu\n"+
-"- Allen Peng\n\n"+
-"Female Broadsword\n"+
+"- Allen Peng\n\n\n"
+
+let begBroadsword =
+"Female Broadsword\n\n"+
 "- Janet Abou Elias\n"+
 "- Deborah Ma\n"+
 "- Cj Rogers\n"+
 "- Claire Tsau\n"+
-"- Gabrianna Zacharias\n\n"+
-"Male Broadsword\n"+
+"- Gabrianna Zacharias\n\n\n"+
+
+"Male Broadsword\n\n"+
 "- Robin Calvo\n"+
 "- William Lund\n"+
 "- Lucas Verde\n"+
-"- Everett White\n\n"+
-"Female Straightsword\n"+
+"- Everett White\n\n\n"
+
+let begStraightsword =
+"Female Straightsword\n\n"+
 "- Olivia Guo\n"+
 "- Lillian Lee\n"+
 "- Janet Nguyen\n"+
 "- Michelle Nguyen\n"+
-"- Kelly Zhang\n\n"+
-"Male Straightsword\n"+
+"- Kelly Zhang\n\n\n"+
+
+"Male Straightsword\n\n"+
 "- Allen Peng"
-"Female Other Weapon\n"+
-"- Samantha Ono\n\n"+
-"Female Staff\n"+
+
+let begOtherWeapon =
+"Female Other Weapon\n\n"+
+"- Samantha Ono\n\n\n"
+
+let begStaff =
+"Female Staff\n\n"+
 "- Janet Abou Elias\n"+
 "- Bryanna Geiger\n"+
 "- Christine Hwang\n"+
 "- Janette Levin\n"+
 "- Shannon Tsang\n"+
 "- Claire Weber\n"+
-"- Gabrianna Zacharias\n\n"+
-"Male Staff\n"+
+"- Gabrianna Zacharias\n\n\n"+
+
+"Male Staff\n\n"+
 "- Kyle Chan\n"+
 "- Benjamin Chen\n"+
 "- Lucas Cheng\n"+
@@ -169,12 +193,15 @@ let beginner =
 "- Simon Nguyen\n"+
 "- Francis Poon\n"+
 "- Christopher Tran\n"+
-"- Michael Yeh\n\n"+
-"Male Traditional Short Weapon\n"+
-"- Simon Nguyen\n\n"
+"- Michael Yeh\n\n\n"
 
-let intermediate = 
-"Female Changquan\n"+
+let begTradShortWeapon =
+"Male Traditional Short Weapon\n\n"+
+"- Simon Nguyen\n\n\n"
+
+//Intermediate
+let intChangquan =
+"Female Changquan\n\n"+
 "- Mekenzie Dyer\n"+
 "- Winni Gao\n"+
 "- Kimberly Gomez\n"+
@@ -197,8 +224,9 @@ let intermediate =
 "- Erika Yu\n"+
 "- Lisa Yu\n"+
 "- Kelly Zhang\n"+
-"- Jessica Zhu\n\n"+
-"Male Changquan\n"+
+"- Jessica Zhu\n\n\n"+
+
+"Male Changquan\n\n"+
 "- Akshara Aditya\n"+
 "- Chinmaya Aditya\n"+
 "- Danny Be\n"+
@@ -220,13 +248,16 @@ let intermediate =
 "- Henderson Wong\n"+
 "- Joshua Ya\n"+
 "- Robert Yang\n"+
-"- Tommy Yang\n\n"+
-"Female Nanquan\n"+
+"- Tommy Yang\n\n\n"
+
+let intNanquan =
+"Female Nanquan\n\n"+
 "- Annmarie Cong\n"+
 "- Kimberly Gomez\n"+
 "- Shirley Mach\n"+
-"- Jasmine Pham\n\n"+
-"Male Nanquan\n"+
+"- Jasmine Pham\n\n\n"+
+
+"Male Nanquan\n\n"+
 "- John Caldas\n"+
 "- Alexandre Gunnerson\n"+
 "- Jeffrey Guo\n"+
@@ -235,48 +266,66 @@ let intermediate =
 "- Vincent Ngo\n"+
 "- Mohammad Ullah\n"+
 "- Eric Wang\n"+
-"- Anthony Wang\n\n"+
-"Female Open Barehand\n"+
-"- Jae Hee Jang\n\n"+
-"Female 24 Taiji\n"+
+"- Anthony Wang\n\n\n"
+
+let intOpenBH =
+"Female Open Barehand\n\n"+
+"- Jae Hee Jang\n\n\n"
+
+let int24Taiji =
+"Female 24 Taiji\n\n"+
 "- Annie Hanichak\n"+
 "- Melodee Li\n"+
 "- Adanna Liu\n"+
 "- Sara Ng\n"+
 "- Annie Shi\n"+
-"- Erika Yu\n\n"+
-"Female Open Taiji\n"+
-"- Julie Wang\n\n"+
-"Male Open Chen\n"+
-"- Carlos Estrada\n\n"+
-"Female 42 Fist\n"+
-"- Erika Yu\n\n"+
-"Female Traditional Open Barehand\n"+
+"- Erika Yu\n\n\n"
+
+let intOpenTaiji =
+"Female Open Taiji\n\n"+
+"- Julie Wang\n\n\n"
+
+let intOpenChen =
+"Male Open Chen\n\n"+
+"- Carlos Estrada\n\n\n"
+
+let int42Fist =
+"Female 42 Fist\n\n"+
+"- Erika Yu\n\n\n"
+
+let intTradOpenBH =
+"Female Traditional Open Barehand\n\n"+
 "- Jasmine Chen\n"
 "- Sunny Chiu\n"
 "- Clarity Chua\n"
 "- Karen Kuang\n"
 "- Jennie Wang\n"
 "- Julie Wang\n"
-"- Lisa Yu\n\n"+
-"Male Traditional Open Barehand\n"+
+"- Lisa Yu\n\n\n"+
+
+"Male Traditional Open Barehand\n\n"+
 "- Akshara Aditya\n"+
 "- Simon Lee\n"+
 "- Vincent Ngo\n"+
-"- Henderson Wong\n\n"+
-"Female Broadsword\n"+
+"- Henderson Wong\n\n\n"
+
+let intBroadsword =
+"Female Broadsword\n\n"+
 "- Karen Kuang\n"+
 "- Kristi Lin\n"+
-"- Katie Zhao\n\n"+
-"Male Broadsword\n"+
+"- Katie Zhao\n\n\n"+
+
+"Male Broadsword\n\n"+
 "- Chinmaya Aditya\n"+
 "- Danny Be\n"+
 "- Carlos Estrada\n"+
 "- Mitchell Levasseur\n"+
 "- Stuart Sy\n"+
 "- Anthony Wang\n"+
-"- Joshua Ya\n\n"+
-"Female Straightsword\n"+
+"- Joshua Ya\n\n\n"
+
+let intStraightsword =
+"Female Straightsword\n\n"+
 "- Winni Gao\n"+
 "- Annie Hanichak\n"+
 "- Melodee Li\n"+
@@ -285,57 +334,80 @@ let intermediate =
 "- Annie Shi\n"+
 "- Sharon Shu\n"+
 "- Jasmine Wong\n"+
-"- Rebecca Yap\n\n"+
-"Male Straightsword\n"+
+"- Rebecca Yap\n\n\n"+
+
+"Male Straightsword\n\n"+
 "- Kenneth Chen\n"+
 "- Haejin Park\n"+
-"- Ryan Wang\n\n"+
-"Male Nandao\n"+
+"- Ryan Wang\n\n\n"
+
+let intNandao =
+"Male Nandao\n\n"+
 "- Noah Mastruserio\n"+
-"- Mohammad Ullah\n\n"+
-"Female Other Weapon\n"+
+"- Mohammad Ullah\n\n\n"
+
+let intOtherWeapon =
+"Female Other Weapon\n\n"+
 "- Tiffany Hwu\n"+
 "- Shirley Mach\n"+
 "- Vivienne Nguyen\n"+
-"- Sharon Shu\n\n"+
-"Male Other Weapon\n"+
-"- Henderson Wong\n\n"+
-"Female Staff\n"+
+"- Sharon Shu\n\n\n"+
+
+"Male Other Weapon\n\n"+
+"- Henderson Wong\n\n\n"
+
+let intStaff ="Female Staff\n\n"+
 "- Tiffany Hwu\n"+
-"- Karen Kuang\n\n"+
-"Male Staff\n"+
+"- Karen Kuang\n\n\n"+
+
+"Male Staff\n\n"+
 "- Ethan Green\n"+
-"- Kwynn Johnson\n\n"+
-"Female Spear\n"+
+"- Kwynn Johnson\n\n\n"
+
+let intSpear =
+"Female Spear\n\n"+
 "- Annmarie Cong\n"+
 "- Julia Leung\n"+
-"- Michelle Tu\n\n"+
-"Male Spear\n"+
+"- Michelle Tu\n\n\n"+
+
+"Male Spear\n\n"+
 "- Kenneth Chen\n"+
-"- Ryan Wang\n\n"+
-"Female Southern Staff\n"+
-"- Jasmine Wong\n\n"+
-"Male Southern Staff\n"+
+"- Ryan Wang\n\n\n"
+
+let intSouthernStaff =
+"Female Southern Staff\n\n"+
+"- Jasmine Wong\n\n\n"+
+
+"Male Southern Staff\n\n"+
 "- John Caldas\n"+
-"- Eric Wang\n\n"+
-"Female Traditional Long Weapon\n"+
-"- Lisa Yu\n\n"+
-"Male Traditional Long Weapon\n"+
+"- Eric Wang\n\n\n"
+
+let intTradLongWeapon =
+"Female Traditional Long Weapon\n\n"+
+"- Lisa Yu\n\n\n"+
+
+"Male Traditional Long Weapon\n\n"+
 "- Erick Partida\n"+
-"- Eric Wang\n\n"+
-"Female Traditional Short Weapon\n"+
+"- Eric Wang\n\n\n"
+
+let intTradShortWeapon =
+"Female Traditional Short Weapon\n\n"+
 "- Sunny Chiu\n"+
 "- Clarity Chua\n"+
 "- Kristi Lin\n"+
-"- Kelly Zhang\n\n"+
-"Male Traditional Short Weapon\n"+
-"- Simon Lee\n\n"
+"- Kelly Zhang\n\n\n"+
 
-let advanced = 
-"Male Changquan(nandu)\n"+
+"Male Traditional Short Weapon\n\n"+
+"- Simon Lee\n\n\n"
+
+//Advanced
+let advChangquanNandu =
+"Male Changquan(nandu)\n\n"+
 "- Patrick Moua\n"+
-"- Tim Wang\n\n"+
-"Female Changquan\n"+
+"- Tim Wang\n\n\n"
+
+let advChangquan =
+"Female Changquan\n\n"+
 "- Rebecca Chinn\n"+
 "- Caitlin Escudero\n"+
 "- Emily Fan\n"+
@@ -345,8 +417,9 @@ let advanced =
 "- Alyssa Lo\n"+
 "- Kaitlyn Trinh\n"+
 "- Joy Zeng\n"+
-"- Daisy Zheng\n\n"+
-"Male Changquan\n"+
+"- Daisy Zheng\n\n\n"+
+
+"Male Changquan\n\n"+
 "- Jeffson Atienza\n"+
 "- Mario Caballero\n"+
 "- Oey Chang\n"+
@@ -372,58 +445,81 @@ let advanced =
 "- Albert Zhang\n"+
 "- Ryan Zheng\n"+
 "- Jemmy Zhou\n"+
-"- Jason Zou\n\n"+
-"Female Nanquan\n"+
-"- Sabrina Chiang\n"+
-"- Queenie Li\n\n"+
-"Male Nanquan\n"+
-"- Darren Deng\n\n"+
-"Male Open Barehand\n"+
-"- Robert Yu\n\n"+
-"Female 24 Taiji\n"+
+"- Jason Zou\n\n\n"
+
+let advNanquan ="Female Nanquan\n\n"+
+"- Sabrina Chiang"+
+"- Queenie Li\n\n\n"+
+
+"Male Nanquan\n\n"+
+"- Darren Deng\n\n\n"
+
+let advOpenBH =
+"Male Open Barehand\n\n"+
+"- Robert Yu\n\n\n"
+
+let adv24Taiji =
+"Female 24 Taiji\n\n"+
 "- Gina Bao\n"+
 "- Marianne Dang\n"+
-"- Amy Pribadi\n\n"+
-"Male 24 Taiji\n"+
+"- Amy Pribadi\n\n\n"+
+
+"Male 24 Taiji\n\n"+
 "- Kevin Chen\n"+
 "- Michael Fang\n"+
 "- Jonathan Li\n"+
 "- Richard Nguyen\n"+
-"- Ying Hong Tham\n\n"+
-"Male Open Yang\n"+
+"- Ying Hong Tham\n\n\n"
+
+let advOpenYang =
+"Male Open Yang\n\n"+
 "- William Du\n"+
-"- Ethyn Leong\n\n"+
-"Female Open Chen\n"+
+"- Ethyn Leong\n\n\n"
+
+let advOpenChen =
+"Female Open Chen\n\n"+
 "- Gina Bao\n"+
 "- Marianne Dang\n"+
 "- Amy Pribadi\n"+
-"- Dimei Wu\n\n"+
-"Male Open Chen\n"+
+"- Dimei Wu\n\n\n"+
+
+"Male Open Chen\n\n"+
 "- William Du\n"+
 "- Michael Fang\n"+
 "- Philip Hwang\n"+
-"- Ying Hong Tham\n\n"+
-"Female 42 Fist\n"+
+"- Ying Hong Tham\n\n\n"
+
+let adv42Fist =
+"Female 42 Fist\n\n"+
 "- Marianne Dang]n"+
-"- Amy Pribadi\n\n"+
-"Male 42 Fist\n"+
+"- Amy Pribadi\n\n\n"+
+
+"Male 42 Fist\n\n"+
 "- Michael Fang\n"+
-"- Ying Hong Tham\n\n"+
-"Female Internal Open Fist\n"+
-"- Cecilia Springer\n\n"+
-"Male Internal Open Fist\n"+
-"- Richard Nguyen\n\n"+
-"Female Traditional Open Barehand\n"+
+"- Ying Hong Tham\n\n\n"
+
+let advInternalOpenFist =
+"Female Internal Open Fist\n\n"+
+"- Cecilia Springer\n\n\n"+
+
+"Male Internal Open Fist\n\n"+
+"- Richard Nguyen\n\n\n"
+
+let advTradOpenBH =
+"Female Traditional Open Barehand\n\n"+
 "- Rebecca Chinn\n"+
-"- Cecilia Springer\n\n"+
-"Male Traditional Open Barehand\n"+
+"- Cecilia Springer\n\n\n"+
+
+"Male Traditional Open Barehand\n\n"+
 "- Oey Chang\n"+
 "- Connor Hum\n"+
 "- Kristian Koeser\n"+
 "- Winston Lee\n"+
 "- Alexander Lu\n"+
-"- Linfeng Wu\n\n"+
-"Female Broadsword\n"+
+"- Linfeng Wu\n\n\n"
+
+let advBroadsword =
+"Female Broadsword\n\n"+
 "- Zoe Chan\n"+
 "- Sabrina Chiang\n"+
 "- Rebecca Chinn\n"+
@@ -431,8 +527,9 @@ let advanced =
 "- Queenie Li\n"+
 "- Michelle Sit\n"+
 "- Kaitlyn Trinh\n"+
-"- Daisy Zheng\n\n"+
-"Male Broadsword\n"+
+"- Daisy Zheng\n\n\n"+
+
+"Male Broadsword\n\n"+
 "- Jeffson Atienza\n"+
 "- Oey Chang\n"+
 "- Chuan Chen\n"+
@@ -443,8 +540,10 @@ let advanced =
 "- Erik Song\n"+
 "- Howard Wang\n"+
 "- Alexander Wu\n"+
-"- Jason Zou\n\n"+
-"Female Straightsword\n"+
+"- Jason Zou\n\n\n"
+
+let advStraightsword =
+"Female Straightsword\n\n"+
 "- Kasey Chan\n"+
 "- Emily Fan\n"+
 "- Hannah Ho\n"+
@@ -453,8 +552,9 @@ let advanced =
 "- Alyssa Lo\n"+
 "- Dimei Wu\n"+
 "- Emily Yang\n"+
-"- Joy Zeng\n\n"+
-"Male Straightsword\n"+
+"- Joy Zeng\n\n\n"+
+
+"Male Straightsword\n\n"+
 "- Mario Caballero\n"+
 "- Kevin Chen\n"+
 "- Dominic Chow\n"+
@@ -468,31 +568,43 @@ let advanced =
 "- Tim Wang\n"+
 "- Robert Yu\n"+
 "- Ryan Zheng\n"+
-"- Jemmy Zhou\n\n"+
-"Female 42 Sword\n"+
+"- Jemmy Zhou\n\n\n"
+
+let adv42Sword =
+"Female 42 Sword\n\n"+
 "- Amy Pribadi\n"+
-"- Dimei Wu\n\n"+
-"Male 42 Sword\n"+
-"- Ying Hong Tham\n\n"+
-"Female Taiji Weapon\n"+
+"- Dimei Wu\n\n\n"+
+
+"Male 42 Sword\n\n"+
+"- Ying Hong Tham\n\n\n"
+
+let advTaijiWeapon =
+"Female Taiji Weapon\n\n"+
 "- Gina Bao\n"+
-"- Marianne Dang\n\n"+
-"Male Taiji Weapon\n"+
+"- Marianne Dang\n\n\n"+
+
+"Male Taiji Weapon\n\n"+
 "- William Du\n"+
 "- Ethyn Leong\n"+
-"- Richard Nguyen\n\n"+
-"Female Other Weapon\n"+
-"- Zoe Chan\n\n"+
-"Male Other Weapon\n"+
+"- Richard Nguyen\n\n\n"
+
+let advOtherWeapon =
+"Female Other Weapon\n\n"+
+"- Zoe Chan\n\n\n"+
+
+"Male Other Weapon\n\n"+
 "- Kevin Chen\n"+
 "- Irwin Hui\n"+
 "- Winston Lee\n"+
-"- Linfeng Wu\n\n"+
-"Female Staff\n"+
+"- Linfeng Wu\n\n\n"
+
+let advStaff =
+"Female Staff\n\n"+
 "- Rebecca Chinn\n"+
 "- Bridget Keeney\n"+
-"- Queenie Li\n\n"+
-"Male Staff\n"+
+"- Queenie Li\n\n\n"+
+
+"Male Staff\n\n"+
 "- Jeffson Atienza\n"+
 "- Oey Chang\n"+
 "- Chuan Chen\n"+
@@ -504,31 +616,44 @@ let advanced =
 "- Khang Nguyen\n"+
 "- Brian Tran\n"+
 "- Ryan Zheng\n"+
-"- Jason Zou\n\n"+
-"Female Spear\n"+
+"- Jason Zou\n\n\n"
+
+let advSpear =
+"Female Spear\n\n"+
 "- Kasey Chan\n"+
 "- Emily Fan\n"+
 "- Alyssa Lo\n"+
-"- Emily Yang\n\n"+
-"Male Spear\n"+
+"- Emily Yang\n\n\n"+
+
+"Male Spear\n\n"+
 "- Irwin Hui\n"+
 "- Kristian Koeser\n"+
 "- Jason Tang\n"+
 "- Robert Yu\n"+
-"- Jemmy Zhou\n\n"+
-"Male Southern Staff\n"+
-"- Darren Deng\n\n"+
-"Female Long Weapon\n"+
-"- Cecilia Springer\n\n"+
-"Female Traditional Short Weapon\n"+
+"- Jemmy Zhou\n\n\n"
+
+let advSouthernStaff =
+"Male Southern Staff\n\n"+
+"- Darren Deng\n\n\n"
+
+let advLongWeapon =
+"Female Long Weapon\n\n"+
+"- Cecilia Springer\n\n\n"
+
+let advTradShortWeapon =
+"Female Traditional Short Weapon\n\n"+
 "- Michelle Chin\n"+
-"- Cecilia Springer\n\n"+
-"Male Traditional Short Weapon\n"+
-"- Alexander Wu\n\n"+
-"Female Traditional Soft Weapon\n"+
-"- Queenie Li\n\n"+
-"Male Traditional Soft Weapon\n"+
-"- Eric Fu\n\n"
+"- Cecilia Springer\n\n\n"+
+
+"Male Traditional Short Weapon\n\n"+
+"- Alexander Wu\n\n\n"
+
+let advTradSoftWeapon =
+"Female Traditional Soft Weapon\n\n"+
+"- Queenie Li\n\n\n"+
+
+"Male Traditional Soft Weapon\n\n"+
+"- Eric Fu\n\n\n"
 
 function decideMessage(sender, textInput){
 	let text = textInput.toLowerCase()
@@ -561,13 +686,120 @@ function decideMessage(sender, textInput){
 		sendVenueImageMessage(sender)
 	//view events by experience level
 	} else if (text == "events"){
-		sendEventButtonMessage(sender, "Choose a division button, or type 'beginner', 'intermediate', or 'advanced' to view.")
-	} else if (text.includes("beg")){
-		sendText(sender, beginner)
-	} else if (text.includes("int")){
-		sendText(sender, intermediate)
-	} else if (text.includes("adv")){
-		sendText(sender, advanced)
+		sendText(sender, "Please type 'beg', 'int', 'adv', 'beginner', 'intermediate', or 'advanced' to continue to that category.")
+	} else if ((text == "beg") || (text == "beginner")){
+		sendBeginner(sender)
+	} else if ((text == "int") || (text == "intermediate")){
+		sendIntermediate(sender)
+	} else if ((text == "adv") || (text == "advanced")){
+		sendAdvanced(sender)
+	} else if (text == "begchangquan"){
+	sendText(sender, begChangquan)	
+	} else if (text == "begnanquan"){
+		sendText(sender, begNanquan)	
+	} else if (text == "beg24taiji"){
+		sendText(sender, beg24Taiji)	
+	} else if (text == "begopenyang"){
+		sendText(sender, begOpenYang)	
+	} else if (text == "begtradopenbh"){
+		sendText(sender, begTradOpenBH)	
+	} else if (text == "begbroadsword"){
+		sendText(sender, begBroadsword)	
+	} else if (text == "begstraightsword"){
+		sendText(sender, begStraightsword)	
+	} else if (text == "begotherweapon"){
+		sendText(sender, begOtherWeapon)	
+	} else if (text == "begstaff"){
+		sendText(sender, begStaff)	
+	} else if (text == "begtradshortweapon"){
+		sendText(sender, begTradShortWeapon)	
+	} else if (text == "intchangquan"){
+		sendText(sender, intChangquan)	
+	} else if (text == "intnanquan"){
+		sendText(sender, intNanquan)	
+	} else if (text == "intopenbh"){
+		sendText(sender, intOpenBH)	
+	} else if (text == "int24taiji"){
+		sendText(sender, int24Taiji)	
+	} else if (text == "intopentaiji"){
+		sendText(sender, intOpenTaiji)	
+	} else if (text == "intopenchen"){
+		sendText(sender, intOpenChen)	
+	} else if (text == "int42fist"){
+		sendText(sender, int42Fist)	
+	} else if (text == "inttradopenbh"){
+		sendText(sender, intTradOpenBH)	
+	} else if (text == "intbroadsword"){
+		sendText(sender, intBroadsword)	
+	} else if (text == "intstraightsword"){
+		sendText(sender, intStraightsword)	
+	} else if (text == "intnandao"){
+		sendText(sender, intNandao)	
+	} else if (text == "intotherweapon"){
+		sendText(sender, intOtherWeapon)	
+	} else if (text == "intstaff"){
+		sendText(sender, intStaff)	
+	} else if (text == "intspear"){
+		sendText(sender, intSpear)	
+	} else if (text == "intsouthernstaff"){
+		sendText(sender, intSouthernStaff)	
+	} else if (text == "inttradlongweapon"){
+		sendText(sender, intTradLongWeapon)	
+	} else if (text == "inttradshortweapon"){
+		sendText(sender, intTradShortWeapon)	
+	} else if (text == "advchangquannandu"){
+		sendText(sender, advChangquanNandu)	
+	} else if (text == "advchangquan"){
+		sendText(sender, advChangquan)	
+	} else if (text == "advnanquan"){
+		sendText(sender, advNanquan)	
+	} else if (text == "advopenbh"){
+		sendText(sender, advOpenBH)	
+	} else if (text == "adv24taiji"){
+		sendText(sender, adv24Taiji)	
+	} else if (text == "advopenyang"){
+		sendText(sender, advOpenYang)	
+	} else if (text == "advopenchen"){
+		sendText(sender, advOpenChen)	
+	} else if (text == "adv42fist"){
+		sendText(sender, adv42Fist)	
+	} else if (text == "advinternalopenfist"){
+		sendText(sender, advInternalOpenFist)	
+	} else if (text == "advtradopenbh"){
+		sendText(sender, advTradOpenBH)	
+	} else if (text == "advbroadsword"){
+		sendText(sender, advBroadsword)	
+	} else if (text == "advstraightsword"){
+		sendText(sender, advStraightsword)	
+	} else if (text == "adv42sword"){
+		sendText(sender, adv42Sword)	
+	} else if (text == "advtaijiweapon"){
+		sendText(sender, advTaijiWeapon)	
+	} else if (text == "advotherweapon"){
+		sendText(sender, advOtherWeapon)	
+	} else if (text == "advstaff"){
+		sendText(sender, advStaff)	
+	} else if (text == "advspear"){
+		sendText(sender, advSpear)	
+	} else if (text == "advsouthernstaff"){
+		sendText(sender, advSouthernStaff)	
+	} else if (text == "advlongweapon"){
+		sendText(sender, advLongWeapon)	
+	} else if (text == "advtradshortweapon"){
+		sendText(sender, advTradShortWeapon)	
+	} else if (text == "advtradsoftweapon"){
+		sendText(sender, advTradSoftWeapon)	
+	/**DEPRECATED BUT KEEPING FOR REFERENCE**/
+	// } else if (text == "events"){
+	// 	sendEventButtonMessage(sender, "Choose a division button, or type 'beginner', 'intermediate', or 'advanced' to view.")
+	// } else if (text.includes("beg")){
+	// 	sendText(sender, beginner)
+	// } else if (text.includes("int")){
+	// 	sendText(sender, intermediate)
+	// } else if (text.includes("adv")){
+	// 	sendText(sender, advanced)
+	/**DEPRECATED BUT KEEPING FOR REFERENCE**/
+
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
 		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
@@ -832,6 +1064,374 @@ function sendLunch(sender){
 	sendRequest(sender, messageData)
 }
 
+function sendBeginner(sender){
+	let messageData = {
+    "attachment": {
+      "type": "template",
+      "payload": {
+        "template_type": "generic",
+        "elements": [
+          {
+            "title": "Swipe left/right for more beginner options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Beginner",
+                "payload": "begChangquan"
+              },
+              {
+                "type": "postback",
+                "title": "Beginner",
+                "payload": "begNanquan"
+              },
+              {
+                "type": "postback",
+                "title": "Beginner",
+                "payload": "beg24Taiji"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more beginner options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Beginner",
+                "payload": "begOpenYang"
+              },
+              {
+                "type": "postback",
+                "title": "Beginner",
+                "payload": "begTradOpenBH"
+              },
+              {
+                "type": "postback",
+                "title": "Beginner",
+                "payload": "begBroadsword"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more beginner options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Beginner",
+                "payload": "begStraightsword"
+              },
+              {
+                "type": "postback",
+                "title": "Beginner",
+                "payload": "begOtherWeapon"
+              },
+              {
+                "type": "postback",
+                "title": "Beginner",
+                "payload": "begStaff"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more beginner options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Beginner",
+                "payload": "begTradShortWeapon"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+  sendRequest(sender, messageData)
+}
+
+function sendIntermediate(sender){
+  let messageData = {
+    "attachment": {
+      "type": "template",
+      "payload": {
+        "template_type": "generic",
+        "elements": [
+          {
+            "title": "Swipe left/right for more intermediate options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intChangquan"
+              },
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intNanquan"
+              },
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intOpenBH"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more intermediate options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "int24Taiji"
+              },
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intOpenTaiji"
+              },
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intOpenChen"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more intermediate options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "int42Fist"
+              },
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intTradOpenBH"
+              },
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intBroadsword"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more intermediate options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intStraightsword"
+              },
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intNandao"
+              },
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intOtherWeapon"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more intermediate options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intStaff"
+              },
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intSpear"
+              },
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intSouthernStaff"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more intermediate options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intTradLongWeapon"
+              },
+              {
+                "type": "postback",
+                "title": "Intermediate",
+                "payload": "intTradShortWeapon"
+              }
+            ]
+          } 
+        ]
+      }
+    }
+  }
+  sendRequest(sender, messageData)
+}
+
+function sendAdvanced(sender){
+	let messageData = {
+    "attachment": {
+      "type": "template",
+      "payload": {
+        "template_type": "generic",
+        "elements": [
+          {
+            "title": "Swipe left/right for more advanced options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advChangquanNandu"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advChangquan"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advNanquan"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more advanced options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advOpenBH"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "adv24Taiji"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advOpenYang"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more advanced options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advOpenChen"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "adv42Fist"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advInternalOpenFist"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more advanced options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advTradOpenBH"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advBroadsword"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advStraightsword"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more advanced options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "adv42Sword"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advTaijiWeapon"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advOtherWeapon"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more advanced options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advStaff"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advSpear"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advSouthernStaff"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more advanced options.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advLongWeapon"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advTradShortWeapon"
+              },
+              {
+                "type": "postback",
+                "title": "Advanced",
+                "payload": "advTradSoftWeapon"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+  sendRequest(sender, messageData)
+}
+
+//SECRETS
 let wushuMemes = 	["https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-12/29134107_10155852780251634_897366883_n.jpg?oh=4ed630117311ed82f489fa0ddebda7b7&oe=5AB3EA45",
 					"https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-0/s261x260/29019269_10155852777861634_2022816261_n.jpg?_nc_cat=0&oh=fcb8a22170812642f50e55885547d9aa&oe=5AB3CCF2",
 					"https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-0/p160x160/29134838_10155852780256634_1495910984_n.jpg?_nc_cat=0&oh=3684fb47d1467616af4946e450f2e929&oe=5AB4D899",
@@ -854,6 +1454,7 @@ function sendMeme(sender){
 	}
 	sendRequest(sender, messageData)
 }
+//END SECRETS
 
 app.listen(app.get('port'), function(){
 	console.log("Running: port")
