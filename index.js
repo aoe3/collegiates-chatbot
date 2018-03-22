@@ -37,7 +37,6 @@ app.post('/webhook/', function (req, res) {
 		if (event.message && event.message.text) {
 			let text = event.message.text
 			decideMessage(sender, text)
-			//sendText(sender, "Text echo: \n" + text.substring(0, 100) + "\n \n lololol")
 		}
 		if(event.postback) {
 			let text = JSON.stringify(event.postback)
@@ -684,7 +683,8 @@ function decideMessage(sender, textInput){
 		let venueText = {text: "Here is a map of the venue:"}
 		sendRequest(sender, venueText)
 		sendVenueImageMessage(sender)
-	//view events by experience level
+
+	//view events
 	} else if (text == "events"){
 		sendText(sender, "Please type 'beg', 'int', 'adv', 'beginner', 'intermediate', or 'advanced' to continue to that category.")
 	} else if ((text == "beg") || (text == "beginner")){
@@ -789,6 +789,8 @@ function decideMessage(sender, textInput){
 		sendText(sender, advTradShortWeapon)	
 	} else if (text.includes("advtradsoftweapon")){
 		sendText(sender, advTradSoftWeapon)	
+	//end events
+
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
 		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
@@ -829,7 +831,7 @@ function decideMessage(sender, textInput){
 							"Adv TJ")
 	//POTENTIAL real-time schedule... what's happening now?
 	// } else if (text == "schedule"){
-
+	//	sendText(sender, "Ring 1: event1\nRing 2: event2\nRing 3: event3")
 	// //POTENTIAL real-time scores... let's see?
 	// } else if (text == "scores"){
 
@@ -890,7 +892,7 @@ function decideMessage(sender, textInput){
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
 		sendText(sender, "To get in touch:\n\nE-mail: pittwushu@gmail.com\nTel: 555-555-5555")
-	} else if((text == "thanks") || (text == "thank you")){
+	} else if((text.includes("thanks")) || (text.includes("thank you"))){
 		sendText(sender, "You're welcome! You're my favorite human!")
 	} else if(text.includes("i love you")) {
 		sendText(sender, "WHAT IS LOVE?\nBABY, DON'T HURT ME!\nDON'T HURT ME!\nNO MORE!")
