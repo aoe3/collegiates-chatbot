@@ -660,14 +660,14 @@ function decideMessage(sender, textInput){
 	if ((text == "help") || (text.includes("halp")) || (text.includes("help"))){
 		sendText(sender, 
 			"You asked for help!\n \n" + 
-			"Ring info, type 'rings'\n \n"+ 
-			"Event info, type 'events', 'beg', 'int', or 'adv'\n\n"+
-			"Venue map, type 'venue'\n \n"+ 
+			"- For ring info, type 'rings'\n"+ 
+			"- For event info, type 'events', 'beg', 'int', or 'adv'\n"+
+			"- For the venue map, type 'venue'\n"+ 
 			// "To see the current events happening, type 'schedule' \n \n"+ 
 			// "To see scores, type 'scores' \n \n"+ 
-			"Food court (ONLY FOR LUNCH ON DAY OF COMPETITION), type 'foodcourt' or 'lunch' \n \n"+ 
-			"Local Restaurants, type 'local'\n \n"+ 
-			"Contact information, type 'contact'\n \n"+ 
+			"For the food court (ONLY FOR LUNCH ON DAY OF COMPETITION), type 'foodcourt' or 'lunch'\n"+ 
+			"For local Restaurants, type 'local'\n"+ 
+			"For contact information, type 'contact'\n"+ 
 			"To see all this info again, type 'help'")
 
 	//greetings
