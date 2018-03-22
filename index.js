@@ -687,7 +687,6 @@ function decideMessage(sender, textInput){
 		sendText(sender, "The 22nd Annual Collegiate Wushu Tournament is April 7th, 2018.")
 	} else if ((text.includes("where")) || (text.includes("location"))){
 		sendText(sender, "The 22nd Annual Collegiate Wushu Tournament is being held at Fitzgeral Fieldhouse in Pittsburgh, PA")
-	}
 	//view events
 	} else if (text.includes("events")){
 		sendText(sender, "Please type 'beg', 'int', 'adv', 'beginner', 'intermediate', or 'advanced' to continue to that category.")
