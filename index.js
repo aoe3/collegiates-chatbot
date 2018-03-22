@@ -789,17 +789,6 @@ function decideMessage(sender, textInput){
 		sendText(sender, advTradShortWeapon)	
 	} else if (text.includes("advtradsoftweapon")){
 		sendText(sender, advTradSoftWeapon)	
-	/**DEPRECATED BUT KEEPING FOR REFERENCE**/
-	// } else if (text == "events"){
-	// 	sendEventButtonMessage(sender, "Choose a division button, or type 'beginner', 'intermediate', or 'advanced' to view.")
-	// } else if (text.includes("beg")){
-	// 	sendText(sender, beginner)
-	// } else if (text.includes("int")){
-	// 	sendText(sender, intermediate)
-	// } else if (text.includes("adv")){
-	// 	sendText(sender, advanced)
-	/**DEPRECATED BUT KEEPING FOR REFERENCE**/
-
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
 		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
@@ -849,7 +838,6 @@ function decideMessage(sender, textInput){
 		sendLunch(sender)
 		let lunchText = {text: "The food court will be open from 11 A.M. to 6 P.M. ONLY on the day of the competition!\n\nThe food court is located at 3719 Terrace Street, down the escalators!"}
 		sendRequest(sender, lunchText)
-	// 	sendText(sender, "Competition day fuel!")
 	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
 	} else if ((text == "local") || (text.includes("hungry")) || (text.includes("food")) || (text.includes("eat")) || (text.includes("restaurant"))){
 		sendLocalButtonMessage(sender, "Choose a price point!\n$ = roughly less than $15\n$$ = roughly $15 to $25\n$$$ = greater than $25")
