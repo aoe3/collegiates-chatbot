@@ -853,7 +853,7 @@ function decideMessage(sender, textInput){
 	} else if ((text == "local") || (text.includes("hungry")) || (text.includes("food")) || (text.includes("eat")) || (text.includes("restaurant"))){
 		sendLocalButtonMessage(sender, "Choose a price point!\n$ = roughly less than $15\n$$ = roughly $15 to $25\n$$$ = greater than $25")
 	//price point breakdown 
-	} else if((text.includes("3$")) || (text.includes("$$$")) || (text.includes("$$ (over $25)"))){
+	} else if((text.includes("3$")) || (text.includes("$$$"))){
 		sendText(sender, 
 					"Legume\n- American\n- Sleek bistro serving seasonal, locally sourced fare, with drinks from the attached bar, Butterjoint.\n- 214 N Craig St, Pittsburgh, PA 15213\n\n"+
 
@@ -866,7 +866,7 @@ function decideMessage(sender, textInput){
 					"Grand Concourse\n- Seafood\n- Train station turned upscale restaurant with seafood & steaks plus a more casual attached saloon.\n- 100 W Station Square Dr, Pittsburgh, PA 15219\n\n"+
 
 					"Monterey Bay Fish Grotto\n- Seafood\n- White-tablecloth eatery & bar with panoramic riverside views offers elegantly plated seafood.\n- 1411 Grandview Ave, Pittsburgh, PA 15211")
-	} else if((text.includes("2$")) || (text.includes("$$")) || (text.includes("$ ($15 to $25)"))){
+	} else if((text.includes("2$")) || (text.includes("$$"))){
 		sendText(sender, 
 					"Meat and Potatoes\n- American\n- Chic, modern gastropub making New American dinners, eclectic brunch items & inventive mixed drinks.\n- 649 Penn Ave, Pittsburgh, PA 15222\n\n"+
 
@@ -879,7 +879,7 @@ function decideMessage(sender, textInput){
 					"Church Brew Works\n- Other\n- Former church is now a lofty space for house-brewed beers, plus a mix of pizza, pierogi & bratwurst.\n- 3525 Liberty Ave, Pittsburgh, PA 15201\n\n"+
 
 					"täkō\n- Mexican\n- Lively taqueria with sidewalk seating serving inventive Mexican street food in chill digs.\n- 214 6th St, Pittsburgh, PA 15222")
-	} else if ((text.includes("1$")) || (text.includes("$")) || (text.includes("$ (less than $15)"))){
+	} else if ((text.includes("1$")) || (text.includes("$"))){
 		sendText(sender, 
 					"Pamela's Diner(CASH ONLY)\nAmerican\n- Charming, retro breakfast & lunch spot for specialty crepe-hotcakes, omelets & burgers. Cash only.\n- 3703 Forbes Ave, Pittsburgh, PA 15213\n\n"+
 
