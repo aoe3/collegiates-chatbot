@@ -852,7 +852,7 @@ function decideMessage(sender, textInput){
 	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
 	} else if ((text == "local") || (text.includes("hungry")) || (text.includes("food")) || (text.includes("eat")) || (text.includes("restaurant"))){
 		sendLocalButtonMessage(sender, "Choose a price point!\n$ = roughly less than $15\n$$ = roughly $15 to $25\n$$$ = greater than $25")
-	//price point breakdown
+	//price point breakdown 
 	} else if (text.includes("1$")){
 		sendText(sender, 
 					"Pamela's Diner(CASH ONLY)\nAmerican\n- Charming, retro breakfast & lunch spot for specialty crepe-hotcakes, omelets & burgers. Cash only.\n- 3703 Forbes Ave, Pittsburgh, PA 15213\n\n"+
