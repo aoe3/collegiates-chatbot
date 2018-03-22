@@ -690,11 +690,11 @@ function decideMessage(sender, textInput){
 	//view events
 	} else if (text.includes("events")){
 		sendText(sender, "Please type 'beg', 'int', 'adv', 'beginner', 'intermediate', or 'advanced' to continue to that category.")
-	} else if ((text.includes("beg")) || (text.includes("beginner"))){
+	} else if ((text == "beg") || (text == "beginner")){
 		sendBeginner(sender)
-	} else if ((text.includes("int")) || (text.includes("intermediate"))){
+	} else if ((text == "int") || (text == "intermediate")){
 		sendIntermediate(sender)
-	} else if ((text.includes("adv")) || (text.includes("advanced"))){
+	} else if ((text == "adv") || (text == "advanced")){
 		sendAdvanced(sender)
 	} else if (text.includes("begchangquan")){
 	sendText(sender, begChangquan)	
