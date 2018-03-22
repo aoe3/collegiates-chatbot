@@ -654,6 +654,11 @@ let advTradSoftWeapon =
 "Male Traditional Soft Weapon\n\n"+
 "- Eric Fu\n\n\n"
 
+//greetings
+greetings =["Hello! I'm the ACWT Helper ChatBot! To best learn how to use me, type 'help' as a message!",
+			"Hi! I'm a helper chatbot for the ACWT! Want to know what I can do? Type 'help' as a message!",
+			"Hey! I'm the ACWT Chatbot! I can give you the best info on where to eat, what's going on, and who to contact! To find out more, type 'help' as a message!"]
+
 function decideMessage(sender, textInput){
 	let text = textInput.toLowerCase()
 	//give instructions for use
@@ -670,12 +675,11 @@ function decideMessage(sender, textInput){
 			"- To see all this info again, type 'help'")
 
 	//greetings
-	} else if ((text.includes("hi")) || (text.includes("hola")) || (text.includes("aloha")) || (text.includes("konichiwa"))) {
-		sendText(sender, "Hello! I'm the ACWT Helper ChatBot! To best learn how to use me, type 'help' as a message!")
-	} else if ((text.includes("hello")) || (text.includes("holla")) || (text.includes("bonjour")) || (text.includes("ni hao")) || (text.includes("sup"))){
-		sendText(sender, "Hi! I'm a helper chatbot for the ACWT! Want to know what I can do? Type 'help' as a message!")
-	} else if ((text.includes("hey")) || (text.includes("hallo")) || (text.includes("ciao")) || (text.includes("ello")) || (text.includes("yo"))){
-		sendText(sender, "Hey! I'm the ACWT Chatbot! I can give you the best info on where to eat, what's going on, and who to contact! To find out more, type 'help' as a message!")
+	} else if ((text.includes("hi")) || (text.includes("hola")) || (text.includes("aloha")) || (text.includes("konichiwa")) || 
+				(text.includes("hello")) || (text.includes("holla")) || (text.includes("bonjour")) || (text.includes("ni hao")) || 
+				(text.includes("sup")) || (text.includes("hey")) || (text.includes("hallo")) || (text.includes("ciao")) || 
+				(text.includes("ello")) || (text.includes("yo"))){
+		sendText(sender, greetings[Math.floor(Math.random() * greetings.length)])
 	//end greetings
 
 	// map of venue with rings
