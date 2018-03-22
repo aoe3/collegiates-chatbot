@@ -1062,7 +1062,7 @@ function sendBeginner(sender){
         "template_type": "generic",
         "elements": [
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1082,7 +1082,7 @@ function sendBeginner(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click on arrows in bubble below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1102,7 +1102,7 @@ function sendBeginner(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1122,7 +1122,7 @@ function sendBeginner(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1146,7 +1146,7 @@ function sendIntermediate(sender){
         "template_type": "generic",
         "elements": [
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1166,7 +1166,7 @@ function sendIntermediate(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1186,7 +1186,7 @@ function sendIntermediate(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1206,7 +1206,7 @@ function sendIntermediate(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1226,7 +1226,7 @@ function sendIntermediate(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1246,7 +1246,7 @@ function sendIntermediate(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1275,7 +1275,7 @@ function sendAdvanced(sender){
         "template_type": "generic",
         "elements": [
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1295,7 +1295,7 @@ function sendAdvanced(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1315,7 +1315,7 @@ function sendAdvanced(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1335,7 +1335,7 @@ function sendAdvanced(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1355,7 +1355,7 @@ function sendAdvanced(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1375,7 +1375,7 @@ function sendAdvanced(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
@@ -1395,7 +1395,7 @@ function sendAdvanced(sender){
             ]
           },
           {
-            "title": "Swipe left/right for more options. On browser, click arrows in the menu below.",
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
               {
                 "type": "postback",
