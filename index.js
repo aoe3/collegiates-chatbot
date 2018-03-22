@@ -792,6 +792,12 @@ function decideMessage(sender, textInput){
 		sendText(sender, advTradShortWeapon)	
 	} else if (text.includes("advtradsoftweapon")){
 		sendText(sender, advTradSoftWeapon)	
+	} else if ((text.includes("beg")) || (text.includes("beginner"))){
+		sendBeginner(sender)
+	} else if ((text.includes("int")) || (text.includes("intermediate"))){
+		sendIntermediate(sender)
+	} else if ((text.includes("adv")) || (text.includes("advanced"))){
+		sendAdvanced(sender)
 	//end events
 
 	//what happens on what ring throughout day
