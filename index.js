@@ -665,7 +665,7 @@ function decideMessage(sender, textInput){
 			"- For the venue map, type 'venue'\n\n"+ 
 			// "To see scores, type 'scores' \n \n"+ 
 			"- For the food court (ONLY FOR LUNCH ON DAY OF COMPETITION), type 'foodcourt' or 'lunch'\n\n"+ 
-			"- For local Restaurants, type 'local'\n\n"+ 
+			"- For local restaurants, type 'local'\n\n"+ 
 			"- For contact information, type 'contact'\n\n"+ 
 			"- To see all this info again, type 'help'")
 
