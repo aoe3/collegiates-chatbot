@@ -49,6 +49,566 @@ app.post('/webhook/', function (req, res) {
 	res.sendStatus(200)
 })
 
+let beginner = 
+"Female Chhangquan\n\n"+
+"- Janet Abou Elias\n"+
+"- Shyanne Amoyo\n"+
+"- Michelle Chen\n"+
+"- Jin Yun Chow\n"+
+"- Victoria Crevoisier\n"+
+"- Jamie Evely\n"+
+"- Elena Felix\n"+
+"- Bryanna Geiger\n"+
+"- Camryn Gray\n"+
+"- Olivia Guo\n"+
+"- Elissa He\n"+
+"- Xuelin Hong\n"+
+"- Christine Hwang\n"+
+"- Olivia Kuziel\n"+
+"- Claire Lee\n"+
+"- Janette Levin\n"+
+"- Jo Lin\n"+
+"- Tian Low\n"+
+"- Jessica Luo\n"+
+"- Deborah Ma\n"+
+"- Sara Moore\n"+
+"- Janet Nguyen\n"+
+"- Michelle Nguyen\n"+
+"- Christine Ou\n"+
+"- Cj Rogers\n"+
+"- Shannon Tsang\n"+
+"- Claire Tsau\n"+
+"- Jennifer Tsui\n"+
+"- Emily Vick\n"+
+"- Claire Weber\n"+
+"- Unique Wei\n"+
+"- Alexis Weyh\n"+
+"- Helen Xu\n"+
+"- Doris Xu\n"+
+"- Dielai Yang\n"+
+"- Gabrianna Zacharias\n"+
+"- Kelly Zhang\n\n\n"+
+
+"Male Changquan\n\n"+
+"- Kyle Chan\n"+
+"- Benjamin Chen\n"+
+"- Lucas Cheng\n"+
+"- Arie Dash\n"+
+"- Nutong Her\n"+
+"- Bienvenido Hernandez\n"+
+"- Julian Hodge\n"+
+"- Justin Lu\n"+
+"- William Lund\n"+
+"- Kevin Marston\n"+
+"- Simon Nguyen\n"+
+"- Allen Peng\n"+
+"- Francis Poon\n"+
+"- Dylan Sanfilippo\n"+
+"- Christopher Tran\n"+
+"- Everett White\n"+
+"- Michael Yeh\n\n\n"+
+
+"Female Nanquan\n\n"+
+"- Olivia Kuziel\n"+
+"- Sara Moore\n"+
+"- Samantha Ono\n"+
+"- Unique Wei\n"+
+"- Alexis Weyh\n\n\n"+
+
+"Male Nanquan\n\n"+
+"- Lucas Verde\n\n\n"+
+
+"Female 24 Taiji\n\n"+
+"- Jin Yun Chow\n"+
+"- Jo Lin\n"+
+"- Jessica Luo\n\n\n"+
+
+"Male 24 Taiji\n\n"+
+"- Arie Dash\n"+
+"- Kevin Marston\n\n\n"+
+
+"Female Open Yang\n\n"+
+"- Deborah Ma\n\n\n"+
+
+"Female Traditional Open Barehand\n\n"+
+"- Shyanne Amoyo\n"+
+"- Olivia Guo\n"+
+"- Shannon Tsang\n"+
+"- Claire Tsau\n"+
+"- Unique Wei\n\n\n"+
+
+"Male Traditional Open Barehand\n\n"+
+"- Justin Lu\n"+
+"- Allen Peng\n\n\n"+
+
+"Female Broadsword\n\n"+
+"- Janet Abou Elias\n"+
+"- Deborah Ma\n"+
+"- Cj Rogers\n"+
+"- Claire Tsau\n"+
+"- Gabrianna Zacharias\n\n\n"+
+
+"Male Broadsword\n\n"+
+"- Robin Calvo\n"+
+"- William Lund\n"+
+"- Lucas Verde\n"+
+"- Everett White\n\n\n"+
+
+"Female Straightsword\n\n"+
+"- Olivia Guo\n"+
+"- Lillian Lee\n"+
+"- Janet Nguyen\n"+
+"- Michelle Nguyen\n"+
+"- Kelly Zhang\n\n\n"+
+
+"Male Straightsword\n\n"+
+"- Allen Peng"
+
+"Female Other Weapon\n\n"+
+"- Samantha Ono\n\n\n"+
+
+"Female Staff\n\n"+
+"- Janet Abou Elias\n"+
+"- Bryanna Geiger\n"+
+"- Christine Hwang\n"+
+"- Janette Levin\n"+
+"- Shannon Tsang\n"+
+"- Claire Weber\n"+
+"- Gabrianna Zacharias\n\n\n"+
+
+"Male Staff\n\n"+
+"- Kyle Chan\n"+
+"- Benjamin Chen\n"+
+"- Lucas Cheng\n"+
+"- Justin Lu\n"+
+"- Simon Nguyen\n"+
+"- Francis Poon\n"+
+"- Christopher Tran\n"+
+"- Michael Yeh\n\n\n"+
+
+"Male Traditional Short Weapon\n\n"+
+"- Simon Nguyen\n\n\n"
+
+let intermediate = 
+"Female Changquan\n\n"+
+"- Mekenzie Dyer\n"+
+"- Winni Gao\n"+
+"- Kimberly Gomez\n"+
+"- Audrey Gunawan\n"+
+"- Annie Hanichak\n"+
+"- Yong-yi Hu\n"+
+"- Tiffany Hwu\n"+
+"- Karen Kuang\n"+
+"- Julia Leung\n"+
+"- Melodee Li\n"+
+"- Kathie Lin\n"+
+"- Kristi Lin\n"+
+"- Adanna Liu\n"+
+"- Sara Ng\n"+
+"- Annie Shi\n"+
+"- Michelle Tan\n"+
+"- Michelle Tu\n"+
+"- Jasmine Wong\n"+
+"- Rebecca Yap\n"+
+"- Erika Yu\n"+
+"- Lisa Yu\n"+
+"- Kelly Zhang\n"+
+"- Jessica Zhu\n\n\n"+
+
+"Male Changquan\n\n"+
+"- Akshara Aditya\n"+
+"- Chinmaya Aditya\n"+
+"- Danny Be\n"+
+"- Kenneth Chen\n"+
+"- Brian Cheng\n"+
+"- Ethan Devara\n"+
+"- Davin Devara\n"+
+"- Carlos Estrada\n"+
+"- Ethan Green\n"+
+"- Bumjoon Kim\n"+
+"- Simon Lee\n"+
+"- Alden Liu\n"+
+"- Connor Maples\n"+
+"- Haejin Park\n"+
+"- Erick Partida\n"+
+"- Varun Singh\n"+
+"- Stuart Sy\n"+
+"- Ryan Wang\n"+
+"- Henderson Wong\n"+
+"- Joshua Ya\n"+
+"- Robert Yang\n"+
+"- Tommy Yang\n\n\n"+
+
+"Female Nanquan\n\n"+
+"- Annmarie Cong\n"+
+"- Kimberly Gomez\n"+
+"- Shirley Mach\n"+
+"- Jasmine Pham\n\n\n"+
+
+"Male Nanquan\n\n"+
+"- John Caldas\n"+
+"- Alexandre Gunnerson\n"+
+"- Jeffrey Guo\n"+
+"- John Maclean\n"+
+"- Noah Mastruserio\n"+
+"- Vincent Ngo\n"+
+"- Mohammad Ullah\n"+
+"- Eric Wang\n"+
+"- Anthony Wang\n\n\n"+
+
+"Female Open Barehand\n\n"+
+"- Jae Hee Jang\n\n\n"+
+
+"Female 24 Taiji\n\n"+
+"- Annie Hanichak\n"+
+"- Melodee Li\n"+
+"- Adanna Liu\n"+
+"- Sara Ng\n"+
+"- Annie Shi\n"+
+"- Erika Yu\n\n\n"+
+
+"Female Open Taiji\n\n"+
+"- Julie Wang\n\n\n"+
+
+"Male Open Chen\n\n"+
+"- Carlos Estrada\n\n\n"+
+
+"Female 42 Fist\n\n"+
+"- Erika Yu\n\n\n"+
+
+"Female Traditional Open Barehand\n\n"+
+"- Jasmine Chen\n"
+"- Sunny Chiu\n"
+"- Clarity Chua\n"
+"- Karen Kuang\n"
+"- Jennie Wang\n"
+"- Julie Wang\n"
+"- Lisa Yu\n\n\n"+
+
+"Male Traditional Open Barehand\n\n"+
+"- Akshara Aditya\n"+
+"- Simon Lee\n"+
+"- Vincent Ngo\n"+
+"- Henderson Wong\n\n\n"+
+
+"Female Broadsword\n\n"+
+"- Karen Kuang\n"+
+"- Kristi Lin\n"+
+"- Katie Zhao\n\n\n"+
+
+"Male Broadsword\n\n"+
+"- Chinmaya Aditya\n"+
+"- Danny Be\n"+
+"- Carlos Estrada\n"+
+"- Mitchell Levasseur\n"+
+"- Stuart Sy\n"+
+"- Anthony Wang\n"+
+"- Joshua Ya\n\n\n"+
+
+"Female Straightsword\n\n"+
+"- Winni Gao\n"+
+"- Annie Hanichak\n"+
+"- Melodee Li\n"+
+"- Adanna Liu\n"+
+"- Melanie Ngo\n"+
+"- Annie Shi\n"+
+"- Sharon Shu\n"+
+"- Jasmine Wong\n"+
+"- Rebecca Yap\n\n\n"+
+
+"Male Straightsword\n\n"+
+"- Kenneth Chen\n"+
+"- Haejin Park\n"+
+"- Ryan Wang\n\n\n"+
+
+"Male Nandao\n\n"+
+"- Noah Mastruserio\n"+
+"- Mohammad Ullah\n\n\n"+
+
+"Female Other Weapon\n\n"+
+"- Tiffany Hwu\n"+
+"- Shirley Mach\n"+
+"- Vivienne Nguyen\n"+
+"- Sharon Shu\n\n\n"+
+
+"Male Other Weapon\n\n"+
+"- Henderson Wong\n\n\n"+
+
+"Female Staff\n\n"+
+"- Tiffany Hwu\n"+
+"- Karen Kuang\n\n\n"+
+
+"Male Staff\n\n"+
+"- Ethan Green\n"+
+"- Kwynn Johnson\n\n\n"+
+
+"Female Spear\n\n"+
+"- Annmarie Cong\n"+
+"- Julia Leung\n"+
+"- Michelle Tu\n\n\n"+
+
+"Male Spear\n\n"+
+"- Kenneth Chen\n"+
+"- Ryan Wang\n\n\n"+
+
+"Female Southern Staff\n\n"+
+"- Jasmine Wong\n\n\n"+
+
+"Male Southern Staff\n\n"+
+"- John Caldas\n"+
+"- Eric Wang\n\n\n"+
+
+"Female Traditional Long Weapon\n\n"+
+"- Lisa Yu\n\n\n"+
+
+"Male Traditional Long Weapon\n\n"+
+"- Erick Partida\n"+
+"- Eric Wang\n\n\n"+
+
+"Female Traditional Short Weapon\n\n"+
+"- Sunny Chiu\n"+
+"- Clarity Chua\n"+
+"- Kristi Lin\n"+
+"- Kelly Zhang\n\n\n"+
+
+"Male Traditional Short Weapon\n\n"+
+"- Simon Lee\n\n\n"
+
+let advanced = 
+"Male Changquan(nandu)\n\n"+
+"- Patrick Moua\n"+
+"- Tim Wang\n\n\n"+
+
+"Female Changquan\n\n"+
+"- Rebecca Chinn\n"+
+"- Caitlin Escudero\n"+
+"- Emily Fan\n"+
+"- Crystal Huang\n"+
+"- Gwyneth Huynh\n"+
+"- Bridget Keeney\n"+
+"- Alyssa Lo\n"+
+"- Kaitlyn Trinh\n"+
+"- Joy Zeng\n"+
+"- Daisy Zheng\n\n\n"+
+
+"Male Changquan\n\n"+
+"- Jeffson Atienza\n"+
+"- Mario Caballero\n"+
+"- Oey Chang\n"+
+"- Chuan Chen\n"+
+"- Dominic Chow\n"+
+"- Eric Fu\n"+
+"- Jason Hui\n"+
+"- Connor Hum\n"+
+"- Philip Hwang\n"+
+"- Christopher Johnson\n"+
+"- Chi Tun Lam\n"+
+"- Winston Lee\n"+
+"- Tianming Li\n"+
+"- Jonathan Li\n"+
+"- Daniel Liang\n"+
+"- Xian Kai Ng\n"+
+"- Khang Nguyen\n"+
+"- Angel Pan\n"+
+"- Erik Song\n"+
+"- Howard Wang\n"+
+"- Alexander Wu\n"+
+"- Robert Yu\n"+
+"- Albert Zhang\n"+
+"- Ryan Zheng\n"+
+"- Jemmy Zhou\n"+
+"- Jason Zou\n\n\n"+
+
+"Female Nanquan\n\n"+
+"- Sabrina Chiang\n"+
+"- Queenie Li\n\n\n"+
+
+"Male Nanquan\n\n"+
+"- Darren Deng\n\n\n"+
+
+"Male Open Barehand\n\n"+
+"- Robert Yu\n\n\n"+
+
+"Female 24 Taiji\n\n"+
+"- Gina Bao\n"+
+"- Marianne Dang\n"+
+"- Amy Pribadi\n\n\n"+
+
+"Male 24 Taiji\n\n"+
+"- Kevin Chen\n"+
+"- Michael Fang\n"+
+"- Jonathan Li\n"+
+"- Richard Nguyen\n"+
+"- Ying Hong Tham\n\n\n"+
+
+"Male Open Yang\n\n"+
+"- William Du\n"+
+"- Ethyn Leong\n\n\n"+
+
+"Female Open Chen\n\n"+
+"- Gina Bao\n"+
+"- Marianne Dang\n"+
+"- Amy Pribadi\n"+
+"- Dimei Wu\n\n\n"+
+
+"Male Open Chen\n\n"+
+"- William Du\n"+
+"- Michael Fang\n"+
+"- Philip Hwang\n"+
+"- Ying Hong Tham\n\n\n"+
+
+"Female 42 Fist\n\n"+
+"- Marianne Dang]n"+
+"- Amy Pribadi\n\n\n"+
+
+"Male 42 Fist\n\n"+
+"- Michael Fang\n"+
+"- Ying Hong Tham\n\n\n"+
+
+"Female Internal Open Fist\n\n"+
+"- Cecilia Springer\n\n\n"+
+
+"Male Internal Open Fist\n\n"+
+"- Richard Nguyen\n\n\n"+
+
+"Female Traditional Open Barehand\n\n"+
+"- Rebecca Chinn\n"+
+"- Cecilia Springer\n\n\n"+
+
+"Male Traditional Open Barehand\n\n"+
+"- Oey Chang\n"+
+"- Connor Hum\n"+
+"- Kristian Koeser\n"+
+"- Winston Lee\n"+
+"- Alexander Lu\n"+
+"- Linfeng Wu\n\n\n"+
+
+"Female Broadsword\n\n"+
+"- Zoe Chan\n"+
+"- Sabrina Chiang\n"+
+"- Rebecca Chinn\n"+
+"- Irene Javier\n"+
+"- Queenie Li\n"+
+"- Michelle Sit\n"+
+"- Kaitlyn Trinh\n"+
+"- Daisy Zheng\n\n\n"+
+
+"Male Broadsword\n\n"+
+"- Jeffson Atienza\n"+
+"- Oey Chang\n"+
+"- Chuan Chen\n"+
+"- Wesley Huie\n"+
+"- Jonathan Li\n"+
+"- Daniel Liang\n"+
+"- Khang Nguyen\n"+
+"- Erik Song\n"+
+"- Howard Wang\n"+
+"- Alexander Wu\n"+
+"- Jason Zou\n\n\n"+
+
+"Female Straightsword\n\n"+
+"- Kasey Chan\n"+
+"- Emily Fan\n"+
+"- Hannah Ho\n"+
+"- Gwyneth Huynh\n"+
+"- Bridget Keeney\n"+
+"- Alyssa Lo\n"+
+"- Dimei Wu\n"+
+"- Emily Yang\n"+
+"- Joy Zeng\n\n\n"+
+
+"Male Straightsword\n\n"+
+"- Mario Caballero\n"+
+"- Kevin Chen\n"+
+"- Dominic Chow\n"+
+"- William Du\n"+
+"- Irwin Hui\n"+
+"- Christopher Johnson\n"+
+"- Chi Tun Lam\n"+
+"- Alexander Lu\n"+
+"- Xian Kai Ng\n"+
+"- Jason Tang\n"+
+"- Tim Wang\n"+
+"- Robert Yu\n"+
+"- Ryan Zheng\n"+
+"- Jemmy Zhou\n\n\n"+
+
+"Female 42 Sword\n\n"+
+"- Amy Pribadi\n"+
+"- Dimei Wu\n\n\n"+
+
+"Male 42 Sword\n\n"+
+"- Ying Hong Tham\n\n\n"+
+
+"Female Taiji Weapon\n\n"+
+"- Gina Bao\n"+
+"- Marianne Dang\n\n\n"+
+
+"Male Taiji Weapon\n\n"+
+"- William Du\n"+
+"- Ethyn Leong\n"+
+"- Richard Nguyen\n\n\n"+
+
+"Female Other Weapon\n\n"+
+"- Zoe Chan\n\n\n"+
+
+"Male Other Weapon\n\n"+
+"- Kevin Chen\n"+
+"- Irwin Hui\n"+
+"- Winston Lee\n"+
+"- Linfeng Wu\n\n\n"+
+
+"Female Staff\n\n"+
+"- Rebecca Chinn\n"+
+"- Bridget Keeney\n"+
+"- Queenie Li\n\n\n"+
+
+"Male Staff\n\n"+
+"- Jeffson Atienza\n"+
+"- Oey Chang\n"+
+"- Chuan Chen\n"+
+"- Connor Hum\n"+
+"- Winston Lee\n"+
+"- Tianming Li\n"+
+"- Daniel Liang\n"+
+"- Patrick Moua\n"+
+"- Khang Nguyen\n"+
+"- Brian Tran\n"+
+"- Ryan Zheng\n"+
+"- Jason Zou\n\n\n"+
+
+"Female Spear\n\n"+
+"- Kasey Chan\n"+
+"- Emily Fan\n"+
+"- Alyssa Lo\n"+
+"- Emily Yang\n\n\n"+
+
+"Male Spear\n\n"+
+"- Irwin Hui\n"+
+"- Kristian Koeser\n"+
+"- Jason Tang\n"+
+"- Robert Yu\n"+
+"- Jemmy Zhou\n\n\n"+
+
+"Male Southern Staff\n\n"+
+"- Darren Deng\n\n\n"+
+
+"Female Long Weapon\n\n"+
+"- Cecilia Springer\n\n\n"+
+
+"Female Traditional Short Weapon\n\n"+
+"- Michelle Chin\n"+
+"- Cecilia Springer\n\n\n"+
+
+"Male Traditional Short Weapon\n\n"+
+"- Alexander Wu\n\n\n"+
+
+"Female Traditional Soft Weapon\n\n"+
+"- Queenie Li\n\n\n"+
+
+"Male Traditional Soft Weapon\n\n"+
+"- Eric Fu\n\n\n"
+
 function decideMessage(sender, textInput){
 	let text = textInput.toLowerCase()
 	//give instructions for use
@@ -78,6 +638,15 @@ function decideMessage(sender, textInput){
 		let venueText = {text: "Here is a map of the venue:"}
 		sendRequest(sender, venueText)
 		sendVenueImageMessage(sender)
+	//view events by experience level
+	} else if (text == "events"){
+		sendEventButtonMessage(sender, "Choose a division button, or type 'beginner', 'intermediate', or 'advanced' to view.")
+	} else if (text == "beginner"){
+		sendText(sender, beginner)
+	} else if (text == "intermediate"){
+		sendText(sender, intermediate)
+	} else if (text == "advanced"){
+		sendText(sender, advanced)
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
 		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
@@ -219,6 +788,36 @@ function sendRingButtonMessage(sender, text){
 	          	"type":"postback",
 	            "title":"Ring 3",
 	            "payload":"ring3"
+	          }
+	        ]
+	      }
+	    }
+	}
+	sendRequest(sender, messageData)
+}
+
+function sendEventButtonMessage(sender, text){
+	let messageData = {
+		"attachment":{
+	      "type":"template",
+	      "payload":{
+	        "template_type":"button",
+	        "text": text,
+	        "buttons":[
+	          {
+	            "type":"postback",
+	            "title":"Beginner",
+	            "payload":"beginner"
+	          },
+	          {
+	          	"type":"postback",
+	            "title":"Intermediate",
+	            "payload":"intermediate"
+	          },
+	          {
+	          	"type":"postback",
+	            "title":"Advanced",
+	            "payload":"advanced"
 	          }
 	        ]
 	      }
