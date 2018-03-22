@@ -137,7 +137,7 @@ let beginner =
 "- Claire Tsau\n"+
 "- Unique Wei\n\n"+
 
-"Male Traditional Open Barehand\n\n"+
+"Male Traditional Open Barehand\n"+
 "- Justin Lu\n"+
 "- Allen Peng\n\n"+
 
