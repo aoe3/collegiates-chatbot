@@ -687,6 +687,8 @@ function decideMessage(sender, textInput){
 		sendText(sender, "Okay. I'm sorry to hear that. We will remove you from the lineup")
 	} else if (text == "schedule"){ 
 		sendText(sender, "Ring 1: Beginner Changquan\nRing2: Beginner Nanquan\nRing 3: Beginner 24 Taiji(starting soon!)")
+	} else if (text == "finalresults"){ 
+		sendText(sender, "UCLA: 23 gold, 31 silver, 5 bronze, total: 59\nColumbia: 17 gold, 15 silver, 15 bronze, total: 47\nPittsburgh: 5 gold, 16 silver, 25 bronze, total: 46")
 	// map of venue with rings
 	} else if (text == "venue"){ 
 		let venueText = {text: "Here is a map of the venue:"}
