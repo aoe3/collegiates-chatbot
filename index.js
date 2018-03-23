@@ -563,6 +563,7 @@ let advStraightsword =
 "- Chi Tun Lam\n"+
 "- Alexander Lu\n"+
 "- Xian Kai Ng\n"+
+"- Kevin Qin\n"+
 "- Jason Tang\n"+
 "- Tim Wang\n"+
 "- Robert Yu\n"+
@@ -1064,6 +1065,60 @@ function sendLunch(sender){
 	    }
 	}
 	sendRequest(sender, messageData)
+}
+
+function sendRules(sender){
+	let messageData = {
+    "attachment": {
+      "type": "template",
+      "payload": {
+        "template_type": "generic",
+        "elements": [
+          {
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Uniforms/Apparel",
+                "payload": "uniformrules"
+              },
+              {
+                "type": "postback",
+                "title": "Weapons",
+                "payload": "weaponrules"
+              },
+              {
+                "type": "postback",
+                "title": "Time Limits",
+                "payload": "timelimits"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Beg Open Yang",
+                "payload": "begOpenYang"
+              },
+              {
+                "type": "postback",
+                "title": "Beg Trad Open BH",
+                "payload": "begTradOpenBH"
+              },
+              {
+                "type": "postback",
+                "title": "Beg Broadsword",
+                "payload": "begBroadsword"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+  sendRequest(sender, messageData)
 }
 
 function sendBeginner(sender){
