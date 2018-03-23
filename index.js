@@ -407,6 +407,7 @@ let advChangquanNandu =
 
 let advChangquan =
 "Female Changquan\n\n"+
+"- Michelle Chiang\n"+
 "- Rebecca Chinn\n"+
 "- Caitlin Escudero\n"+
 "- Emily Fan\n"+
@@ -544,6 +545,7 @@ let advBroadsword =
 let advStraightsword =
 "Female Straightsword\n\n"+
 "- Kasey Chan\n"+
+"- Michelle Chiang\n"+
 "- Emily Fan\n"+
 "- Hannah Ho\n"+
 "- Gwyneth Huynh\n"+
