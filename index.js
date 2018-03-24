@@ -1201,7 +1201,7 @@ function decideMessage(sender, textInput){
 	} else if (text == "rings"){
 		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
 	//rings
-	} else if (text.includes("ringall")){
+	} else if ((text.includes("ringall")) || (text.includes("all rings")) || (text.includes("ring all"))){
 		sendText(sender, 	"Ring 1\n\n"+
 							"- Beg CQ\n"+
 							"- Int CQ\n"+
@@ -1217,19 +1217,19 @@ function decideMessage(sender, textInput){
 							"- Int Trad.\n"+
 							"- Adv Trad.\n"+
 							"- Adv TJ")
-	} else if (text.includes("ring1")){
+	} else if ((text.includes("ring1")) || (text.includes("ring 1")) || (text.includes("mat1")) || (text.includes("mat 1"))){
 		sendText(sender, 	"Ring 1\n\n"+
 							"-Beg CQ\n"+
 							"-Int CQ\n"+
 							"-Adv CQ\n"+
 							"-Beg TJ")
-	} else if(text.includes("ring2")){
+	} else if ((text.includes("ring2")) || (text.includes("ring 2")) || (text.includes("mat2")) || (text.includes("mat 2"))){
 		sendText(sender,	"Ring 2\n\n"+
 							"-Beg NQ\n"+
 							"-Int NQ\n"+
 							"-Adv NQ\n"+
 							"-Int TJ")
-	} else if(text.includes("ring3")){
+	} else if ((text.includes("ring3")) || (text.includes("ring 3")) || (text.includes("mat3")) || (text.includes("mat 3"))){
 		sendText(sender,	"Ring 3\n\n"+
 							"-Beg Trad.\n"+
 							"-Int Trad.\n"+
@@ -1240,7 +1240,7 @@ function decideMessage(sender, textInput){
 	//	sendText(sender, "Ring 1: event1\nRing 2: event2\nRing 3: event3")
 	// //POTENTIAL real-time scores... let's see?
 	// } else if (text == "scores"){
-		
+
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
 		sendText(sender, "To get in touch:\n\nE-mail: pittwushu@gmail.com\nTel: 555-555-5555")
