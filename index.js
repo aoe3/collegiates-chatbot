@@ -538,6 +538,8 @@ let advBroadsword =
 "- Daniel Liang\n"+
 "- Khang Nguyen\n"+
 "- Erik Song\n"+
+"- Stuart Sy\n"+
+" -Kevin Ty\n"+
 "- Howard Wang\n"+
 "- Alexander Wu\n"+
 "- Jason Zou\n\n\n"
@@ -656,6 +658,288 @@ let advTradSoftWeapon =
 
 "Male Traditional Soft Weapon\n\n"+
 "- Eric Fu\n\n\n"
+
+
+//list of schools and associated competitors
+let berklee = 
+"Berklee College of Music:\n\n"+ 
+"- Kevin Qin\n"
+
+let calstateLB = 
+"California State U - Long Beach:\n\n"+ 
+"- Vivienne Nguyen\n"
+
+let columbia = 
+"Columbia U:\n\n"+ 
+"- Rebecca Chinn\n"+
+"- Bryanna Geiger\n"+
+"- Chi Tun Lam\n"+
+"- Janette Levin\n"+
+"- Tian Low\n"+
+"- Haejin Park\n"+
+"- Sharon Shu\n"+
+"- Jennifer Tsui\n"+
+"- Tim Wang\n"+
+"- Doris Xu\n"+
+"- Dielai Yang\n"
+
+let cornell = 
+"Cornell U:\n\n"+ 
+"- Winni Gao\n"+
+"- Camryn Gray\n"+
+"- Audrey Gunawan\n"+
+"- Xuelin Hong\n"+
+"- Ethyn Leong\n"+
+"- Kathie Lin\n"+
+"- Sara Ng\n"+
+"- Christine Ou\n"+
+"- Emily Vick\n"+
+"- Everett White\n"+
+"- Linfeng Wu\n"+
+"- Helen Xu\n"+
+"- Robert Yang\n"+
+"- Erika Yu\n"+
+"- Lisa Yu\n"+
+"- Albert Zhang\n"+
+"- Daisy Zheng\n"
+
+let harvard = 
+"Harvard U:\n\n"+ 
+"- Michelle Chiang\n"
+
+let mit = 
+"Massachusetts Institute of Technology:\n\n"+ 
+"- Elissa He\n"+
+"- Joy Zeng\n"
+
+let nyu = 
+"New York U:\n\n"+ 
+"- Daniel Liang\n"+
+"- Jasmine Pham\n"
+
+let nau = 
+"Northern Arizona U:\n\n"+ 
+"- Mekenzie Dyer\n"+
+"- Jamie Evely\n"+
+"- Bumjoon Kim\n"+
+"- Olivia Kuziel\n"+
+"- John MacLean\n"+
+"- sara moore\n"+
+"- Dylan Sanfilippo\n"+
+"- Alexis Weyh\n"
+
+let osu = 
+"Ohio State U:\n\n"+ 
+"- Thomas Bozzi\n"+
+"- Alexandre Gunnerson\n"+
+"- Jeffrey Guo\n"+
+"- Noah Mastruserio\n"+
+"- Mitch Seiple\n"
+
+let stpeters = 
+"Saint Peter's University:\n\n"+ 
+"- Caitlin Escudero\n"
+
+let sdmiramar = 
+"San Diego Miramar College:\n\n"+ 
+"- Patrick Moua\n"
+
+let stanford = 
+"Stanford U:\n\n"+ 
+"- Michelle Chin\n"+
+"- Jin Yun Chow\n"+
+"- Victoria Crevoisier\n"+
+"- Marianne Dang\n"+
+"- William Du\n"+
+"- Michael Fang\n"+
+"- Elena Felix\n"+
+"- Jessica Luo\n"+
+"- Angel Pan\n"+
+"- Stuart Sy\n"
+
+let stonybrook = 
+"SUNY Stony Brook:\n\n"+ 
+"- Ying Hong Tham\n"
+
+let houston = 
+"U Houston:\n\n"+ 
+"- Jeffson Atienza\n"+
+"- Mohammad Ullah\n"
+
+let umbc = 
+"U Maryland: Baltimore County:\n\n"+ 
+"- Julian Hodge\n"+
+"- Irene Javier\n"+
+"- Kwynn Johnson\n"
+
+let umcp = 
+"U Maryland: College Park:\n\n"+ 
+"- Robin Calvo\n"+
+"- Kasey Chan\n"+
+"- Kyle Chan\n"+
+"- Benjamin Chen\n"+
+"- Lucas Cheng\n"+
+"- Dominic Chow\n"+
+"- Christine Hwang\n"+
+"- Jae Hee Jang\n"+
+"- Kristian Koeser\n"+
+"- Julia Leung\n"+
+"- Tianming Li\n"+
+"- Alexander Lu\n"+
+"- Connor Maples\n"+
+"- Francis Poon\n"+
+"- Jason Tang\n"+
+"- Christopher Tran\n"+
+"- Brian Tran\n"+
+"- Michelle Tu\n"+
+"- Claire Weber\n"+
+"- Emily Yang\n"+
+"- Michael Yeh\n"+
+"- Kelly Zhang\n"
+
+let oregon = 
+"U Oregon:\n\n"+ 
+"- Nutong Her\n"+
+"- Jason Hui\n"+
+"- Tommy Yang\n"
+
+let pitt = 
+"U Pittsburgh:\n\n"+ 
+"- Gina Bao\n"+
+"- Kevin Chen\n"+
+"- Arie Dash\n"+
+"- Annie Hanichak\n"+
+"- Melodee Li\n"+
+"- Jonathan Li\n"+
+"- Jo Lin\n"+
+"- Adanna Liu\n"+
+"- Kevin Marston\n"+
+"- Allen Peng\n"+
+"- Annie Shi\n"+
+"- Diana Zhou\n"
+
+let texas = 
+"U Texas:\n\n"+ 
+"- Janet Abou Elias\n"+
+"- Ethan Devara\n"+
+"- Davin Devara\n"+
+"- Hannah Ho\n"+
+"- Crystal Huang\n"+
+"- Gabrianna Zacharias\n"
+
+let uva = 
+"U Virginia:\n\n"+ 
+"- Mario Caballero\n"+
+"- Kenneth Chen\n"+
+"- Mitchell Levasseur\n"+
+"- William Lund\n"+
+"- CJ Rogers\n"+
+"- Erik Song\n"+
+"- Kevin Ty\n"+
+"- Joshua Ya\n"+
+"- Katie Zhao\n"
+
+let uwash = 
+"U Washington:\n\n"+ 
+"- Oey Chang\n"
+
+let cal = 
+"UC Berkeley:\n\n"+ 
+"- Shyanne Amoyo\n"+
+"- Emily Fan\n"+
+"- Eric Fu\n"+
+"- Olivia Guo\n"+
+"- Karen Kuang\n"+
+"- Queenie Li\n"+
+"- Alden Liu\n"+
+"- Alyssa Lo\n"+
+"- Deborah Ma\n"+
+"- Vincent Ngo\n"+
+"- Cecilia Springer\n"+
+"- Shannon Tsang\n"+
+"- Claire Tsau\n"+
+"- Julie Wang\n"+
+"- Unique Wei\n"+
+"- Henderson Wong\n"+
+"- Robert Yu\n"+
+"- Ryan Zheng\n"+
+"- Jemmy Zhou\n"+
+"- Jason Zou\n"
+
+let uci = 
+"UC Irvine:\n\n"+ 
+"- Danny Be\n"+
+"- Sunny Chiu\n"+
+"- Carlos Estrada\n"+
+"- Kimberly Gomez\n"+
+"- Philip Hwang\n"+
+"- Tiffany Hwu\n"+
+"- Bridget Keeney\n"+
+"- Simon Lee\n"+
+"- Kristi Lin\n"+
+"- Simon Nguyen\n"+
+"- Erick Partida\n"+
+"- Varun Singh\n"+
+"- Lucas Verde\n"+
+"- Ryan Wang\n"+
+"- Jasmine Wong\n"+
+"- Jessica Zhu\n"
+
+let ucla = 
+"UC Los Angeles:\n\n"+ 
+"- Akshara Aditya\n"+
+"- Chinmaya Aditya\n"+
+"- Jasmine Chen\n"+
+"- Chuan Chen\n"+
+"- Sabrina Chiang\n"+
+"- Clarity Chua\n"+
+"- Annmarie Cong\n"+
+"- Irwin Hui\n"+
+"- Connor Hum\n"+
+"- Gwyneth Huynh\n"+
+"- Shirley Mach\n"+
+"- Xian Kai Ng\n"+
+"- Melanie Ngo\n"+
+"- Janet Nguyen\n"+
+"- Michelle Nguyen\n"+
+"- Samantha Ono\n"+
+"- Michelle Tan\n"+
+"- Eric Wang\n"+
+"- Jennie Wang\n"+
+"- Alexander Wu\n"+
+"- Dimei Wu\n"+
+"- Rebecca Yap\n"+
+"- Kelly Zhang\n"
+
+let ucsd = 
+"UC San Diego:\n\n"+ 
+"- John Caldas\n"+
+"- Zoe Chan\n"+
+"- BRIAN CHENG\n"+
+"- Darren Deng\n"+
+"- Ethan Green\n"+
+"- Yong-Yi Hu\n"+
+"- Christopher Johnson\n"+
+"- Lillian Lee\n"+
+"- Winston Lee\n"+
+"- Richard Nguyen\n"+
+"- Amy Pribadi\n"+
+"- Michelle Sit\n"+
+"- Kaitlyn Trinh\n"+
+"- Howard Wang\n"+
+"- Anthony Wang\n"
+
+let vcu = 
+"Virginia Commonwealth U:\n\n"+ 
+"- Michelle Chen\n"+
+"- Bienvenido Hernandez\n"+
+"- Wesley Huie\n"+
+"- Claire Lee\n"
+
+let vtech = 
+"Virginia Tech:\n\n"+ 
+"- Justin Lu\n"+
+"- Khang Nguyen\n"
 
 //greetings
 let greetings =["Hello! I'm the ACWT Helper ChatBot! To best learn how to use me, type 'help' as a message!",
@@ -805,6 +1089,9 @@ function decideMessage(sender, textInput){
 	} else if ((text.includes("adv")) || (text.includes("advanced"))){
 		sendAdvanced(sender)
 	//end events
+	} else if (text.includes("school")){
+		sendSchools(sender)
+	}
 
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
@@ -1483,6 +1770,196 @@ function sendAdvanced(sender){
               }
             ]
           }
+        ]
+      }
+    }
+  }
+  sendRequest(sender, messageData)
+}
+
+function sendSchools(sender){
+	let messageData = {
+    "attachment": {
+      "type": "template",
+      "payload": {
+        "template_type": "generic",
+        "elements": [
+          {
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Berklee College of Music",
+                "payload": "berklee"
+              },
+              {
+                "type": "postback",
+                "title": "California State U - Long Beach",
+                "payload": "calstateLB"
+              },
+              {
+                "type": "postback",
+                "title": "Columbia University",
+                "payload": "columbia"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Cornell University",
+                "payload": "cornell"
+              },
+              {
+                "type": "postback",
+                "title": "Harvard University",
+                "payload": "harvard"
+              },
+              {
+                "type": "postback",
+                "title": "Massachusetts Institute of Technology",
+                "payload": "mit"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "New York University",
+                "payload": "nyu"
+              },
+              {
+                "type": "postback",
+                "title": "Northern Arizona University",
+                "payload": "nau"
+              },
+              {
+                "type": "postback",
+                "title": "THE Ohio State University",
+                "payload": "osu"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "Saint Peter's University",
+                "payload": "stpeters"
+              },
+              {
+                "type": "postback",
+                "title": "San Diego Miramar College",
+                "payload": "sdmiramar"
+              },
+              {
+                "type": "postback",
+                "title": "Stanford University",
+                "payload": "stanford"
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "SUNY Stony Brook",
+                "payload": "stonybrook"
+              },
+              {
+                "type": "postback",
+                "title": "University of Houston",
+                "payload": "houston"
+              },
+              {
+                "type": "postback",
+                "title": "University of Maryland: Baltimore County",
+                "payload": "umbc"
+              }
+            ]
+          },{
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "University of Maryland: College Park",
+                "payload": "umcp"
+              },
+              {
+                "type": "postback",
+                "title": "University of Oregon",
+                "payload": "orgeon"
+              },
+              {
+                "type": "postback",
+                "title": "University of Pittsburgh",
+                "payload": "pitt"
+              }
+            ]
+          },{
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "University of Texas",
+                "payload": "texas"
+              },
+              {
+                "type": "postback",
+                "title": "University of Virginia",
+                "payload": "uva"
+              },
+              {
+                "type": "postback",
+                "title": "University of Washington",
+                "payload": "uwash"
+              }
+            ]
+          },{
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "UC Berkeley",
+                "payload": "cal"
+              },
+              {
+                "type": "postback",
+                "title": "UC Irvine",
+                "payload": "uci"
+              },
+              {
+                "type": "postback",
+                "title": "UC Los Angeles",
+                "payload": "ucla"
+              }
+            ]
+          },{
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
+            "buttons": [
+              {
+                "type": "postback",
+                "title": "UC San Diego",
+                "payload": "ucsd"
+              },
+              {
+                "type": "postback",
+                "title": "Virginia Commonwealth University",
+                "payload": "vcu"
+              },
+              {
+                "type": "postback",
+                "title": "Virginia Tech",
+                "payload": "vtech"
+              }
+            ]
+          },
         ]
       }
     }
