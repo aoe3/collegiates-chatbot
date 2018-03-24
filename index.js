@@ -694,29 +694,31 @@ let groupset =
 "- Michelle Chin\n"+
 "- Jessica Luo\n\n\n"+
 
-"UMD: College Park - B (ima change ltr)\n\n"+
+"UMD: College Park\n\n"+
+
+"B (ima change ltr)\n"+
 "- Tianming Li\n"+
 "- Jason Tang\n"+
 "- Dominic Chow\n"+
 "- Christine Hwang\n"+
 "- Christopher Tran\n"+
-"- Jae Hee Jang\n\n\n"+
+"- Jae Hee Jang\n\n"+
 
-"UMD: College Park - HEEEE HAW\n\n"+
+"HEEEE HAW\n"+
 "- Connor Maples\n"+
 "- Benjamin Chen\n"+
 "- Claire Weber\n"+
 "- Kristian Koeser\n"+
 "- Alexander Lu\n"+
-"- Kelly Zhang\n\n\n"+
+"- Kelly Zhang\n\n"+
 
-"UMD: College Park - flamingo fans\n\n"+
+"flamingo fans\n"+
 "- Michelle Tu\n"+
 "- Emily Yang\n"+
 "- Kyle Chan\n"+
 "- Kasey Chan\n"+
 "- Francis Poon\n"+
-"- Julia Leung\n\n\n"+
+"- Julia Leung\n\n"+
 
 "Pitt - Bao Down PITTches\n\n"+
 "- Gina Bao\n"+
@@ -734,28 +736,29 @@ let groupset =
 "- Kenneth Chen\n"+
 "- CJ Rogers\n\n\n"+
 
-"Berkeley - Cal Wushu A Team\n\n"+
+"UC Berkeley\n\n"+
+"Cal Wushu A Team\n"+
 "- Robert Yu\n"+
 "- Jason Zou\n"+
 "- Queenie Li\n"+
 "- Jemmy Zhou\n"+
-"- Alyssa Lo\n\n\n"+
+"- Alyssa Lo\n\n"+
 
-"Berkeley - Cal Wushu Baewatch Team\n\n"+
+"Cal Wushu Baewatch Team\n"+
 "- Cecilia Springer\n"+
 "- Vincent Ngo\n"+
 "- Eric Fu\n"+
 "- Karen Kuang\n"+
 "- Shannon Tsang\n"+
-"- Olivia Guo\n\n\n"+
+"- Olivia Guo\n\n"+
 
-"Berkeley - The Mighty C\n\n"+
+"The Mighty C\n"+
 "- Ryan Zheng\n"+
 "- Unique Wei\n"+
 "- Claire Tsau\n"+
 "- Alden Liu\n"+
 "- Henderson Wong\n"+
-"- Julie Wang\n\n\n"+
+"- Julie Wang\n\n"+
 
 "UCI - UCI's Jasmine Milk Tea-M\n\n"+
 "- Jasmine Wong\n"+
@@ -765,29 +768,31 @@ let groupset =
 "- Simon Nguyen\n"+
 "- Carlos Estrada\n\n\n"+
 
-"UCLA - Spi-C Team\n\n"+
+"UCLA\n\n"+
+
+"Spi-C Team\n"+
 "- Michelle Tan\n"+
 "- Janet Nguyen\n"+
 "- Michelle Nguyen\n"+
 "- Kelly Zhang\n"+
 "- Samantha Ono\n"+
-"- Clarity Chua\n\n\n"+
+"- Clarity Chua\n\n"+
 
-"UCLA - The Big Baller Brand Team\n\n"+
+"The Big Baller Brand Team\n"+
 "- Chinmaya Aditya\n"+
 "- Akshara Aditya\n"+
 "- Eric Wang\n"+
 "- Rebecca Yap\n"+
 "- Annmarie Cong\n"+
-"- Jennie Wang\n\n\n"+
+"- Jennie Wang\n\n"+
 
-"UCLA - Wakan大麻辣\n\n"+
+"Wakan大麻辣\n"+
 "- Connor Hum\n"+
 "- Xian Kai Ng\n"+
 "- Alexander Wu\n"+
 "- Chuan Chen\n"+
 "- Gwyneth Huynh\n"+
-"- Dimei Wu\n\n\n"+
+"- Dimei Wu\n\n"+
 
 "UCSD - Team Meow Dao\n\n"+
 "- Winston Lee\n"+
