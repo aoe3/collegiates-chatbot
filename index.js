@@ -670,13 +670,13 @@ let groupset =
 "- Jennifer Tsui\n"+
 "- Chi Tun Lam\n\n\n"+
 
-// "Cornell U - Big Red Bearhand (better name to be decided)\n\n"+
-// "- Albert Zhang\n"+
-// "- Sara Ng\n"+
-// "- Daisy Zheng\n"+
-// "- Winni Gao\n"+
-// "- Erika Yu\n"+
-// "- Ethyn Leong\n\n\n"+
+"Cornell U - Big Red Bearhand (better name to be decided)\n\n"+
+"- Albert Zhang\n"+
+"- Sara Ng\n"+
+"- Daisy Zheng\n"+
+"- Winni Gao\n"+
+"- Erika Yu\n"+
+"- Ethyn Leong\n\n\n"+
 
 // "Northern Arizona U - NAU Iron Fist\n\n"+
 // "- Mekenzie Dyer \n"+
