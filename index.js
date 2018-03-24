@@ -1536,7 +1536,7 @@ function sendScoreOptions(sender){
 	      "type":"template",
 	      "payload":{
 	        "template_type":"button",
-	        "text": Pick an experience level to see scores,
+	        "text": "Pick an experience level to see scores",
 	        "buttons":[
 	          {
 	          	"type":"postback",
