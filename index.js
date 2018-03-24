@@ -668,7 +668,7 @@ let groupset =
 "- Haejin Park\n"+
 "- Sharon Shu\n"+
 "- Jennifer Tsui\n"+
-"- Chi Tun Lam\n\n\n"+
+"- Chi Tun Lam\n\n"+
 
 "Cornell - Big Red Bearhand (better name to be decided)\n"+
 "- Albert Zhang\n"+
@@ -676,7 +676,7 @@ let groupset =
 "- Daisy Zheng\n"+
 "- Winni Gao\n"+
 "- Erika Yu\n"+
-"- Ethyn Leong\n\n\n"+
+"- Ethyn Leong\n\n"+
 
 "Northern Arizona - NAU Iron Fist\n"+
 "- Mekenzie Dyer \n"+
@@ -684,7 +684,7 @@ let groupset =
 "- Alexis Weyh\n"+
 "- John MacLean\n"+
 "- Jamie Evely\n"+
-"- Sara Moore\n\n\n"+
+"- Sara Moore\n\n"+
 
 "Stanford - Stanford Wushu\n"+
 "- William Du\n"+
@@ -692,7 +692,7 @@ let groupset =
 "- Jin Yun Chow\n"+
 "- Stuart Sy\n"+
 "- Michelle Chin\n"+
-"- Jessica Luo\n\n\n"+
+"- Jessica Luo\n\n"+
 
 "UMD: College Park:\n"+
 
@@ -726,7 +726,7 @@ let groupset =
 "- Adanna Liu\n"+
 "- Kevin Chen\n"+
 "- Jonathan Li\n"+
-"- Annie Shi\n\n\n"+
+"- Annie Shi\n\n"+
 
 "UVA - WuHoos\n"+
 "- Mario Caballero\n"+
@@ -734,7 +734,7 @@ let groupset =
 "- Katie Zhao\n"+
 "- Mitchell Levasseur\n"+
 "- Kenneth Chen\n"+
-"- CJ Rogers\n\n\n"+
+"- CJ Rogers\n\n"+
 
 "UC Berkeley:\n"+
 "1) Cal Wushu A Team\n"+
@@ -766,7 +766,7 @@ let groupset =
 "- Ryan Wang\n"+
 "- Lucas Verde\n"+
 "- Simon Nguyen\n"+
-"- Carlos Estrada\n\n\n"+
+"- Carlos Estrada\n\n"+
 
 "UCLA:\n"+
 
@@ -800,7 +800,7 @@ let groupset =
 "- Kaitlyn Trinh\n"+
 "- Richard Nguyen\n"+
 "- Michelle Sit\n"+
-"- Darren Deng\n\n\n"+
+"- Darren Deng\n\n"+
 
 "VCU - Doki Doki Wushu Club\n"+
 "- Wesley Huie\n"+
