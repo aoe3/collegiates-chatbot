@@ -1090,8 +1090,6 @@ function decideMessage(sender, textInput){
 	} else if ((text.includes("adv")) || (text.includes("advanced"))){
 		sendAdvanced(sender)
 	//end events
-	} else if ((text.includes("school"))){
-		sendSchools(sender)
 	} else if (text.includes("berklee")){
 		sendText(sender, berklee)	
 	} else if (text.includes("calstatelb")){
@@ -1146,6 +1144,9 @@ function decideMessage(sender, textInput){
 		sendText(sender, vcu)	
 	} else if (text.includes("vtech")){
 		sendText(sender, vtech)	
+		
+	} else if ((text.includes("school")) || (text.includes("university")) || (text.includes("college"))){
+		sendSchools(sender)
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
 		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
