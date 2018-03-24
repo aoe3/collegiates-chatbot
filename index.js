@@ -696,7 +696,7 @@ let groupset =
 
 "UMD: College Park:\n\n"+
 
-"B (ima change ltr)\n"+
+"1) B (ima change ltr)\n"+
 "- Tianming Li\n"+
 "- Jason Tang\n"+
 "- Dominic Chow\n"+
@@ -704,7 +704,7 @@ let groupset =
 "- Christopher Tran\n"+
 "- Jae Hee Jang\n\n"+
 
-"HEEEE HAW\n"+
+"2) HEEEE HAW\n"+
 "- Connor Maples\n"+
 "- Benjamin Chen\n"+
 "- Claire Weber\n"+
@@ -712,7 +712,7 @@ let groupset =
 "- Alexander Lu\n"+
 "- Kelly Zhang\n\n"+
 
-"flamingo fans\n"+
+"3) flamingo fans\n"+
 "- Michelle Tu\n"+
 "- Emily Yang\n"+
 "- Kyle Chan\n"+
@@ -737,14 +737,14 @@ let groupset =
 "- CJ Rogers\n\n\n"+
 
 "UC Berkeley:\n\n"+
-"Cal Wushu A Team\n"+
+"1) Cal Wushu A Team\n"+
 "- Robert Yu\n"+
 "- Jason Zou\n"+
 "- Queenie Li\n"+
 "- Jemmy Zhou\n"+
 "- Alyssa Lo\n\n"+
 
-"Cal Wushu Baewatch Team\n"+
+"2) Cal Wushu Baewatch Team\n"+
 "- Cecilia Springer\n"+
 "- Vincent Ngo\n"+
 "- Eric Fu\n"+
@@ -752,7 +752,7 @@ let groupset =
 "- Shannon Tsang\n"+
 "- Olivia Guo\n\n"+
 
-"The Mighty C\n"+
+"3) The Mighty C\n"+
 "- Ryan Zheng\n"+
 "- Unique Wei\n"+
 "- Claire Tsau\n"+
@@ -768,9 +768,9 @@ let groupset =
 "- Simon Nguyen\n"+
 "- Carlos Estrada\n\n\n"+
 
-"*UCLA*:\n\n"+
+"UCLA:\n\n"+
 
-"Spi-C Team\n"+
+"1) Spi-C Team\n"+
 "- Michelle Tan\n"+
 "- Janet Nguyen\n"+
 "- Michelle Nguyen\n"+
@@ -778,7 +778,7 @@ let groupset =
 "- Samantha Ono\n"+
 "- Clarity Chua\n\n"+
 
-"The Big Baller Brand Team\n"+
+"2) The Big Baller Brand Team\n"+
 "- Chinmaya Aditya\n"+
 "- Akshara Aditya\n"+
 "- Eric Wang\n"+
@@ -786,7 +786,7 @@ let groupset =
 "- Annmarie Cong\n"+
 "- Jennie Wang\n\n"+
 
-"Wakan大麻辣\n"+
+"3) Wakan大麻辣\n"+
 "- Connor Hum\n"+
 "- Xian Kai Ng\n"+
 "- Alexander Wu\n"+
