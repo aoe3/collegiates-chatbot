@@ -1357,46 +1357,50 @@ function decideMessage(sender, textInput){
 		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
 	//rings
 	} else if ((text.includes("ringall")) || (text.includes("all rings")) || (text.includes("ring all"))){
-		sendText(sender, 	"Ring 1\n\n"+
-							"- Beg CQ\n"+
-							"- Int CQ\n"+
-							"- Adv CQ\n"+
-							"- Beg TJ\n\n\n"+
-							"Ring 2\n\n"+
-							"- Beg NQ\n"+
-							"- Int NQ\n"+
-							"- Adv NQ\n"+
-							"- Int TJ\n\n\n"+
-							"- Ring 3\n\n"+
-							"- Beg Trad.\n"+
-							"- Int Trad.\n"+
-							"- Adv Trad.\n"+
-							"- Adv TJ")
+		sendText(sender, "Schedule still TBD.")
+		// sendText(sender, 	"Ring 1\n\n"+
+		// 					"- Beg CQ\n"+
+		// 					"- Int CQ\n"+
+		// 					"- Adv CQ\n"+
+		// 					"- Beg TJ\n\n\n"+
+		// 					"Ring 2\n\n"+
+		// 					"- Beg NQ\n"+
+		// 					"- Int NQ\n"+
+		// 					"- Adv NQ\n"+
+		// 					"- Int TJ\n\n\n"+
+		// 					"- Ring 3\n\n"+
+		// 					"- Beg Trad.\n"+
+		// 					"- Int Trad.\n"+
+		// 					"- Adv Trad.\n"+
+		// 					"- Adv TJ")
 	} else if ((text.includes("ring1")) || (text.includes("ring 1")) || (text.includes("mat1")) || (text.includes("mat 1"))){
-		sendText(sender, 	"Ring 1\n\n"+
-							"-Beg CQ\n"+
-							"-Int CQ\n"+
-							"-Adv CQ\n"+
-							"-Beg TJ")
+		sendText(sender, "Schedule still TBD.")
+		// sendText(sender, 	"Ring 1\n\n"+
+		// 					"-Beg CQ\n"+
+		// 					"-Int CQ\n"+
+		// 					"-Adv CQ\n"+
+		// 					"-Beg TJ")
 	} else if ((text.includes("ring2")) || (text.includes("ring 2")) || (text.includes("mat2")) || (text.includes("mat 2"))){
-		sendText(sender,	"Ring 2\n\n"+
-							"-Beg NQ\n"+
-							"-Int NQ\n"+
-							"-Adv NQ\n"+
-							"-Int TJ")
+		sendText(sender, "Schedule still TBD.")
+		// sendText(sender,	"Ring 2\n\n"+
+		// 					"-Beg NQ\n"+
+		// 					"-Int NQ\n"+
+		// 					"-Adv NQ\n"+
+		// 					"-Int TJ")
 	} else if ((text.includes("ring3")) || (text.includes("ring 3")) || (text.includes("mat3")) || (text.includes("mat 3"))){
-		sendText(sender,	"Ring 3\n\n"+
-							"-Beg Trad.\n"+
-							"-Int Trad.\n"+
-							"-Adv Trad.\n"+
-							"-Adv TJ")
+		sendText(sender, "Schedule still TBD.")
+		// sendText(sender,	"Ring 3\n\n"+
+		// 					"-Beg Trad.\n"+
+		// 					"-Int Trad.\n"+
+		// 					"-Adv Trad.\n"+
+		// 					"-Adv TJ")
 	//POTENTIAL real-time schedule... what's happening now?
 	// } else if (text == "schedule"){
 	//	sendText(sender, "Ring 1: event1\nRing 2: event2\nRing 3: event3")
 
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
-		sendText(sender, "To get in touch:\n\nE-mail: pittwushu@gmail.com\nTel: 555-555-5555")
+		sendText(sender, "To get in touch:\n\nE-mail: pittwushu@gmail.com\nTel: To be decided later.")
 	} else if((text.includes("thank"))){
 		sendText(sender, "You're welcome! You're my favorite human!")
 	} else if(text.includes("i love you")) {
