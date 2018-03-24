@@ -448,7 +448,7 @@ let advChangquan =
 "- Jason Zou\n\n\n"
 
 let advNanquan ="Female Nanquan\n\n"+
-"- Sabrina Chiang"+
+"- Sabrina Chiang\n"+
 "- Queenie Li\n\n\n"+
 
 "Male Nanquan\n\n"+
@@ -491,7 +491,7 @@ let advOpenChen =
 
 let adv42Fist =
 "Female 42 Fist\n\n"+
-"- Marianne Dang]n"+
+"- Marianne Dang\n"+
 "- Amy Pribadi\n\n\n"+
 
 "Male 42 Fist\n\n"+
@@ -971,7 +971,60 @@ function decideMessage(sender, textInput){
 		sendText(sender, "The 22nd Annual Collegiate Wushu Tournament is April 7th, 2018.")
 	} else if ((text.includes("where")) || (text.includes("location"))){
 		sendText(sender, "The 22nd Annual Collegiate Wushu Tournament is being held at Fitzgeral Fieldhouse in Pittsburgh, PA")
+		//food court available (day of)
+	} else if ((text == "foodcourt") || (text == "lunch") || (text.includes("food court"))){
+		sendLunch(sender)
+		let lunchText = {text: "The food court will be open from 11 A.M. to 6 P.M. ONLY on the day of the competition!\n\nThe food court is located at 3719 Terrace Street, down the escalators!"}
+		sendRequest(sender, lunchText)
+	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
+	} else if ((text == "local") || (text == "restaurants") || (text.includes("hungry")) || (text.includes("restaurant"))){
+		sendLocalButtonMessage(sender, "Choose a price point!\n$ = roughly less than $15\n$$ = roughly $15 to $25\n$$$ = greater than $25")
+	//price point breakdown 
+	} else if((text.includes("3$")) || (text.includes("$$$"))){
+		sendText(sender, 
+					"Legume\n- American\n- Sleek bistro serving seasonal, locally sourced fare, with drinks from the attached bar, Butterjoint.\n- 214 N Craig St, Pittsburgh, PA 15213\n\n"+
 
+					"The Butcher and the Rye\n- American\n- Trendy outpost serving innovative New American cuisine & craft cocktails in a rustic-chic space.\n- 212 6th St, Pittsburgh, PA 15222s\n\n"+ 
+
+					"Texas de Brazil\n- Brazilian\n- Upscale Brazilian eatery featuring all-you-can-eat grilled meat carved tableside & a salad bar.\n- 240 W. Station Square Drive, Suite D1, Pittsburgh, PA 15219\n\n"+
+
+					"The Melting Pot\n- Other\n- Fondue restaurant chain offering heated pots of cheese, chocolate or broth for dipping & cooking.\n- 125 W Station Square Dr, Pittsburgh, PA 15219\n\n"+
+
+					"Grand Concourse\n- Seafood\n- Train station turned upscale restaurant with seafood & steaks plus a more casual attached saloon.\n- 100 W Station Square Dr, Pittsburgh, PA 15219\n\n"+
+
+					"Monterey Bay Fish Grotto\n- Seafood\n- White-tablecloth eatery & bar with panoramic riverside views offers elegantly plated seafood.\n- 1411 Grandview Ave, Pittsburgh, PA 15211")
+	} else if((text.includes("2$")) || (text.includes("$$"))){
+		sendText(sender, 
+					"Meat and Potatoes\n- American\n- Chic, modern gastropub making New American dinners, eclectic brunch items & inventive mixed drinks.\n- 649 Penn Ave, Pittsburgh, PA 15222\n\n"+
+
+					"The Porch\n- American\n- Laid-back eatery with a patio for seasonal menus crafted using ingredients from local producers.\n- 221 Schenley Drive, Pittsburgh, PA 15213\n\n"+ 
+
+					"Sichuan Gourmet\n- Asian\n- Casual Chinese eatery offering a menu of staples plus many spicy Sichuan dishes in a bright space.\n- 1900 Murray Ave, Pittsburgh, PA 15217\n\n"+
+
+					"Hoffbrauhaus Pittsburgh\n- European\n- German brewery modeled like the Munich original has seasonal beer, Bavarian fare & costumed servers.\n- 2705 S Water St, Pittsburgh, PA 15203\n\n"+
+
+					"Church Brew Works\n- Other\n- Former church is now a lofty space for house-brewed beers, plus a mix of pizza, pierogi & bratwurst.\n- 3525 Liberty Ave, Pittsburgh, PA 15201\n\n"+
+
+					"täkō\n- Mexican\n- Lively taqueria with sidewalk seating serving inventive Mexican street food in chill digs.\n- 214 6th St, Pittsburgh, PA 15222")
+	} else if ((text.includes("1$")) || (text.includes("$"))){
+		sendText(sender, 
+					"Pamela's Diner(CASH ONLY)\nAmerican\n- Charming, retro breakfast & lunch spot for specialty crepe-hotcakes, omelets & burgers. Cash only.\n- 3703 Forbes Ave, Pittsburgh, PA 15213\n\n"+
+
+					"Primanti Bros.\n- American\n- Pittsburgh-born counter-serve chain known for its sandwiches.\n- 3803 Forbes Ave, Pittsburgh, PA 15213\n\n"+ 
+
+					"The Yard\n- American\n- Brick-walled bar with TVs, craft beer & pub grub, including a gourmet grilled-cheese menu.\n- 736 Bellefonte St, Pittsburgh, PA 15232\n- Alt: 100 Fifth Ave, Pittsburgh, PA 15222\n\n"+
+
+					"Chengdu Gourmet\n- Asian\n- Basic Sichuan spot offering both traditional and American-style Chinese eats in simple surrounds.\n- 5840 Forward Ave, Pittsburgh, PA 15217\n\n"+
+
+					"Everyday Noodles\n- Asian\n- A casual Chinese eatery specializing in noodle dishes that's known for its kitchen viewing window.\n- 5875 Forbes Ave, Pittsburgh, PA 15217\n\n"+
+
+					"How Lee\n- Asian\n- Spartan establishment with a large menu including familiar fare & specialty Sichuan entrees.\n- 5888 Forbes Ave, Pittsburgh, PA 15217\n\n"+
+
+					"Noodlehead(CASH ONLY)\n- Asian\n- BYOB, cash-only Thai joint featuring street-market noodles & other bites in cool, industrial digs.\n- 242 S Highland Ave, Pittsburgh, PA 15206\n\n"+
+
+					"Klavon's Ice Cream Parlor\n- Dessert\n- Charming, old-school spot for shakes, floats & sundaes made Penn State Creamery ice cream.\n- 2801 Penn Ave, Pittsburgh, PA 15222\n\n"+
+
+					"S&D Polish Deli\n- European\n- Simple Polish deli with traditional fare plus meats, sweets & products imported from Eastern Europe.\n- 2204 Penn Ave, Pittsburgh, PA 15222")
 		//begin schools
 	} else if (text.includes("berklee")){
 		sendText(sender, berklee)	
@@ -1149,99 +1202,45 @@ function decideMessage(sender, textInput){
 		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
 	//rings
 	} else if (text.includes("ringall")){
-		sendText(sender, 	"Ring 1\n"+
-							"Beg CQ\n"+
-							"Int CQ\n"+
-							"Adv CQ\n"+
-							"Beg TJ\n \n"+
-							"Ring 2\n"+
-							"Beg NQ\n"+
-							"Int NQ\n"+
-							"Adv NQ\n"+
-							"Int TJ\n \n"+
-							"Ring 3\n"+
-							"Beg Trad.\n"+
-							"Int Trad.\n"+
-							"Adv Trad.\n"+
-							"Adv TJ")
+		sendText(sender, 	"Ring 1\n\n"+
+							"- Beg CQ\n"+
+							"- Int CQ\n"+
+							"- Adv CQ\n"+
+							"- Beg TJ\n\n\n"+
+							"Ring 2\n\n"+
+							"- Beg NQ\n"+
+							"- Int NQ\n"+
+							"- Adv NQ\n"+
+							"- Int TJ\n\n\n"+
+							"- Ring 3\n\n"+
+							"- Beg Trad.\n"+
+							"- Int Trad.\n"+
+							"- Adv Trad.\n"+
+							"- Adv TJ")
 	} else if (text.includes("ring1")){
-		sendText(sender, 	"Ring 1\n"+
-							"Beg CQ\n"+
-							"Int CQ\n"+
-							"Adv CQ\n"+
-							"Beg TJ")
+		sendText(sender, 	"Ring 1\n\n"+
+							"-Beg CQ\n"+
+							"-Int CQ\n"+
+							"-Adv CQ\n"+
+							"-Beg TJ")
 	} else if(text.includes("ring2")){
-		sendText(sender,	"Ring 2\n"+
-							"Beg NQ\n"+
-							"Int NQ\n"+
-							"Adv NQ\n"+
-							"Int TJ")
+		sendText(sender,	"Ring 2\n\n"+
+							"-Beg NQ\n"+
+							"-Int NQ\n"+
+							"-Adv NQ\n"+
+							"-Int TJ")
 	} else if(text.includes("ring3")){
-		sendText(sender,	"Ring 3\n"+
-							"Beg Trad.\n"+
-							"Int Trad.\n"+
-							"Adv Trad.\n"+
-							"Adv TJ")
+		sendText(sender,	"Ring 3\n\n"+
+							"-Beg Trad.\n"+
+							"-Int Trad.\n"+
+							"-Adv Trad.\n"+
+							"-Adv TJ")
 	//POTENTIAL real-time schedule... what's happening now?
 	// } else if (text == "schedule"){
 	//	sendText(sender, "Ring 1: event1\nRing 2: event2\nRing 3: event3")
 	// //POTENTIAL real-time scores... let's see?
 	// } else if (text == "scores"){
-
-	//food court available (day of)
-	} else if ((text == "foodcourt") || (text == "lunch") || (text.includes("food court"))){
-		sendLunch(sender)
-		let lunchText = {text: "The food court will be open from 11 A.M. to 6 P.M. ONLY on the day of the competition!\n\nThe food court is located at 3719 Terrace Street, down the escalators!"}
-		sendRequest(sender, lunchText)
-	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
-	} else if ((text == "local") || (text == "restaurants") || (text.includes("hungry")) || (text.includes("eat")) || (text.includes("restaurant"))){
-		sendLocalButtonMessage(sender, "Choose a price point!\n$ = roughly less than $15\n$$ = roughly $15 to $25\n$$$ = greater than $25")
-	//price point breakdown 
-	} else if((text.includes("3$")) || (text.includes("$$$"))){
-		sendText(sender, 
-					"Legume\n- American\n- Sleek bistro serving seasonal, locally sourced fare, with drinks from the attached bar, Butterjoint.\n- 214 N Craig St, Pittsburgh, PA 15213\n\n"+
-
-					"The Butcher and the Rye\n- American\n- Trendy outpost serving innovative New American cuisine & craft cocktails in a rustic-chic space.\n- 212 6th St, Pittsburgh, PA 15222s\n\n"+ 
-
-					"Texas de Brazil\n- Brazilian\n- Upscale Brazilian eatery featuring all-you-can-eat grilled meat carved tableside & a salad bar.\n- 240 W. Station Square Drive, Suite D1, Pittsburgh, PA 15219\n\n"+
-
-					"The Melting Pot\n- Other\n- Fondue restaurant chain offering heated pots of cheese, chocolate or broth for dipping & cooking.\n- 125 W Station Square Dr, Pittsburgh, PA 15219\n\n"+
-
-					"Grand Concourse\n- Seafood\n- Train station turned upscale restaurant with seafood & steaks plus a more casual attached saloon.\n- 100 W Station Square Dr, Pittsburgh, PA 15219\n\n"+
-
-					"Monterey Bay Fish Grotto\n- Seafood\n- White-tablecloth eatery & bar with panoramic riverside views offers elegantly plated seafood.\n- 1411 Grandview Ave, Pittsburgh, PA 15211")
-	} else if((text.includes("2$")) || (text.includes("$$"))){
-		sendText(sender, 
-					"Meat and Potatoes\n- American\n- Chic, modern gastropub making New American dinners, eclectic brunch items & inventive mixed drinks.\n- 649 Penn Ave, Pittsburgh, PA 15222\n\n"+
-
-					"The Porch\n- American\n- Laid-back eatery with a patio for seasonal menus crafted using ingredients from local producers.\n- 221 Schenley Drive, Pittsburgh, PA 15213\n\n"+ 
-
-					"Sichuan Gourmet\n- Asian\n- Casual Chinese eatery offering a menu of staples plus many spicy Sichuan dishes in a bright space.\n- 1900 Murray Ave, Pittsburgh, PA 15217\n\n"+
-
-					"Hoffbrauhaus Pittsburgh\n- European\n- German brewery modeled like the Munich original has seasonal beer, Bavarian fare & costumed servers.\n- 2705 S Water St, Pittsburgh, PA 15203\n\n"+
-
-					"Church Brew Works\n- Other\n- Former church is now a lofty space for house-brewed beers, plus a mix of pizza, pierogi & bratwurst.\n- 3525 Liberty Ave, Pittsburgh, PA 15201\n\n"+
-
-					"täkō\n- Mexican\n- Lively taqueria with sidewalk seating serving inventive Mexican street food in chill digs.\n- 214 6th St, Pittsburgh, PA 15222")
-	} else if ((text.includes("1$")) || (text.includes("$"))){
-		sendText(sender, 
-					"Pamela's Diner(CASH ONLY)\nAmerican\n- Charming, retro breakfast & lunch spot for specialty crepe-hotcakes, omelets & burgers. Cash only.\n- 3703 Forbes Ave, Pittsburgh, PA 15213\n\n"+
-
-					"Primanti Bros.\n- American\n- Pittsburgh-born counter-serve chain known for its sandwiches.\n- 3803 Forbes Ave, Pittsburgh, PA 15213\n\n"+ 
-
-					"The Yard\n- American\n- Brick-walled bar with TVs, craft beer & pub grub, including a gourmet grilled-cheese menu.\n- 736 Bellefonte St, Pittsburgh, PA 15232\n- Alt: 100 Fifth Ave, Pittsburgh, PA 15222\n\n"+
-
-					"Chengdu Gourmet\n- Asian\n- Basic Sichuan spot offering both traditional and American-style Chinese eats in simple surrounds.\n- 5840 Forward Ave, Pittsburgh, PA 15217\n\n"+
-
-					"Everyday Noodles\n- Asian\n- A casual Chinese eatery specializing in noodle dishes that's known for its kitchen viewing window.\n- 5875 Forbes Ave, Pittsburgh, PA 15217\n\n"+
-
-					"How Lee\n- Asian\n- Spartan establishment with a large menu including familiar fare & specialty Sichuan entrees.\n- 5888 Forbes Ave, Pittsburgh, PA 15217\n\n"+
-
-					"Noodlehead(CASH ONLY)\n- Asian\n- BYOB, cash-only Thai joint featuring street-market noodles & other bites in cool, industrial digs.\n- 242 S Highland Ave, Pittsburgh, PA 15206\n\n"+
-
-					"Klavon's Ice Cream Parlor\n- Dessert\n- Charming, old-school spot for shakes, floats & sundaes made Penn State Creamery ice cream.\n- 2801 Penn Ave, Pittsburgh, PA 15222\n\n"+
-
-					"S&D Polish Deli\n- European\n- Simple Polish deli with traditional fare plus meats, sweets & products imported from Eastern Europe.\n- 2204 Penn Ave, Pittsburgh, PA 15222")
+		
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
 		sendText(sender, "To get in touch:\n\nE-mail: pittwushu@gmail.com\nTel: 555-555-5555")
