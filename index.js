@@ -2017,7 +2017,7 @@ function sendSchools(sender){
                 "payload": "vtech"
               }
             ]
-          },
+          }
         ]
       }
     }
