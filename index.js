@@ -773,6 +773,22 @@ let groupset =
 "- Samantha Ono\n"+
 "- Clarity Chua\n\n\n"+
 
+"UC Los Angeles - Spi-C Team\n\n"+
+"- Michelle Tan\n"+
+"- Janet Nguyen\n"+
+"- Michelle Nguyen\n"+
+"- Kelly Zhang\n"+
+"- Samantha Ono\n"+
+"- Clarity Chua\n\n\n"+
+
+"UC Los Angeles - Spi-C Team\n\n"+
+"- Michelle Tan\n"+
+"- Janet Nguyen\n"+
+"- Michelle Nguyen\n"+
+"- Kelly Zhang\n"+
+"- Samantha Ono\n"+
+"- Clarity Chua\n\n\n"+
+
 "UC Los Angeles - The Big Baller Brand Team\n\n"+
 "- Chinmaya Aditya\n"+
 "- Akshara Aditya\n"+
