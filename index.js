@@ -1805,8 +1805,20 @@ function decideMessage(sender, textInput){
 	} else if (text.includes("allAdvScores")){
 		sendScoreOptions(sender)
 	//POTENTIAL real-time scores... let's see?
+	} else if (text.includes("beg score")){
+		sendText(sender, allBegScores)
+	} else if (text.includes("beginner score")){
+		sendText(sender, allBegScores)
+	} else if (text.includes("int score")){
+		sendText(sender, allIntScores)
+	} else if (text.includes("intermediate score")){
+		sendText(sender, allIntScores)
+	} else if (text.includes("adv score")){
+		sendText(sender, allAdvScores)
+	} else if (text.includes("advanced score"))
+		sendText(sender, allAdvScores)
 	} else if (text.includes("score")){
-		sendScoreOptions(sender)
+		sendText(sender, "Please type 'BEG scores', 'INT scores', or 'ADV scores'")
 		//sendScoreOptions(sender)
 	//view events
 	} else if (text.includes("events")){
@@ -2101,30 +2113,30 @@ function sendLocalButtonMessage(sender, text){
 // 	sendText(sender, messageData)
 // }
 
-function sendScoreOptions(sender){
-	let messageData = {
-		"text": "Here is a quick reply!",
-    	"quick_replies":
-    	[
-    		{
-			  "content_type":"text",
-			  "title":"Beginner",
-			  "payload":"allBegScores"
-			},
-			{
-			  "content_type":"text",
-			  "title":"Intermediate",
-			  "payload":"allIntScores"
-			},
-			{
-			  "content_type":"text",
-			  "title":"Advanced",
-			  "payload":"allAdvScores"
-			}
-		]
-	}
-	sendRequest(sender, messageData)
-}
+// function sendScoreOptions(sender){
+// 	let messageData = {
+// 		"text": "Here is a quick reply!",
+//     	"quick_replies":
+//     	[
+//     		{
+// 			  "content_type":"text",
+// 			  "title":"Beginner",
+// 			  "payload":"allBegScores"
+// 			},
+// 			{
+// 			  "content_type":"text",
+// 			  "title":"Intermediate",
+// 			  "payload":"allIntScores"
+// 			},
+// 			{
+// 			  "content_type":"text",
+// 			  "title":"Advanced",
+// 			  "payload":"allAdvScores"
+// 			}
+// 		]
+// 	}
+// 	sendRequest(sender, messageData)
+// }
 
 function sendVenueImageMessage(sender){
 	let messageData = {
