@@ -678,13 +678,13 @@ let groupset =
 "- Erika Yu\n"+
 "- Ethyn Leong\n\n\n"+
 
-// "Northern Arizona U - NAU Iron Fist\n\n"+
-// "- Mekenzie Dyer \n"+
-// "- Bumjoon Kim\n"+
-// "- Alexis Weyh\n"+
-// "- John MacLean\n"+
-// "- Jamie Evely\n"+
-// "- Sara Moore\n\n\n"+
+"Northern Arizona U - NAU Iron Fist\n\n"+
+"- Mekenzie Dyer \n"+
+"- Bumjoon Kim\n"+
+"- Alexis Weyh\n"+
+"- John MacLean\n"+
+"- Jamie Evely\n"+
+"- Sara Moore\n\n\n"+
 
 // "Stanford U - Stanford Wushu\n\n"+
 // "- William Du\n"+
