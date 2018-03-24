@@ -686,76 +686,76 @@ let groupset =
 "- Jamie Evely\n"+
 "- Sara Moore\n\n\n"+
 
-// "Stanford U - Stanford Wushu\n\n"+
-// "- William Du\n"+
-// "- Michael Fang\n"+
-// "- Jin Yun Chow\n"+
-// "- Stuart Sy\n"+
-// "- Michelle Chin\n"+
-// "- Jessica Luo\n\n\n"+
+"Stanford U - Stanford Wushu\n\n"+
+"- William Du\n"+
+"- Michael Fang\n"+
+"- Jin Yun Chow\n"+
+"- Stuart Sy\n"+
+"- Michelle Chin\n"+
+"- Jessica Luo\n\n\n"+
 
-// "U Maryland: College Park - B (ima change ltr)\n\n"+
-// "- Tianming Li\n"+
-// "- Jason Tang\n"+
-// "- Dominic Chow\n"+
-// "- Christine Hwang\n"+
-// "- Christopher Tran\n"+
-// "- Jae Hee Jang\n\n\n"+
+"U Maryland: College Park - B (ima change ltr)\n\n"+
+"- Tianming Li\n"+
+"- Jason Tang\n"+
+"- Dominic Chow\n"+
+"- Christine Hwang\n"+
+"- Christopher Tran\n"+
+"- Jae Hee Jang\n\n\n"+
 
-// "U Maryland: College Park - HEEEE HAW\n\n"+
-// "- Connor Maples\n"+
-// "- Benjamin Chen\n"+
-// "- Claire Weber\n"+
-// "- Kristian Koeser\n"+
-// "- Alexander Lu\n"+
-// "- Kelly Zhang\n\n\n"+
+"U Maryland: College Park - HEEEE HAW\n\n"+
+"- Connor Maples\n"+
+"- Benjamin Chen\n"+
+"- Claire Weber\n"+
+"- Kristian Koeser\n"+
+"- Alexander Lu\n"+
+"- Kelly Zhang\n\n\n"+
 
-// "U Maryland: College Park - flamingo fans\n\n"+
-// "- Michelle Tu\n"+
-// "- Emily Yang\n"+
-// "- Kyle Chan\n"+
-// "- Kasey Chan\n"+
-// "- Francis Poon\n"+
-// "- Julia Leung\n\n\n"+
+"U Maryland: College Park - flamingo fans\n\n"+
+"- Michelle Tu\n"+
+"- Emily Yang\n"+
+"- Kyle Chan\n"+
+"- Kasey Chan\n"+
+"- Francis Poon\n"+
+"- Julia Leung\n\n\n"+
 
-// "U Pittsburgh - Bao Down PITTches\n\n"+
-// "- Gina Bao\n"+
-// "- Melodee Li\n"+
-// "- Adanna Liu\n"+
-// "- Kevin Chen\n"+
-// "- Jonathan Li\n"+
-// "- Annie Shi\n\n\n"+
+"U Pittsburgh - Bao Down PITTches\n\n"+
+"- Gina Bao\n"+
+"- Melodee Li\n"+
+"- Adanna Liu\n"+
+"- Kevin Chen\n"+
+"- Jonathan Li\n"+
+"- Annie Shi\n\n\n"+
 
-// "U Virginia - WuHoos\n\n"+
-// "- Mario Caballero\n"+
-// "- Erik Song\n"+
-// "- Katie Zhao\n"+
-// "- Mitchell Levasseur\n"+
-// "- Kenneth Chen\n"+
-// "- CJ Rogers\n\n\n"+
+"U Virginia - WuHoos\n\n"+
+"- Mario Caballero\n"+
+"- Erik Song\n"+
+"- Katie Zhao\n"+
+"- Mitchell Levasseur\n"+
+"- Kenneth Chen\n"+
+"- CJ Rogers\n\n\n"+
 
-// "UC Berkeley - Cal Wushu A Team\n\n"+
-// "- Robert Yu\n"+
-// "- Jason Zou\n"+
-// "- Queenie Li\n"+
-// "- Jemmy Zhou\n"+
-// "- Alyssa Lo\n\n\n"+
+"UC Berkeley - Cal Wushu A Team\n\n"+
+"- Robert Yu\n"+
+"- Jason Zou\n"+
+"- Queenie Li\n"+
+"- Jemmy Zhou\n"+
+"- Alyssa Lo\n\n\n"+
 
-// "UC Berkeley - Cal Wushu Baewatch Team\n\n"+
-// "- Cecilia Springer\n"+
-// "- Vincent Ngo\n"+
-// "- Eric Fu\n"+
-// "- Karen Kuang\n"+
-// "- Shannon Tsang\n"+
-// "- Olivia Guo\n\n\n"+
+"UC Berkeley - Cal Wushu Baewatch Team\n\n"+
+"- Cecilia Springer\n"+
+"- Vincent Ngo\n"+
+"- Eric Fu\n"+
+"- Karen Kuang\n"+
+"- Shannon Tsang\n"+
+"- Olivia Guo\n\n\n"+
 
-// "UC Berkeley - The Mighty C\n\n"+
-// "- Ryan Zheng\n"+
-// "- Unique Wei\n"+
-// "- Claire Tsau\n"+
-// "- Alden Liu\n"+
-// "- Henderson Wong\n"+
-// "- Julie Wang\n\n\n"+
+"UC Berkeley - The Mighty C\n\n"+
+"- Ryan Zheng\n"+
+"- Unique Wei\n"+
+"- Claire Tsau\n"+
+"- Alden Liu\n"+
+"- Henderson Wong\n"+
+"- Julie Wang\n\n\n"+
 
 // "UC Irvine - \\UCI\\'s Jasmine Milk Tea-M\\\n\n"+
 // "- Jasmine Wong\n"+
