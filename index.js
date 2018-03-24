@@ -1091,7 +1091,60 @@ function decideMessage(sender, textInput){
 	//end events
 	} else if (text.includes("school")){
 		sendSchools(sender)
-
+	} else if (text.includes("berklee")){
+		sendText(sender, berklee)	
+	} else if (text.includes("calstatelb")){
+		sendText(sender, calstateLB)	
+	} else if (text.includes("columbia")){
+		sendText(sender, columbia)
+	} else if (text.includes("cornell")){
+		sendText(sender, cornell)
+	} else if (text.includes("harvard")){
+		sendText(sender, harvard)
+	} else if (text.includes("mit")){
+		sendText(sender, mit)	
+	} else if (text.includes("nyu")){
+		sendText(sender, nyu)
+	} else if (text.includes("nau")){
+		sendText(sender, nau)	
+	} else if (text.includes("osu")){
+		sendText(sender, osu)
+	} else if (text.includes("stpeters")){
+		sendText(sender, stpeters)
+	} else if (text.includes("sdmiramar")){
+		sendText(sender, sdmiramar)
+	} else if (text.includes("stanford")){
+		sendText(sender, stanford)
+	} else if (text.includes("stonybrook")){
+		sendText(sender, stonybrook)
+	} else if (text.includes("houston")){
+		sendText(sender, houston)	
+	} else if (text.includes("umbc")){
+		sendText(sender, umbc)
+	} else if (text.includes("umcp")){
+		sendText(sender, umcp)	
+	} else if (text.includes("oregon")){
+		sendText(sender, oregon)
+	} else if (text.includes("pitt")){
+		sendText(sender, pitt)
+	} else if (text.includes("texas")){
+		sendText(sender, texas)
+	} else if (text.includes("uva")){
+		sendText(sender, uva)
+	} else if (text.includes("uwash")){
+		sendText(sender, uwash)
+	} else if (text.includes("cal")){
+		sendText(sender, cal)	
+	} else if (text.includes("uci")){
+		sendText(sender, uci)	
+	} else if (text.includes("ucla")){
+		sendText(sender, ucla)	
+	} else if (text.includes("ucsd")){
+		sendText(sender, ucsd)	
+	} else if (text.includes("vcu")){
+		sendText(sender, vcu)	
+	} else if (text.includes("vtech")){
+		sendText(sender, vtech)	
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
 		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
@@ -1788,17 +1841,17 @@ function sendSchools(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Berklee College of Music",
+                "title": "Berklee College",
                 "payload": "berklee"
               },
               {
                 "type": "postback",
-                "title": "California State U - Long Beach",
+                "title": "Cal State U - Long Beach",
                 "payload": "calstateLB"
               },
               {
                 "type": "postback",
-                "title": "Columbia University",
+                "title": "Columbia U",
                 "payload": "columbia"
               }
             ]
@@ -1808,17 +1861,17 @@ function sendSchools(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Cornell University",
+                "title": "Cornell U",
                 "payload": "cornell"
               },
               {
                 "type": "postback",
-                "title": "Harvard University",
+                "title": "Harvard U",
                 "payload": "harvard"
               },
               {
                 "type": "postback",
-                "title": "Massachusetts Institute of Technology",
+                "title": "MIT",
                 "payload": "mit"
               }
             ]
@@ -1828,17 +1881,17 @@ function sendSchools(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "New York University",
+                "title": "NYU",
                 "payload": "nyu"
               },
               {
                 "type": "postback",
-                "title": "Northern Arizona University",
+                "title": "Northern Arizona U",
                 "payload": "nau"
               },
               {
                 "type": "postback",
-                "title": "THE Ohio State University",
+                "title": "THE Ohio State U",
                 "payload": "osu"
               }
             ]
@@ -1848,17 +1901,17 @@ function sendSchools(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Saint Peter's University",
+                "title": "Saint Peter's U",
                 "payload": "stpeters"
               },
               {
                 "type": "postback",
-                "title": "San Diego Miramar College",
+                "title": "San Diego Miramar",
                 "payload": "sdmiramar"
               },
               {
                 "type": "postback",
-                "title": "Stanford University",
+                "title": "Stanford U",
                 "payload": "stanford"
               }
             ]
@@ -1873,12 +1926,12 @@ function sendSchools(sender){
               },
               {
                 "type": "postback",
-                "title": "University of Houston",
+                "title": "U Houston",
                 "payload": "houston"
               },
               {
                 "type": "postback",
-                "title": "University of Maryland: Baltimore County",
+                "title": "UMD: Baltimore County",
                 "payload": "umbc"
               }
             ]
@@ -1887,17 +1940,17 @@ function sendSchools(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "University of Maryland: College Park",
+                "title": "UMD: College Park",
                 "payload": "umcp"
               },
               {
                 "type": "postback",
-                "title": "University of Oregon",
-                "payload": "orgeon"
+                "title": "U Oregon",
+                "payload": "oregon"
               },
               {
                 "type": "postback",
-                "title": "University of Pittsburgh",
+                "title": "U Pittsburgh",
                 "payload": "pitt"
               }
             ]
@@ -1906,17 +1959,17 @@ function sendSchools(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "University of Texas",
+                "title": "U Texas",
                 "payload": "texas"
               },
               {
                 "type": "postback",
-                "title": "University of Virginia",
+                "title": "U Virginia",
                 "payload": "uva"
               },
               {
                 "type": "postback",
-                "title": "University of Washington",
+                "title": "U Washington",
                 "payload": "uwash"
               }
             ]
@@ -1949,7 +2002,7 @@ function sendSchools(sender){
               },
               {
                 "type": "postback",
-                "title": "Virginia Commonwealth University",
+                "title": "VCU",
                 "payload": "vcu"
               },
               {
