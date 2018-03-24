@@ -1247,6 +1247,8 @@ function decideMessage(sender, textInput){
 		sendText(sender, "To get in touch:\n\nE-mail: pittwushu@gmail.com\nTel: 555-555-5555")
 	} else if((text.includes("thank"))){
 		sendText(sender, "You're welcome! You're my favorite human!")
+	} else if(text.includes("i love you")) {
+		sendText(sender, "WHAT IS LOVE?\nBABY, DON'T HURT ME!\nDON'T HURT ME!\nNO MORE!")
 	//greetings
 	} else if ((text.includes("hi")) || (text.includes("hola")) || (text.includes("aloha")) || (text.includes("konichiwa")) || 
 				(text.includes("hello")) || (text.includes("holla")) || (text.includes("bonjour")) || (text.includes("ni hao")) || 
@@ -1254,8 +1256,6 @@ function decideMessage(sender, textInput){
 				(text.includes("ello")) || (text.includes("yo"))){
 		sendText(sender, greetings[Math.floor(Math.random() * greetings.length)])
 		//end greetings
-	} else if(text.includes("i love you")) {
-		sendText(sender, "WHAT IS LOVE?\nBABY, DON'T HURT ME!\nDON'T HURT ME!\nNO MORE!")
 	} else if(text == "meme") {
 		sendMeme(sender)	
 	} else {
