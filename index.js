@@ -661,7 +661,8 @@ let advTradSoftWeapon =
 "Male Traditional Soft Weapon\n\n"+
 "- Eric Fu\n\n\n"
 
-let groupset = "Columbia U - ~cu later ;)\n\n"+
+let groupset = 
+"Columbia U - ~cu later ;)\n\n"+
 "- Rebecca Chinn\n"+
 "- Janette Levin\n"+
 "- Haejin Park\n"+
@@ -1527,7 +1528,7 @@ function sendRequest(sender, messageData) {
 		if (error) {
 			console.log("sending error")
 		} else if (response.body.error) {
-			console.log("response body error")
+			console.log("response body error: " + response.body.error)
 		}
 	})
 }
