@@ -1815,7 +1815,7 @@ function decideMessage(sender, textInput){
 		sendText(sender, allIntScores)
 	} else if (text.includes("adv score")){
 		sendText(sender, allAdvScores)
-	} else if (text.includes("advanced score"))
+	} else if (text.includes("advanced score")){
 		sendText(sender, allAdvScores)
 	} else if (text.includes("score")){
 		sendText(sender, "Please type 'BEG scores', 'INT scores', or 'ADV scores'")
