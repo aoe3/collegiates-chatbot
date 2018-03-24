@@ -87,7 +87,8 @@ let begChangquan =
 "- Doris Xu\n"+
 "- Dielai Yang\n"+
 "- Gabrianna Zacharias\n"+
-"- Kelly Zhang\n\n\n"+
+"- Kelly Zhang\n"+
+"- Diana Zhou\n\n\n"+
 
 "Male Changquan\n\n"+
 "- Kyle Chan\n"+
@@ -228,6 +229,7 @@ let intChangquan =
 "Male Changquan\n\n"+
 "- Akshara Aditya\n"+
 "- Chinmaya Aditya\n"+
+"- Thomas Bozzi\n"+
 "- Danny Be\n"+
 "- Kenneth Chen\n"+
 "- Brian Cheng\n"+
