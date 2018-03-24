@@ -1516,20 +1516,20 @@ function sendLocalButtonMessage(sender, text){
 	sendRequest(sender, messageData)
 }
 
-function begScore(sender){
-	let messageData = "No scores have been posted yet."
-	sendText(sender, messageData)
-}
+// function begScore(sender){
+// 	let messageData = "No scores have been posted yet."
+// 	sendText(sender, messageData)
+// }
 
-function intScore(sender){
-	let messageData = "No scores have been posted yet."
-	sendText(sender, messageData)
-}
+// function intScore(sender){
+// 	let messageData = "No scores have been posted yet."
+// 	sendText(sender, messageData)
+// }
 
-function advScore(sender){
-	let messageData = "No scores have been posted yet."
-	sendText(sender, messageData)
-}
+// function advScore(sender){
+// 	let messageData = "No scores have been posted yet."
+// 	sendText(sender, messageData)
+// }
 
 function sendScoreOptions(sender){
 	let messageData = {
@@ -1540,19 +1540,19 @@ function sendScoreOptions(sender){
 	        "text": "Pick an experience level to see scores",
 	        "buttons":[
 	          {
-	          	"type":"postback",
-	            "title":"Beginner Scores",
-	            "payload":"scoreB"
+	          	"type":"web_url",
+	                "url":"https://www.pc.pitt.edu/dining/locations/petersenEvents.php",
+	                "title": "View Beginner"
 	          },
 	          {
-	            "type":"postback",
-	            "title":"Intermediate Scores",
-	            "payload":"scoreI"
+	            "type":"web_url",
+	                "url":"https://www.pc.pitt.edu/dining/locations/petersenEvents.php",
+	                "title": "View Intermediate"
 	          },
 	          {
-	          	"type":"postback",
-	            "title":"advanced",
-	            "payload":"scoreA"
+	          	"type":"web_url",
+	                "url":"https://www.pc.pitt.edu/dining/locations/petersenEvents.php",
+	                "title": "View Advanced"
 	          }
 	        ]
 	      }
