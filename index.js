@@ -1232,6 +1232,16 @@ function decideMessage(sender, textInput){
 	} else if ((text.includes("school")) || (text.includes("university")) || (text.includes("universities")) || (text.includes("college"))){
 		sendSchools(sender)
 		//end schools
+
+	//POTENTIAL real-time scores... let's see?
+	} else if (text.includes("score")){
+		sendScoreOptions(sender)
+	} else if (text.includes("begscore")){
+		begScore(sender)
+	} else if (text.includes("intscore")){
+		intScore(sender)
+	} else if (text.includes("advscore")){
+		advScore(sender)
 	//view events
 	} else if (text.includes("events")){
 		sendText(sender, "Please type 'beg', 'int', 'adv', 'beginner', 'intermediate', 'advanced', or 'groupset' to continue to that category.")
@@ -1388,15 +1398,6 @@ function decideMessage(sender, textInput){
 	//POTENTIAL real-time schedule... what's happening now?
 	// } else if (text == "schedule"){
 	//	sendText(sender, "Ring 1: event1\nRing 2: event2\nRing 3: event3")
-	//POTENTIAL real-time scores... let's see?
-	} else if (text.includes("score")){
-		sendScoreOptions(sender)
-	} else if (text == "begscore"){
-		begScore(sender)
-	} else if (text == "intscore"){
-		intScore(sender)
-	} else if (text == "advscore"){
-		advScore(sender)
 
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
