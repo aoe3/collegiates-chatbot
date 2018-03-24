@@ -1091,7 +1091,6 @@ function decideMessage(sender, textInput){
 	//end events
 	} else if (text.includes("school")){
 		sendSchools(sender)
-	}
 
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
