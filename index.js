@@ -1526,7 +1526,7 @@ function sendRequest(sender, messageData) {
 		}
 	}, function(error, response, body) {
 		if (error) {
-			console.log("sending error")
+			console.log("sending error: " +  error)
 		} else if (response.body.error) {
 			console.log("response body error: " + response.body.error)
 		}
