@@ -757,13 +757,13 @@ let groupset =
 "- Henderson Wong\n"+
 "- Julie Wang\n\n\n"+
 
-// "UC Irvine - \\UCI\\'s Jasmine Milk Tea-M\\\n\n"+
-// "- Jasmine Wong\n"+
-// "- Kristi Lin\n"+
-// "- Ryan Wang\n"+
-// "- Lucas Verde\n"+
-// "- Simon Nguyen\n"+
-// "- Carlos Estrada\n\n\n"+
+"UC Irvine - \\UCI\\'s Jasmine Milk Tea-M\\\n\n"+
+"- Jasmine Wong\n"+
+"- Kristi Lin\n"+
+"- Ryan Wang\n"+
+"- Lucas Verde\n"+
+"- Simon Nguyen\n"+
+"- Carlos Estrada\n\n\n"+
 
 "UC Los Angeles - Spi-C Team\n\n"+
 "- Michelle Tan\n"+
@@ -781,13 +781,13 @@ let groupset =
 "- Annmarie Cong\n"+
 "- Jennie Wang\n\n\n"+
 
-"UC Los Angeles - Wakan大麻辣\n\n"+
-"- Connor Hum\n"+
-"- Xian Kai Ng\n"+
-"- Alexander Wu\n"+
-"- Chuan Chen\n"+
-"- Gwyneth Huynh\n"+
-"- Dimei Wu\n\n\n"+
+// "UC Los Angeles - Wakan大麻辣\n\n"+
+// "- Connor Hum\n"+
+// "- Xian Kai Ng\n"+
+// "- Alexander Wu\n"+
+// "- Chuan Chen\n"+
+// "- Gwyneth Huynh\n"+
+// "- Dimei Wu\n\n\n"+
 
 "UC San Diego - Team Meow Dao\n\n"+
 "- Winston Lee\n"+
