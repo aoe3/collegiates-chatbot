@@ -662,7 +662,7 @@ let advTradSoftWeapon =
 "- Eric Fu\n\n\n"
 
 let groupset = 
-"Columbia U - ~cu later ;)\n\n"+
+"Columbia - ~cu later ;)\n\n"+
 "- Rebecca Chinn\n"+
 "- Janette Levin\n"+
 "- Haejin Park\n"+
@@ -670,7 +670,7 @@ let groupset =
 "- Jennifer Tsui\n"+
 "- Chi Tun Lam\n\n\n"+
 
-"Cornell U - Big Red Bearhand (better name to be decided)\n\n"+
+"Cornell - Big Red Bearhand (better name to be decided)\n\n"+
 "- Albert Zhang\n"+
 "- Sara Ng\n"+
 "- Daisy Zheng\n"+
@@ -678,7 +678,7 @@ let groupset =
 "- Erika Yu\n"+
 "- Ethyn Leong\n\n\n"+
 
-"Northern Arizona U - NAU Iron Fist\n\n"+
+"Northern Arizona - NAU Iron Fist\n\n"+
 "- Mekenzie Dyer \n"+
 "- Bumjoon Kim\n"+
 "- Alexis Weyh\n"+
@@ -686,7 +686,7 @@ let groupset =
 "- Jamie Evely\n"+
 "- Sara Moore\n\n\n"+
 
-"Stanford U - Stanford Wushu\n\n"+
+"Stanford - Stanford Wushu\n\n"+
 "- William Du\n"+
 "- Michael Fang\n"+
 "- Jin Yun Chow\n"+
@@ -694,7 +694,7 @@ let groupset =
 "- Michelle Chin\n"+
 "- Jessica Luo\n\n\n"+
 
-"U Maryland: College Park - B (ima change ltr)\n\n"+
+"UMD: College Park - B (ima change ltr)\n\n"+
 "- Tianming Li\n"+
 "- Jason Tang\n"+
 "- Dominic Chow\n"+
@@ -702,7 +702,7 @@ let groupset =
 "- Christopher Tran\n"+
 "- Jae Hee Jang\n\n\n"+
 
-"U Maryland: College Park - HEEEE HAW\n\n"+
+"UMD: College Park - HEEEE HAW\n\n"+
 "- Connor Maples\n"+
 "- Benjamin Chen\n"+
 "- Claire Weber\n"+
@@ -710,7 +710,7 @@ let groupset =
 "- Alexander Lu\n"+
 "- Kelly Zhang\n\n\n"+
 
-"U Maryland: College Park - flamingo fans\n\n"+
+"UMD: College Park - flamingo fans\n\n"+
 "- Michelle Tu\n"+
 "- Emily Yang\n"+
 "- Kyle Chan\n"+
@@ -718,7 +718,7 @@ let groupset =
 "- Francis Poon\n"+
 "- Julia Leung\n\n\n"+
 
-"U Pittsburgh - Bao Down PITTches\n\n"+
+"Pitt - Bao Down PITTches\n\n"+
 "- Gina Bao\n"+
 "- Melodee Li\n"+
 "- Adanna Liu\n"+
@@ -726,7 +726,7 @@ let groupset =
 "- Jonathan Li\n"+
 "- Annie Shi\n\n\n"+
 
-"U Virginia - WuHoos\n\n"+
+"UVA - WuHoos\n\n"+
 "- Mario Caballero\n"+
 "- Erik Song\n"+
 "- Katie Zhao\n"+
@@ -734,14 +734,14 @@ let groupset =
 "- Kenneth Chen\n"+
 "- CJ Rogers\n\n\n"+
 
-"UC Berkeley - Cal Wushu A Team\n\n"+
+"Berkeley - Cal Wushu A Team\n\n"+
 "- Robert Yu\n"+
 "- Jason Zou\n"+
 "- Queenie Li\n"+
 "- Jemmy Zhou\n"+
 "- Alyssa Lo\n\n\n"+
 
-"UC Berkeley - Cal Wushu Baewatch Team\n\n"+
+"Berkeley - Cal Wushu Baewatch Team\n\n"+
 "- Cecilia Springer\n"+
 "- Vincent Ngo\n"+
 "- Eric Fu\n"+
@@ -749,7 +749,7 @@ let groupset =
 "- Shannon Tsang\n"+
 "- Olivia Guo\n\n\n"+
 
-"UC Berkeley - The Mighty C\n\n"+
+"Berkeley - The Mighty C\n\n"+
 "- Ryan Zheng\n"+
 "- Unique Wei\n"+
 "- Claire Tsau\n"+
@@ -757,15 +757,15 @@ let groupset =
 "- Henderson Wong\n"+
 "- Julie Wang\n\n\n"+
 
-// "UC Irvine - UCI's Jasmine Milk Tea-M\n\n"+
-// "- Jasmine Wong\n"+
-// "- Kristi Lin\n"+
-// "- Ryan Wang\n"+
-// "- Lucas Verde\n"+
-// "- Simon Nguyen\n"+
-// "- Carlos Estrada\n\n\n"+
+"UCI - UCI's Jasmine Milk Tea-M\n\n"+
+"- Jasmine Wong\n"+
+"- Kristi Lin\n"+
+"- Ryan Wang\n"+
+"- Lucas Verde\n"+
+"- Simon Nguyen\n"+
+"- Carlos Estrada\n\n\n"+
 
-"UC Los Angeles - Spi-C Team\n\n"+
+"UCLA - Spi-C Team\n\n"+
 "- Michelle Tan\n"+
 "- Janet Nguyen\n"+
 "- Michelle Nguyen\n"+
@@ -773,23 +773,7 @@ let groupset =
 "- Samantha Ono\n"+
 "- Clarity Chua\n\n\n"+
 
-"UC Los Angeles - Spi-C Team\n\n"+
-"- Michelle Tan\n"+
-"- Janet Nguyen\n"+
-"- Michelle Nguyen\n"+
-"- Kelly Zhang\n"+
-"- Samantha Ono\n"+
-"- Clarity Chua\n\n\n"+
-
-"UC Los Angeles - Spi-C Team\n\n"+
-"- Michelle Tan\n"+
-"- Janet Nguyen\n"+
-"- Michelle Nguyen\n"+
-"- Kelly Zhang\n"+
-"- Samantha Ono\n"+
-"- Clarity Chua\n\n\n"+
-
-"UC Los Angeles - The Big Baller Brand Team\n\n"+
+"UCLA - The Big Baller Brand Team\n\n"+
 "- Chinmaya Aditya\n"+
 "- Akshara Aditya\n"+
 "- Eric Wang\n"+
@@ -797,15 +781,15 @@ let groupset =
 "- Annmarie Cong\n"+
 "- Jennie Wang\n\n\n"+
 
-// "UC Los Angeles - Wakan大麻辣\n\n"+
-// "- Connor Hum\n"+
-// "- Xian Kai Ng\n"+
-// "- Alexander Wu\n"+
-// "- Chuan Chen\n"+
-// "- Gwyneth Huynh\n"+
-// "- Dimei Wu\n\n\n"+
+"UCLA - Wakan大麻辣\n\n"+
+"- Connor Hum\n"+
+"- Xian Kai Ng\n"+
+"- Alexander Wu\n"+
+"- Chuan Chen\n"+
+"- Gwyneth Huynh\n"+
+"- Dimei Wu\n\n\n"+
 
-"UC San Diego - Team Meow Dao\n\n"+
+"UCSD - Team Meow Dao\n\n"+
 "- Winston Lee\n"+
 "- Zoe Chan\n"+
 "- Kaitlyn Trinh\n"+
@@ -813,7 +797,7 @@ let groupset =
 "- Michelle Sit\n"+
 "- Darren Deng\n\n\n"+
 
-"Virginia Commonwealth U - Doki Doki Wushu Club\n\n"+
+"VCU - Doki Doki Wushu Club\n\n"+
 "- Wesley Huie\n"+
 "- Claire Lee\n"+
 "- Bienvenido Hernandez\n"+
