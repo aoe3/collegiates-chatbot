@@ -1518,17 +1518,17 @@ function sendLocalButtonMessage(sender, text){
 
 function begScore(sender){
 	let messageData = "No scores have been posted yet."
-	sendRequest(sender, messageData)
+	sendText(sender, messageData)
 }
 
 function intScore(sender){
 	let messageData = "No scores have been posted yet."
-	sendRequest(sender, messageData)
+	sendText(sender, messageData)
 }
 
 function advScore(sender){
 	let messageData = "No scores have been posted yet."
-	sendRequest(sender, messageData)
+	sendText(sender, messageData)
 }
 
 function sendScoreOptions(sender){
