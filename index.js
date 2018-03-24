@@ -48,7 +48,7 @@ app.post('/webhook/', function (req, res) {
 	res.sendStatus(200)
 })
 
-let allScores =
+let allBegScores =
 "BEG Male Changquan:\n"+
 "- Everett White - 0.00 \n"+
 "- Dylan Sanfilippo - 0.00 \n"+
@@ -187,8 +187,9 @@ let allScores =
 "- Deborah Ma - 0.00 \n\n"+
 
 "BEG Female Other Weapon:\n"+
-"- Samantha Ono - 0.00 \n\n"+
+"- Samantha Ono - 0.00 \n\n"
 
+let allIntScores =
 "INT Male Changquan:\n"+
 "- Haejin Park - 0.00 \n"+
 "- Robert Yang - 0.00 \n"+
@@ -369,8 +370,9 @@ let allScores =
 "- Julie Wang - 0.00 \n\n"+
 
 "INT Female Nangun:\n"+
-"- Jasmine Wong - 0.00 \n\n"+
+"- Jasmine Wong - 0.00 \n\n"
 
+let allAdvScores = 
 "ADV Male Straight sword:\n"+
 "- Kevin Qin - 0.00 \n"+
 "- Chi Tun Lam - 0.00 \n"+
@@ -2096,30 +2098,25 @@ function sendLocalButtonMessage(sender, text){
 
 function sendScoreOptions(sender){
 	let messageData = {
-		"attachment":{
-	      "type":"template",
-	      "payload":{
-	        "template_type":"button",
-	        "text": "Pick an experience level to see scores",
-	        "buttons":[
-	          {
-	          	"type":"web_url",
-	                "url":"https://www.pc.pitt.edu/dining/locations/petersenEvents.php",
-	                "title": "View Beginner"
-	          },
-	          {
-	            "type":"web_url",
-	                "url":"https://www.pc.pitt.edu/dining/locations/petersenEvents.php",
-	                "title": "View Intermediate"
-	          },
-	          {
-	          	"type":"web_url",
-	                "url":"https://www.pc.pitt.edu/dining/locations/petersenEvents.php",
-	                "title": "View Advanced"
-	          }
-	        ]
-	      }
-	    }
+		"text": "Here is a quick reply!",
+    	"quick_replies":
+    	[
+    		{
+			  "content_type":"text",
+			  "title":"Beginner",
+			  "payload":"allBegScores"
+			},
+			{
+			  "content_type":"text",
+			  "title":"Intermediate",
+			  "payload":"allIntScores"
+			},
+			{
+			  "content_type":"text",
+			  "title":"Advanced",
+			  "payload":"allAdvScores"
+			}
+		]
 	}
 	sendRequest(sender, messageData)
 }
