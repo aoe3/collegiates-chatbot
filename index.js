@@ -1801,7 +1801,7 @@ function decideMessage(sender, textInput){
 
 	//POTENTIAL real-time scores... let's see?
 	} else if (text.includes("score")){
-		sendText(sender, allScores)
+		sendScoreOptions(sender)
 		//sendScoreOptions(sender)
 	//view events
 	} else if (text.includes("events")){
