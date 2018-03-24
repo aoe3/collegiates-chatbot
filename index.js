@@ -757,7 +757,7 @@ let groupset =
 "- Henderson Wong\n"+
 "- Julie Wang\n\n\n"+
 
-"UC Irvine - &#47;UCI&#47;'s Jasmine Milk Tea-M&#47;\n\n"+
+"UC Irvine - UCI's Jasmine Milk Tea-M\n\n"+
 "- Jasmine Wong\n"+
 "- Kristi Lin\n"+
 "- Ryan Wang\n"+
