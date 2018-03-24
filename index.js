@@ -768,7 +768,7 @@ let groupset =
 "- Simon Nguyen\n"+
 "- Carlos Estrada\n\n\n"+
 
-"UCLA:\n\n"+
+"*UCLA*:\n\n"+
 
 "Spi-C Team\n"+
 "- Michelle Tan\n"+
