@@ -1533,7 +1533,7 @@ function sendRequest(sender, messageData) {
 		if (error) {
 			console.log("sending error: " +  error)
 		} else if (response.body.error) {
-			console.log("response body error: " + response.body)
+			console.log("response body error: " + JSON.stringify(response.body.error))
 		}
 	})
 }
