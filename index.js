@@ -1090,7 +1090,7 @@ function decideMessage(sender, textInput){
 	} else if ((text.includes("adv")) || (text.includes("advanced"))){
 		sendAdvanced(sender)
 	//end events
-	} else if (text.includes("school")){
+	} else if ((text.includes("school")) || (text.includes("university")) || (text.includes("college"))){
 		sendSchools(sender)
 	} else if (text.includes("berklee")){
 		sendText(sender, berklee)	
