@@ -1389,7 +1389,7 @@ function decideMessage(sender, textInput){
 	// } else if (text == "schedule"){
 	//	sendText(sender, "Ring 1: event1\nRing 2: event2\nRing 3: event3")
 	//POTENTIAL real-time scores... let's see?
-	} else if (text == "scores"){
+	} else if (text.includes("score")){
 		sendScoreOptions(sender)
 	} else if (text == "begscore"){
 		begScore(sender)
