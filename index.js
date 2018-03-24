@@ -971,6 +971,66 @@ function decideMessage(sender, textInput){
 		sendText(sender, "The 22nd Annual Collegiate Wushu Tournament is April 7th, 2018.")
 	} else if ((text.includes("where")) || (text.includes("location"))){
 		sendText(sender, "The 22nd Annual Collegiate Wushu Tournament is being held at Fitzgeral Fieldhouse in Pittsburgh, PA")
+
+		//begin schools
+	} else if (text.includes("berklee")){
+		sendText(sender, berklee)	
+	} else if (text.includes("calstatelb")){
+		sendText(sender, calstateLB)	
+	} else if (text.includes("columbia")){
+		sendText(sender, columbia)
+	} else if (text.includes("cornell")){
+		sendText(sender, cornell)
+	} else if (text.includes("harvard")){
+		sendText(sender, harvard)
+	} else if (text.includes("mit")){
+		sendText(sender, mit)	
+	} else if (text.includes("nyu")){
+		sendText(sender, nyu)
+	} else if (text.includes("nau")){
+		sendText(sender, nau)	
+	} else if (text.includes("osu")){
+		sendText(sender, osu)
+	} else if (text.includes("stpeters")){
+		sendText(sender, stpeters)
+	} else if (text.includes("sdmiramar")){
+		sendText(sender, sdmiramar)
+	} else if (text.includes("stanford")){
+		sendText(sender, stanford)
+	} else if (text.includes("stonybrook")){
+		sendText(sender, stonybrook)
+	} else if (text.includes("houston")){
+		sendText(sender, houston)	
+	} else if (text.includes("umbc")){
+		sendText(sender, umbc)
+	} else if (text.includes("umcp")){
+		sendText(sender, umcp)	
+	} else if (text.includes("oregon")){
+		sendText(sender, oregon)
+	} else if (text.includes("pitt")){
+		sendText(sender, pitt)
+	} else if (text.includes("texas")){
+		sendText(sender, texas)
+	} else if (text.includes("uva")){
+		sendText(sender, uva)
+	} else if (text.includes("uwash")){
+		sendText(sender, uwash)
+	} else if (text.includes("cal")){
+		sendText(sender, cal)	
+	} else if (text.includes("uci")){
+		sendText(sender, uci)	
+	} else if (text.includes("ucla")){
+		sendText(sender, ucla)	
+	} else if (text.includes("ucsd")){
+		sendText(sender, ucsd)	
+	} else if (text.includes("vcu")){
+		sendText(sender, vcu)	
+	} else if (text.includes("vtech")){
+		sendText(sender, vtech)	
+
+	} else if ((text.includes("school")) || (text.includes("university")) || (text.includes("college"))){
+		sendSchools(sender)
+		//end schools
 	//view events
 	} else if (text.includes("events")){
 		sendText(sender, "Please type 'beg', 'int', 'adv', 'beginner', 'intermediate', or 'advanced' to continue to that category.")
@@ -1083,63 +1143,7 @@ function decideMessage(sender, textInput){
 	} else if ((text.includes("adv")) || (text.includes("advanced"))){
 		sendAdvanced(sender)
 	//end events
-	} else if (text.includes("berklee")){
-		sendText(sender, berklee)	
-	} else if (text.includes("calstatelb")){
-		sendText(sender, calstateLB)	
-	} else if (text.includes("columbia")){
-		sendText(sender, columbia)
-	} else if (text.includes("cornell")){
-		sendText(sender, cornell)
-	} else if (text.includes("harvard")){
-		sendText(sender, harvard)
-	} else if (text.includes("mit")){
-		sendText(sender, mit)	
-	} else if (text.includes("nyu")){
-		sendText(sender, nyu)
-	} else if (text.includes("nau")){
-		sendText(sender, nau)	
-	} else if (text.includes("osu")){
-		sendText(sender, osu)
-	} else if (text.includes("stpeters")){
-		sendText(sender, stpeters)
-	} else if (text.includes("sdmiramar")){
-		sendText(sender, sdmiramar)
-	} else if (text.includes("stanford")){
-		sendText(sender, stanford)
-	} else if (text.includes("stonybrook")){
-		sendText(sender, stonybrook)
-	} else if (text.includes("houston")){
-		sendText(sender, houston)	
-	} else if (text.includes("umbc")){
-		sendText(sender, umbc)
-	} else if (text.includes("umcp")){
-		sendText(sender, umcp)	
-	} else if (text.includes("oregon")){
-		sendText(sender, oregon)
-	} else if (text.includes("pitt")){
-		sendText(sender, pitt)
-	} else if (text.includes("texas")){
-		sendText(sender, texas)
-	} else if (text.includes("uva")){
-		sendText(sender, uva)
-	} else if (text.includes("uwash")){
-		sendText(sender, uwash)
-	} else if (text.includes("cal")){
-		sendText(sender, cal)	
-	} else if (text.includes("uci")){
-		sendText(sender, uci)	
-	} else if (text.includes("ucla")){
-		sendText(sender, ucla)	
-	} else if (text.includes("ucsd")){
-		sendText(sender, ucsd)	
-	} else if (text.includes("vcu")){
-		sendText(sender, vcu)	
-	} else if (text.includes("vtech")){
-		sendText(sender, vtech)	
-
-	} else if ((text.includes("school")) || (text.includes("university")) || (text.includes("college"))){
-		sendSchools(sender)
+	
 	//what happens on what ring throughout day
 	} else if (text == "rings"){
 		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
