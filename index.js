@@ -1388,8 +1388,15 @@ function decideMessage(sender, textInput){
 	//POTENTIAL real-time schedule... what's happening now?
 	// } else if (text == "schedule"){
 	//	sendText(sender, "Ring 1: event1\nRing 2: event2\nRing 3: event3")
-	// //POTENTIAL real-time scores... let's see?
-	// } else if (text == "scores"){
+	//POTENTIAL real-time scores... let's see?
+	} else if (text == "scores"){
+		sendScoreOptions(sender)
+	} else if (text == "begscore"){
+		begScore(sender)
+	} else if (text == "intscore"){
+		intScore(sender)
+	} else if (text == "advscore"){
+		advScore(sender)
 
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
@@ -1500,6 +1507,51 @@ function sendLocalButtonMessage(sender, text){
 	          	"type":"postback",
 	            "title":"$$$ (over $25)",
 	            "payload":"3$"
+	          }
+	        ]
+	      }
+	    }
+	}
+	sendRequest(sender, messageData)
+}
+
+function begScore(sender){
+	let messageData = "No scores have been posted yet."
+	sendRequest(sender, messageData)
+}
+
+function intScore(sender){
+	let messageData = "No scores have been posted yet."
+	sendRequest(sender, messageData)
+}
+
+function advScore(sender){
+	let messageData = "No scores have been posted yet."
+	sendRequest(sender, messageData)
+}
+
+function sendScoreOptions(sender){
+	let messageData = {
+		"attachment":{
+	      "type":"template",
+	      "payload":{
+	        "template_type":"button",
+	        "text": Pick an experience level to see scores,
+	        "buttons":[
+	          {
+	          	"type":"postback",
+	            "title":"Beginner Scores",
+	            "payload":"scoreB"
+	          },
+	          {
+	            "type":"postback",
+	            "title":"Intermediate Scores",
+	            "payload":"scoreI"
+	          },
+	          {
+	          	"type":"postback",
+	            "title":"advanced",
+	            "payload":"scoreA"
 	          }
 	        ]
 	      }
