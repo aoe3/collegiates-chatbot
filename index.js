@@ -963,7 +963,7 @@ function decideMessage(sender, textInput){
 			"- To see all this info again, type 'help'")
 
 	//greetings
-	} else if ((text.includes("hi")) || (text.includes("hola")) || (text.includes("aloha")) || (text.includes("konichiwa")) || 
+	} else if ((text == ("hi")) || (text.includes("hola")) || (text.includes("aloha")) || (text.includes("konichiwa")) || 
 				(text.includes("hello")) || (text.includes("holla")) || (text.includes("bonjour")) || (text.includes("ni hao")) || 
 				(text.includes("sup")) || (text.includes("hey")) || (text.includes("hallo")) || (text.includes("ciao")) || 
 				(text.includes("ello")) || (text.includes("yo"))){
@@ -1144,7 +1144,7 @@ function decideMessage(sender, textInput){
 		sendText(sender, vcu)	
 	} else if (text.includes("vtech")){
 		sendText(sender, vtech)	
-		
+
 	} else if ((text.includes("school")) || (text.includes("university")) || (text.includes("college"))){
 		sendSchools(sender)
 	//what happens on what ring throughout day
