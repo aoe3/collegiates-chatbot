@@ -1235,13 +1235,8 @@ function decideMessage(sender, textInput){
 
 	//POTENTIAL real-time scores... let's see?
 	} else if (text.includes("score")){
-		sendScoreOptions(sender)
-	} else if (text.includes("begscore")){
-		begScore(sender)
-	} else if (text.includes("intscore")){
-		intScore(sender)
-	} else if (text.includes("advscore")){
-		advScore(sender)
+		sendText(sender, "No results posted yet.")
+		//sendScoreOptions(sender)
 	//view events
 	} else if (text.includes("events")){
 		sendText(sender, "Please type 'beg', 'int', 'adv', 'beginner', 'intermediate', 'advanced', or 'groupset' to continue to that category.")
