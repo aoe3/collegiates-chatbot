@@ -1353,10 +1353,10 @@ function decideMessage(sender, textInput){
 	//end events
 	
 	//what happens on what ring throughout day
-	} else if (text == "rings"){
+	} else if ((text == "rings") || (text == "ring")){
 		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
 	//rings
-	} else if ((text.includes("ringall")) || (text.includes("all rings")) || (text.includes("ring all"))){
+	} else if ((text.includes("rings all")) || (text.includes("ringsall")) || (text.includes("ringall")) || (text.includes("all rings")) || (text.includes("ring all"))){
 		sendText(sender, "Schedule still TBD.")
 		// sendText(sender, 	"Ring 1\n\n"+
 		// 					"- Beg CQ\n"+
