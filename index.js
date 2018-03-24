@@ -694,7 +694,7 @@ let groupset =
 "- Michelle Chin\n"+
 "- Jessica Luo\n\n\n"+
 
-"UMD: College Park:\n\n"+
+"UMD: College Park:\n"+
 
 "1) B (ima change ltr)\n"+
 "- Tianming Li\n"+
@@ -736,7 +736,7 @@ let groupset =
 "- Kenneth Chen\n"+
 "- CJ Rogers\n\n\n"+
 
-"UC Berkeley:\n\n"+
+"UC Berkeley:\n"+
 "1) Cal Wushu A Team\n"+
 "- Robert Yu\n"+
 "- Jason Zou\n"+
@@ -768,7 +768,7 @@ let groupset =
 "- Simon Nguyen\n"+
 "- Carlos Estrada\n\n\n"+
 
-"UCLA:\n\n"+
+"UCLA:\n"+
 
 "1) Spi-C Team\n"+
 "- Michelle Tan\n"+
