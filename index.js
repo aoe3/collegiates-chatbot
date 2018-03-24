@@ -765,29 +765,29 @@ let groupset =
 // "- Simon Nguyen\n"+
 // "- Carlos Estrada\n\n\n"+
 
-// "UC Los Angeles - Spi-C Team\n\n"+
-// "- Michelle Tan\n"+
-// "- Janet Nguyen\n"+
-// "- Michelle Nguyen\n"+
-// "- Kelly Zhang\n"+
-// "- Samantha Ono\n"+
-// "- Clarity Chua\n\n\n"+
+"UC Los Angeles - Spi-C Team\n\n"+
+"- Michelle Tan\n"+
+"- Janet Nguyen\n"+
+"- Michelle Nguyen\n"+
+"- Kelly Zhang\n"+
+"- Samantha Ono\n"+
+"- Clarity Chua\n\n\n"+
 
-// "UC Los Angeles - The Big Baller Brand Team\n\n"+
-// "- Chinmaya Aditya\n"+
-// "- Akshara Aditya\n"+
-// "- Eric Wang\n"+
-// "- Rebecca Yap\n"+
-// "- Annmarie Cong\n"+
-// "- Jennie Wang\n\n\n"+
+"UC Los Angeles - The Big Baller Brand Team\n\n"+
+"- Chinmaya Aditya\n"+
+"- Akshara Aditya\n"+
+"- Eric Wang\n"+
+"- Rebecca Yap\n"+
+"- Annmarie Cong\n"+
+"- Jennie Wang\n\n\n"+
 
-// "UC Los Angeles - Wakan大麻辣\n\n"+
-// "- Connor Hum\n"+
-// "- Xian Kai Ng\n"+
-// "- Alexander Wu\n"+
-// "- Chuan Chen\n"+
-// "- Gwyneth Huynh\n"+
-// "- Dimei Wu\n\n\n"+
+"UC Los Angeles - Wakan大麻辣\n\n"+
+"- Connor Hum\n"+
+"- Xian Kai Ng\n"+
+"- Alexander Wu\n"+
+"- Chuan Chen\n"+
+"- Gwyneth Huynh\n"+
+"- Dimei Wu\n\n\n"+
 
 "UC San Diego - Team Meow Dao\n\n"+
 "- Winston Lee\n"+
