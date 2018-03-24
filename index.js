@@ -962,13 +962,6 @@ function decideMessage(sender, textInput){
 			"- For contact information, type 'contact'\n\n"+ 
 			"- To see all this info again, type 'help'")
 
-	//greetings
-	} else if ((text == ("hi")) || (text.includes("hola")) || (text.includes("aloha")) || (text.includes("konichiwa")) || 
-				(text.includes("hello")) || (text.includes("holla")) || (text.includes("bonjour")) || (text.includes("ni hao")) || 
-				(text.includes("sup")) || (text.includes("hey")) || (text.includes("hallo")) || (text.includes("ciao")) || 
-				(text.includes("ello")) || (text.includes("yo"))){
-		sendText(sender, greetings[Math.floor(Math.random() * greetings.length)])
-		//end greetings
 	// map of venue with rings
 	} else if (text == "venue"){ 
 		let venueText = {text: "Here is a map of the venue:"}
@@ -1248,6 +1241,13 @@ function decideMessage(sender, textInput){
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
 		sendText(sender, "To get in touch:\n\nE-mail: pittwushu@gmail.com\nTel: 555-555-5555")
+	//greetings
+	} else if ((text.includes("hi")) || (text.includes("hola")) || (text.includes("aloha")) || (text.includes("konichiwa")) || 
+				(text.includes("hello")) || (text.includes("holla")) || (text.includes("bonjour")) || (text.includes("ni hao")) || 
+				(text.includes("sup")) || (text.includes("hey")) || (text.includes("hallo")) || (text.includes("ciao")) || 
+				(text.includes("ello")) || (text.includes("yo"))){
+		sendText(sender, greetings[Math.floor(Math.random() * greetings.length)])
+		//end greetings
 	} else if((text.includes("thanks")) || (text.includes("thank you"))){
 		sendText(sender, "You're welcome! You're my favorite human!")
 	} else if(text.includes("i love you")) {
