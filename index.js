@@ -1798,7 +1798,12 @@ function decideMessage(sender, textInput){
 	} else if ((text.includes("school")) || (text.includes("university")) || (text.includes("universities")) || (text.includes("college"))){
 		sendSchools(sender)
 		//end schools
-
+	} else if (text.includes("allBegScores")){
+		sendScoreOptions(sender)
+	} else if (text.includes("allIntScores")){
+		sendScoreOptions(sender)
+	} else if (text.includes("allAdvScores")){
+		sendScoreOptions(sender)
 	//POTENTIAL real-time scores... let's see?
 	} else if (text.includes("score")){
 		sendScoreOptions(sender)
