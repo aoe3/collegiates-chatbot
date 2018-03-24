@@ -757,13 +757,13 @@ let groupset =
 "- Henderson Wong\n"+
 "- Julie Wang\n\n\n"+
 
-"UC Irvine - \\UCI\\'s Jasmine Milk Tea-M\\\n\n"+
-"- Jasmine Wong\n"+
-"- Kristi Lin\n"+
-"- Ryan Wang\n"+
-"- Lucas Verde\n"+
-"- Simon Nguyen\n"+
-"- Carlos Estrada\n\n\n"+
+// "UC Irvine - \\UCI\\'s Jasmine Milk Tea-M\\\n\n"+
+// "- Jasmine Wong\n"+
+// "- Kristi Lin\n"+
+// "- Ryan Wang\n"+
+// "- Lucas Verde\n"+
+// "- Simon Nguyen\n"+
+// "- Carlos Estrada\n\n\n"+
 
 "UC Los Angeles - Spi-C Team\n\n"+
 "- Michelle Tan\n"+
