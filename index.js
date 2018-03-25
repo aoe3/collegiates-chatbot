@@ -661,8 +661,8 @@ let advTradSoftWeapon =
 "Male Traditional Soft Weapon\n\n"+
 "- Eric Fu - 0.00\n\n\n"
 
-let groupset = 
-"Columbia - ~cu later ;)\n"+
+let groupsetHalf1 = 
+"Columbia - ~cu later ;) : 0.00\n"+
 "- Rebecca Chinn\n"+
 "- Janette Levin\n"+
 "- Haejin Park\n"+
@@ -670,7 +670,7 @@ let groupset =
 "- Jennifer Tsui\n"+
 "- Chi Tun Lam\n\n"+
 
-"Cornell - Big Red Bearhand (better name to be decided)\n"+
+"Cornell - Big Red Bearhand (better name to be decided): 0.00\n"+
 "- Albert Zhang\n"+
 "- Sara Ng\n"+
 "- Daisy Zheng\n"+
@@ -678,7 +678,7 @@ let groupset =
 "- Erika Yu\n"+
 "- Ethyn Leong\n\n"+
 
-"Northern Arizona - NAU Iron Fist\n"+
+"Northern Arizona - NAU Iron Fist: 0.00\n"+
 "- Mekenzie Dyer \n"+
 "- Bumjoon Kim\n"+
 "- Alexis Weyh\n"+
@@ -686,7 +686,7 @@ let groupset =
 "- Jamie Evely\n"+
 "- Sara Moore\n\n"+
 
-"Stanford - Stanford Wushu\n"+
+"Stanford - Stanford Wushu: 0.00\n"+
 "- William Du\n"+
 "- Michael Fang\n"+
 "- Jin Yun Chow\n"+
@@ -696,7 +696,7 @@ let groupset =
 
 "UMD: College Park:\n"+
 
-"1) B (ima change ltr)\n"+
+"1) B (ima change ltr): 0.00\n"+
 "- Tianming Li\n"+
 "- Jason Tang\n"+
 "- Dominic Chow\n"+
@@ -704,7 +704,7 @@ let groupset =
 "- Christopher Tran\n"+
 "- Jae Hee Jang\n\n"+
 
-"2) HEEEE HAW\n"+
+"2) HEEEE HAW: 0.00\n"+
 "- Connor Maples\n"+
 "- Benjamin Chen\n"+
 "- Claire Weber\n"+
@@ -712,7 +712,7 @@ let groupset =
 "- Alexander Lu\n"+
 "- Kelly Zhang\n\n"+
 
-"3) flamingo fans\n"+
+"3) flamingo fans: 0.00\n"+
 "- Michelle Tu\n"+
 "- Emily Yang\n"+
 "- Kyle Chan\n"+
@@ -720,7 +720,7 @@ let groupset =
 "- Francis Poon\n"+
 "- Julia Leung\n\n"+
 
-"Pitt - Bao Down PITTches\n"+
+"Pitt - Bao Down PITTches: 0.00\n"+
 "- Gina Bao\n"+
 "- Melodee Li\n"+
 "- Adanna Liu\n"+
@@ -728,23 +728,23 @@ let groupset =
 "- Jonathan Li\n"+
 "- Annie Shi\n\n"+
 
-"UVA - WuHoos\n"+
+"UVA - WuHoos: 0.00\n"+
 "- Mario Caballero\n"+
 "- Erik Song\n"+
 "- Katie Zhao\n"+
 "- Mitchell Levasseur\n"+
 "- Kenneth Chen\n"+
-"- CJ Rogers\n\n"+
+"- CJ Rogers\n\n"
 
-"UC Berkeley:\n"+
-"1) Cal Wushu A Team\n"+
+let groupsetHalf2 = "UC Berkeley:\n"+
+"1) Cal Wushu A Team: 0.00\n"+
 "- Robert Yu\n"+
 "- Jason Zou\n"+
 "- Queenie Li\n"+
 "- Jemmy Zhou\n"+
 "- Alyssa Lo\n\n"+
 
-"2) Cal Wushu Baewatch Team\n"+
+"2) Cal Wushu Baewatch Team: 0.00\n"+
 "- Cecilia Springer\n"+
 "- Vincent Ngo\n"+
 "- Eric Fu\n"+
@@ -752,7 +752,7 @@ let groupset =
 "- Shannon Tsang\n"+
 "- Olivia Guo\n\n"+
 
-"3) The Mighty C\n"+
+"3) The Mighty C: 0.00\n"+
 "- Ryan Zheng\n"+
 "- Unique Wei\n"+
 "- Claire Tsau\n"+
@@ -760,7 +760,7 @@ let groupset =
 "- Henderson Wong\n"+
 "- Julie Wang\n\n"+
 
-"UCI - UCI's Jasmine Milk Tea-M\n"+
+"UCI - UCI's Jasmine Milk Tea-M: 0.00\n"+
 "- Jasmine Wong\n"+
 "- Kristi Lin\n"+
 "- Ryan Wang\n"+
@@ -770,7 +770,7 @@ let groupset =
 
 "UCLA:\n"+
 
-"1) Spi-C Team\n"+
+"1) Spi-C Team: 0.00\n"+
 "- Michelle Tan\n"+
 "- Janet Nguyen\n"+
 "- Michelle Nguyen\n"+
@@ -778,7 +778,7 @@ let groupset =
 "- Samantha Ono\n"+
 "- Clarity Chua\n\n"+
 
-"2) The Big Baller Brand Team\n"+
+"2) The Big Baller Brand Team: 0.00\n"+
 "- Chinmaya Aditya\n"+
 "- Akshara Aditya\n"+
 "- Eric Wang\n"+
@@ -786,7 +786,7 @@ let groupset =
 "- Annmarie Cong\n"+
 "- Jennie Wang\n\n"+
 
-"3) Wakan大麻辣\n"+
+"3) Wakan大麻辣: 0.00\n"+
 "- Connor Hum\n"+
 "- Xian Kai Ng\n"+
 "- Alexander Wu\n"+
@@ -794,7 +794,7 @@ let groupset =
 "- Gwyneth Huynh\n"+
 "- Dimei Wu\n\n"+
 
-"UCSD - Team Meow Dao\n"+
+"UCSD - Team Meow Dao: 0.00\n"+
 "- Winston Lee\n"+
 "- Zoe Chan\n"+
 "- Kaitlyn Trinh\n"+
@@ -802,7 +802,7 @@ let groupset =
 "- Michelle Sit\n"+
 "- Darren Deng\n\n"+
 
-"VCU - Doki Doki Wushu Club\n"+
+"VCU - Doki Doki Wushu Club: 0.00\n"+
 "- Wesley Huie\n"+
 "- Claire Lee\n"+
 "- Bienvenido Hernandez\n"+
@@ -1348,7 +1348,8 @@ function decideMessage(sender, textInput){
 	} else if (text.includes("advtradsoftweapon")){
 		sendText(sender, advTradSoftWeapon)	
 	} else if (text.includes("groupset")){
-		sendText(sender, groupset)	
+		sendText(sender, groupsetHalf1)	
+		sendText(sender, groupsetHalf2)	
 	} else if ((text.includes("beg")) || (text.includes("beginner"))){
 		sendBeginner(sender)
 	} else if ((text.includes("int")) || (text.includes("intermediate"))){
