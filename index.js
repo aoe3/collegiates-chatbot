@@ -1111,10 +1111,18 @@ function decideMessage(sender, textInput){
 			"- To see all this info again, type 'help'")
 
 	// map of venue with rings
-	} else if (text == "venue"){ 
+	} else if ((text == "venue") || text.includes("fitzgerald")){ 
 		let venueText = {text: "Here is a map of the venue:"}
 		sendRequest(sender, venueText)
 		sendVenueImageMessage(sender)
+	} else if ((text == "map")){ 
+		let mapText = {text: "What would you like to see:"}
+		sendRequest(sender, venueText)
+		sendMapOptions(sender)
+	} else if ((text == "surrounding") || text.includes("nearby")){ 
+		let staticLocalMapText = {text: "Here is a static, local map, with Fitzgerald highlighted at the top and the competitor-reserved hotel, Hampton Inn, UPMC:"}
+		sendRequest(sender, staticLocalMapText)
+		sendLocalMapImage(sender)
 	} else if (text.includes("when")){
 		sendText(sender, "The 22nd Annual Collegiate Wushu Tournament is April 7th, 2018.")
 	} else if ((text.includes("where")) || (text.includes("location"))){
@@ -1521,6 +1529,31 @@ function sendLocalButtonMessage(sender, text){
 	sendRequest(sender, messageData)
 }
 
+function sendMapOptions(sender, text){
+	let messageData = {
+		"attachment":{
+	      "type":"template",
+	      "payload":{
+	        "template_type":"button",
+	        "text": text,
+	        "buttons":[
+	          {
+	            "type":"postback",
+	            "title":"Fitzgerald Field House",
+	            "payload":"fitzgerald"
+	          },
+	          {
+	          	"type":"postback",
+	            "title":"Surrounding Areas",
+	            "payload":"surrounding"
+	          }
+	        ]
+	      }
+	    }
+	}
+	sendRequest(sender, messageData)
+}
+
 function sendVenueImageMessage(sender){
 	let messageData = {
 		"attachment":{
@@ -1531,6 +1564,18 @@ function sendVenueImageMessage(sender){
 		}
 	}
 	sendRequest(sender, messageData)
+}
+
+function sendLocalMapImage(sender){
+	let messageData = {
+		"attachment":{
+			"type": "image",
+			"payload":{
+				"url":"https://i.imgur.com/Kxp5RcP.png"
+			}
+		}
+	}
+	sendRequest(senderMessageData)
 }
 
 function sendRequest(sender, messageData) {
