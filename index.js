@@ -1116,8 +1116,7 @@ function decideMessage(sender, textInput){
 		sendRequest(sender, venueText)
 		sendVenueImageMessage(sender)
 	} else if ((text == "map")){ 
-		let mapText = {text: "What would you like to see:"}
-		sendMapOptions(sender, mapText)
+		sendMapOptions(sender, "What map would you like to see:")
 	} else if ((text == "surrounding") || text.includes("nearby")){ 
 		let staticLocalMapText = {text: "Here is a static, local map, with Fitzgerald highlighted at the top and the competitor-reserved hotel, Hampton Inn, UPMC:"}
 		sendRequest(sender, staticLocalMapText)
