@@ -1125,7 +1125,7 @@ function decideMessage(sender, textInput){
 		let lunchText = {text: "The food court will be open from 11 A.M. to 6 P.M. ONLY on the day of the competition!\n\nThe food court is located at 3719 Terrace Street, down the escalators!"}
 		sendRequest(sender, lunchText)
 	//local businesses ... pic of map with local markers? ... maybe numbers as markers?
-	} else if ((text == "local") || (text == "restaurants") || (text.includes("hungry")) || (text.includes("restaurant"))){
+	} else if ((text == "local") || (text == "restaurants") || (text.includes("hungry")) || (text.includes("restaurant") || (text.includes("food")))){
 		sendLocalButtonMessage(sender, "Choose a price point!\n$ = roughly less than $15\n$$ = roughly $15 to $25\n$$$ = greater than $25")
 	//price point breakdown 
 	} else if((text.includes("3$")) || (text.includes("$$$"))){
