@@ -1537,7 +1537,7 @@ function sendMapOptions(sender, text){
 	        "buttons":[
 	          {
 	            "type":"postback",
-	            "title":"Fitzgerald Field House",
+	            "title":"Fitzgerald Map",
 	            "payload":"fitzgerald"
 	          },
 	          {
