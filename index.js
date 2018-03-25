@@ -1575,7 +1575,7 @@ function sendLocalMapImage(sender){
 			}
 		}
 	}
-	sendRequest(sender, MessageData)
+	sendRequest(sender, messageData)
 }
 
 function sendRequest(sender, messageData) {
