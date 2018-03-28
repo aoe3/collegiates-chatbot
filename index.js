@@ -1098,7 +1098,7 @@ let greetings =["Hello! I'm the ACWT Helper ChatBot! To best learn how to use me
 function decideMessage(sender, textInput){
 	let text = textInput.toLowerCase()
 	//give instructions for use
-	if ((text == "help") || (text.includes("halp")) || (text.includes("help")) || (text.includes("test"))){
+	if ((text == "help") || (text.includes("halp")) || (text.includes("help"))){
 		sendText(sender, 
 			"You asked for help!\n\n" + 
 			"- For event info, type 'events', 'beg', 'int', or 'adv'\n\n"+
