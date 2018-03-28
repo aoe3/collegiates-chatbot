@@ -742,7 +742,8 @@ let groupsetHalf2 = "UC Berkeley:\n"+
 "- Jason Zou\n"+
 "- Queenie Li\n"+
 "- Jemmy Zhou\n"+
-"- Alyssa Lo\n\n"+
+"- Alyssa Lo\n"+
+"- Emily Fan\n\n"+
 
 "2) Cal Wushu Baewatch Team: 0.00\n"+
 "- Cecilia Springer\n"+
@@ -1097,7 +1098,7 @@ let greetings =["Hello! I'm the ACWT Helper ChatBot! To best learn how to use me
 function decideMessage(sender, textInput){
 	let text = textInput.toLowerCase()
 	//give instructions for use
-	if ((text == "help") || (text.includes("halp")) || (text.includes("help"))){
+	if ((text == "help") || (text.includes("halp")) || (text.includes("help")) || (text.includes("test"))){
 		sendText(sender, 
 			"You asked for help!\n\n" + 
 			"- For event info, type 'events', 'beg', 'int', or 'adv'\n\n"+
