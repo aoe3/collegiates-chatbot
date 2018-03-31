@@ -815,11 +815,11 @@ let berklee =
 "- Kevin Qin\n"
 
 let calstateLB = 
-"California State U - Long Beach:\n\n"+ 
+"California State University - Long Beach:\n\n"+ 
 "- Vivienne Nguyen\n"
 
 let columbia = 
-"Columbia U:\n\n"+ 
+"Columbia University:\n\n"+ 
 "- Rebecca Chinn\n"+
 "- Bryanna Geiger\n"+
 "- Chi Tun Lam\n"+
@@ -833,7 +833,7 @@ let columbia =
 "- Dielai Yang\n"
 
 let cornell = 
-"Cornell U:\n\n"+ 
+"Cornell University:\n\n"+ 
 "- Winni Gao\n"+
 "- Camryn Gray\n"+
 "- Audrey Gunawan\n"+
@@ -853,7 +853,7 @@ let cornell =
 "- Daisy Zheng\n"
 
 let harvard = 
-"Harvard U:\n\n"+ 
+"Harvard University:\n\n"+ 
 "- Michelle Chiang\n"
 
 let mit = 
@@ -862,12 +862,12 @@ let mit =
 "- Joy Zeng\n"
 
 let nyu = 
-"New York U:\n\n"+ 
+"New York University:\n\n"+ 
 "- Daniel Liang\n"+
 "- Jasmine Pham\n"
 
 let nau = 
-"Northern Arizona U:\n\n"+ 
+"Northern Arizona University:\n\n"+ 
 "- Mekenzie Dyer\n"+
 "- Jamie Evely\n"+
 "- Bumjoon Kim\n"+
@@ -878,7 +878,7 @@ let nau =
 "- Alexis Weyh\n"
 
 let osu = 
-"Ohio State U:\n\n"+ 
+"Ohio State University:\n\n"+ 
 "- Thomas Bozzi\n"+
 "- Alexandre Gunnerson\n"+
 "- Jeffrey Guo\n"+
@@ -894,7 +894,7 @@ let sdmiramar =
 "- Patrick Moua\n"
 
 let stanford = 
-"Stanford U:\n\n"+ 
+"Stanford University:\n\n"+ 
 "- Michelle Chin\n"+
 "- Jin Yun Chow\n"+
 "- Victoria Crevoisier\n"+
@@ -911,18 +911,18 @@ let stonybrook =
 "- Ying Hong Tham\n"
 
 let houston = 
-"U Houston:\n\n"+ 
+"University of Houston:\n\n"+ 
 "- Jeffson Atienza\n"+
 "- Mohammad Ullah\n"
 
 let umbc = 
-"U Maryland: Baltimore County:\n\n"+ 
+"University of Maryland: Baltimore County:\n\n"+ 
 "- Julian Hodge\n"+
 "- Irene Javier\n"+
 "- Kwynn Johnson\n"
 
 let umcp = 
-"U Maryland: College Park:\n\n"+ 
+"University of Maryland: College Park:\n\n"+ 
 "- Robin Calvo\n"+
 "- Kasey Chan\n"+
 "- Kyle Chan\n"+
@@ -947,13 +947,13 @@ let umcp =
 "- Kelly Zhang\n"
 
 let oregon = 
-"U Oregon:\n\n"+ 
+"University of Oregon:\n\n"+ 
 "- Nutong Her\n"+
 "- Jason Hui\n"+
 "- Tommy Yang\n"
 
 let pitt = 
-"U Pittsburgh:\n\n"+ 
+"University of Pittsburgh:\n\n"+ 
 "- Gina Bao\n"+
 "- Kevin Chen\n"+
 "- Arie Dash\n"+
@@ -968,7 +968,7 @@ let pitt =
 "- Diana Zhou\n"
 
 let texas = 
-"U Texas:\n\n"+ 
+"University of Texas:\n\n"+ 
 "- Janet Abou Elias\n"+
 "- Ethan Devara\n"+
 "- Davin Devara\n"+
@@ -977,7 +977,7 @@ let texas =
 "- Gabrianna Zacharias\n"
 
 let uva = 
-"U Virginia:\n\n"+ 
+"University of Virginia:\n\n"+ 
 "- Mario Caballero\n"+
 "- Kenneth Chen\n"+
 "- Mitchell Levasseur\n"+
@@ -989,7 +989,7 @@ let uva =
 "- Katie Zhao\n"
 
 let uwash = 
-"U Washington:\n\n"+ 
+"University of Washington:\n\n"+ 
 "- Oey Chang\n"
 
 let cal = 
@@ -1079,7 +1079,7 @@ let ucsd =
 "- Anthony Wang\n"
 
 let vcu = 
-"Virginia Commonwealth U:\n\n"+ 
+"Virginia Commonwealth University:\n\n"+ 
 "- Michelle Chen\n"+
 "- Bienvenido Hernandez\n"+
 "- Wesley Huie\n"+
