@@ -1180,6 +1180,7 @@ function decideMessage(sender, textInput){
 			"- For a list of competitors associated with schools, type 'school'\n\n"+
 			"- For ring info, type 'rings'\n\n"+ 
 			"- To find out what's going on right now, type 'schedule'\n\n"+ 
+			"- To learn more about parking, type 'parking'\n\n"+ 
 			"- For the venue map, type 'venue'\n\n"+ 
 			// "To see scores, type 'scores' \n \n"+ 
 			"- For the food court (ONLY FOR LUNCH ON DAY OF COMPETITION), type 'foodcourt' or 'lunch'\n\n"+ 
@@ -1189,7 +1190,7 @@ function decideMessage(sender, textInput){
 	} else if ((text == "parking") || text.includes("park")){ 
 		sendText(sender, 
 			"Here is a list of possible parking spots, barring regular street parking in the area "+
-			"(street parking costs vary but are in effect from 8am-5pm on Saturday; parking is free all day on Sunday should you need it).\n\n"+ 
+			"(street parking costs vary, but are in effect from 8am-5pm on Saturday; parking is free all day on Sunday should you need it).\n\n"+ 
 
 				"- Parking Garages on Darragh St\n"+
 				"- Cost Center Parking Garage\n"+
