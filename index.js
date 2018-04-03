@@ -1077,93 +1077,93 @@ let vtech =
 "- Khang Nguyen\n"
 
 let ringOne = 
-"This is just the order for ring one. Please check 'events' to see who is in what event!\n\n"+
-"ADV Male CQ - Nandu\n"+
-"ADV Female CQ \n"+
-"ADV Male CQ\n"+
-"ADV Open Barehand\n"+
-"ADV Female NQ\n"+
-"ADV Male NQ\n"+
-"ADV F Traditional Open Barehand\n"+
-"ADV M Traditional Open Barehand\n"+
-"ADV Female Broadsword\n"+
-"ADV Male Broadsword\n"+
-"ADV Female Straightsword\n"+
-"ADV Male Straightsword\n"+
-"ADV Female Other Weapon\n"+
-"ADV Male Other Weapon\n"+
-"ADV Female Staff\n"+
-"ADV Male Staff\n"+
-"ADV Female Spear\n"+
-"ADV Male Spear\n"+
-"ADV Male Southern Staff\n"+
-"ADV Female Traditional Short Weapon\n"+
-"ADV Male Traditional Short Weapon\n"+
-"ADV Female Traditional Long Weapon\n"+
-"ADV Female Soft Weapon\n"+
-"ADV Male Soft Weapon\n"
+"This is the order for ring 1. Type 'events' to see who is in what event!\n\n"+
+"- ADV Male CQ - Nandu\n"+
+"- ADV Female CQ \n"+
+"- ADV Male CQ\n"+
+"- ADV Open Barehand\n"+
+"- ADV Female NQ\n"+
+"- ADV Male NQ\n"+
+"- ADV F Traditional Open Barehand\n"+
+"- ADV M Traditional Open Barehand\n"+
+"- ADV Female Broadsword\n"+
+"- ADV Male Broadsword\n"+
+"- ADV Female Straightsword\n"+
+"- ADV Male Straightsword\n"+
+"- ADV Female Other Weapon\n"+
+"- ADV Male Other Weapon\n"+
+"- ADV Female Staff\n"+
+"- ADV Male Staff\n"+
+"- ADV Female Spear\n"+
+"- ADV Male Spear\n"+
+"- ADV Male Southern Staff\n"+
+"- ADV Female Traditional Short Weapon\n"+
+"- ADV Male Traditional Short Weapon\n"+
+"- ADV Female Traditional Long Weapon\n"+
+"- ADV Female Soft Weapon\n"+
+"- ADV Male Soft Weapon\n"
 
 let ringTwo = 
-"This is just the order for ring two. Please check 'events' to see who is in what event!\n\n"+
-"INT Female CQ\n"+
-"INT Male CQ\n"+
-"INT Female NQ\n"+
-"INT Male NQ\n"+
-"INT Female Traditional Open Barehand\n"+
-"INT Male Traditional Open Barehand\n"+
-"INT Female Broadsword\n"+
-"INT Male Broadsword\n"+
-"INT Female Straightsword\n"+
-"INT Male Straightsword\n"+
-"INT Male Nandao\n"+
-"INT Male Southern Staff\n"+
-"INT Female Other Weapon\n"+
-"INT Male Other Weapon\n"+
-"INT Female Staff\n"+
-"INT Male Staff\n"+
-"INT Female Spear\n"+
-"INT Male Spear\n"+
-"INT Female Traditional Short Weapon\n"+
-"INT Male Traditional Short Weapon\n"+
-"INT Female Traditional Long Weapon\n"+
-"INT Male Traditional Long Weapon\n"
+"This is the order for ring 2. Type 'events' to see who is in what event!\n\n"+
+"- INT Female CQ\n"+
+"- INT Male CQ\n"+
+"- INT Female NQ\n"+
+"- INT Male NQ\n"+
+"- INT Female Traditional Open Barehand\n"+
+"- INT Male Traditional Open Barehand\n"+
+"- INT Female Broadsword\n"+
+"- INT Male Broadsword\n"+
+"- INT Female Straightsword\n"+
+"- INT Male Straightsword\n"+
+"- INT Male Nandao\n"+
+"- INT Male Southern Staff\n"+
+"- INT Female Other Weapon\n"+
+"- INT Male Other Weapon\n"+
+"- INT Female Staff\n"+
+"- INT Male Staff\n"+
+"- INT Female Spear\n"+
+"- INT Male Spear\n"+
+"- INT Female Traditional Short Weapon\n"+
+"- INT Male Traditional Short Weapon\n"+
+"- INT Female Traditional Long Weapon\n"+
+"- INT Male Traditional Long Weapon\n"
 
 let ringThree = 
-"This is just the order for ring three. Please check 'events' to see who is in what event!\n\n"+
-"BEG Male CQ\n"+
-"BEG Female CQ\n"+
-"BEG Male NQ\n"+
-"BEG Female NQ\n"+
-"BEG F Traditional Open Barehand\n"+
-"BEG M Traditional Open Barehand\n"+
-"BEG Female Broadsword\n"+
-"BEG Male Broadsword\n"+
-"BEG Male Straightsword\n"+
-"BEG Female Straightsword\n"+
-"BEG Female Other Weapon\n"+
-"BEG Male Staff\n"+
-"BEG Female Staff\n"+
-"BEG Male Traditional Short Weapon\n"+
-"BEG Male 24\n"+
-"BEG Female 24\n"+
-"INT Female 24\n"+
-"ADV Male 24\n"+
-"ADV Female 24\n"+
-"ADV Male Open Yang\n"+
-"BEG Female Open Yang\n"+
-"INT Female Open Yang\n"+
-"INT Male Open Chen\n"+
-"ADV Male Open Chen \n"+
-"ADV Female Open Chen\n"+
-"ADV Male 42 Fist\n"+
-"INT Female 42 Fist\n"+
-"ADV Female 42 Fist\n"+
-"ADV Male Internal Open Fist\n"+
-"ADV Female Internal Open Fist\n"+
-"ADV Male 42 Sword\n"+
-"ADV Female 42 Sword\n"+
-"ADV Male Taiji Weapon\n"+
-"ADV Female Taiji Weapon\n"
+"This is the order for ring 3. Type 'events' to see who is in what event!\n\n"+
+"- BEG Male CQ\n"+
+"- BEG Female CQ\n"+
+"- BEG Male NQ\n"+
+"- BEG Female NQ\n"+
+"- BEG F Traditional Open Barehand\n"+
+"- BEG M Traditional Open Barehand\n"+
+"- BEG Female Broadsword\n"+
+"- BEG Male Broadsword\n"+
+"- BEG Male Straightsword\n"+
+"- BEG Female Straightsword\n"+
+"- BEG Female Other Weapon\n"+
+"- BEG Male Staff\n"+
+"- BEG Female Staff\n"+
+"- BEG Male Traditional Short Weapon\n"+
+"- BEG Male 24\n"+
+"- BEG Female 24\n"+
+"- INT Female 24\n"+
+"- ADV Male 24\n"+
+"- ADV Female 24\n"+
+"- ADV Male Open Yang\n"+
+"- BEG Female Open Yang\n"+
+"- INT Female Open Yang\n"+
+"- INT Male Open Chen\n"+
+"- ADV Male Open Chen \n"+
+"- ADV Female Open Chen\n"+
+"- ADV Male 42 Fist\n"+
+"- INT Female 42 Fist\n"+
+"- ADV Female 42 Fist\n"+
+"- ADV Male Internal Open Fist\n"+
+"- ADV Female Internal Open Fist\n"+
+"- ADV Male 42 Sword\n"+
+"- ADV Female 42 Sword\n"+
+"- ADV Male Taiji Weapon\n"+
+"- ADV Female Taiji Weapon\n"
 
 //greetings
 let greetings =["Hello! I'm the ACWT Helper ChatBot! To best learn how to use me, type 'help' as a message!",
