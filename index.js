@@ -1449,7 +1449,7 @@ function decideMessage(sender, textInput){
 		sendText(sender, "Ring 1: Has not started yet. \nRing 2: Has not started yet. \nRing 3: Has not started yet.")
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
-		sendText(sender, "To get in touch:\n\nE-mail: pittwushu@gmail.com\nTel: To be decided later.")
+		sendText(sender, "To get in touch:\n\nE-mail: pittwushu@gmail.com\nTel: ‭Alyssa, +1 (717) 977-0886‬")
 	} else if((text.includes("thank"))){
 		sendText(sender, "You're welcome! You're my favorite human!")
 	} else if(text.includes("i love you")) {
