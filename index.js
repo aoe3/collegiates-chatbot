@@ -1186,7 +1186,8 @@ function decideMessage(sender, textInput){
 			"- For local restaurants, type 'local'\n\n"+ 
 			"- For contact information, type 'contact'\n\n"+ 
 			"- To see all this info again, type 'help'")
-
+	} else if ((text == "parking") || text.includes("park")){ 
+		sendText(sender, "We are inquiring about parking. Please check back later.")
 	// map of venue with rings
 	} else if ((text == "venue") || text.includes("fitzgerald")){ 
 		let venueText = {text: "Here is a map of the venue:"}
