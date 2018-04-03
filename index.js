@@ -1179,6 +1179,7 @@ function decideMessage(sender, textInput){
 			"- For event info, type 'events', 'beg', 'int', or 'adv'\n\n"+
 			"- For a list of competitors associated with schools, type 'school'\n\n"+
 			"- For ring info, type 'rings'\n\n"+ 
+			"- To find out what's going on right now, type 'schedule'\n\n"+ 
 			"- For the venue map, type 'venue'\n\n"+ 
 			// "To see scores, type 'scores' \n \n"+ 
 			"- For the food court (ONLY FOR LUNCH ON DAY OF COMPETITION), type 'foodcourt' or 'lunch'\n\n"+ 
@@ -1310,7 +1311,6 @@ function decideMessage(sender, textInput){
 		sendText(sender, vcu)	
 	} else if (text.includes("vtech")){
 		sendText(sender, vtech)	
-
 	} else if ((text.includes("school")) || (text.includes("university")) || (text.includes("universities")) || (text.includes("college"))){
 		sendSchools(sender)
 		//end schools
@@ -1322,8 +1322,7 @@ function decideMessage(sender, textInput){
 		sendScoreOptions(sender)
 	//POTENTIAL real-time scores... let's see?
 	} else if (text.includes("score")){
-		sendText(sender, "Scores have not been posted yet.")
-		//sendText(sender, "Please type 'events' and follow the instructions to see your score")
+		sendText(sender, "Scores will be posted next to the competitor's name. Check their event.")
 	//view events
 	} else if (text.includes("events")){
 		sendText(sender, "Please type 'beg', 'int', 'adv', 'beginner', 'intermediate', 'advanced', or 'groupset' to continue to that category.")
