@@ -1322,7 +1322,7 @@ function decideMessage(sender, textInput){
 		sendScoreOptions(sender)
 	//POTENTIAL real-time scores... let's see?
 	} else if (text.includes("score")){
-		sendText(sender, "Scores will be posted next to the competitor's name. Check their event.")
+		sendText(sender, "Scores will be posted next to the competitor's name. Check their event by typing 'events'.")
 	//view events
 	} else if (text.includes("events")){
 		sendText(sender, "Please type 'beg', 'int', 'adv', 'beginner', 'intermediate', 'advanced', or 'groupset' to continue to that category.")
