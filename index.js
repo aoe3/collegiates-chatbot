@@ -1214,47 +1214,29 @@ function decideMessage(sender, textInput){
 	} else if((text.includes("3$")) || (text.includes("$$$"))){
 		sendText(sender, 
 					"Legume\n- American\n- Sleek bistro serving seasonal, locally sourced fare, with drinks from the attached bar, Butterjoint.\n- 214 N Craig St, Pittsburgh, PA 15213\n\n"+
-
 					"The Butcher and the Rye\n- American\n- Trendy outpost serving innovative New American cuisine & craft cocktails in a rustic-chic space.\n- 212 6th St, Pittsburgh, PA 15222s\n\n"+ 
-
 					"Texas de Brazil\n- Brazilian\n- Upscale Brazilian eatery featuring all-you-can-eat grilled meat carved tableside & a salad bar.\n- 240 W. Station Square Drive, Suite D1, Pittsburgh, PA 15219\n\n"+
-
 					"The Melting Pot\n- Other\n- Fondue restaurant chain offering heated pots of cheese, chocolate or broth for dipping & cooking.\n- 125 W Station Square Dr, Pittsburgh, PA 15219\n\n"+
-
 					"Grand Concourse\n- Seafood\n- Train station turned upscale restaurant with seafood & steaks plus a more casual attached saloon.\n- 100 W Station Square Dr, Pittsburgh, PA 15219\n\n"+
-
 					"Monterey Bay Fish Grotto\n- Seafood\n- White-tablecloth eatery & bar with panoramic riverside views offers elegantly plated seafood.\n- 1411 Grandview Ave, Pittsburgh, PA 15211")
 	} else if((text.includes("2$")) || (text.includes("$$"))){
 		sendText(sender, 
 					"Meat and Potatoes\n- American\n- Chic, modern gastropub making New American dinners, eclectic brunch items & inventive mixed drinks.\n- 649 Penn Ave, Pittsburgh, PA 15222\n\n"+
-
 					"The Porch\n- American\n- Laid-back eatery with a patio for seasonal menus crafted using ingredients from local producers.\n- 221 Schenley Drive, Pittsburgh, PA 15213\n\n"+ 
-
 					"Sichuan Gourmet\n- Asian\n- Casual Chinese eatery offering a menu of staples plus many spicy Sichuan dishes in a bright space.\n- 1900 Murray Ave, Pittsburgh, PA 15217\n\n"+
-
 					"Hoffbrauhaus Pittsburgh\n- European\n- German brewery modeled like the Munich original has seasonal beer, Bavarian fare & costumed servers.\n- 2705 S Water St, Pittsburgh, PA 15203\n\n"+
-
 					"Church Brew Works\n- Other\n- Former church is now a lofty space for house-brewed beers, plus a mix of pizza, pierogi & bratwurst.\n- 3525 Liberty Ave, Pittsburgh, PA 15201\n\n"+
-
 					"täkō\n- Mexican\n- Lively taqueria with sidewalk seating serving inventive Mexican street food in chill digs.\n- 214 6th St, Pittsburgh, PA 15222")
 	} else if ((text.includes("1$")) || (text.includes("$"))){
 		sendText(sender, 
 					"Pamela's Diner(CASH ONLY)\nAmerican\n- Charming, retro breakfast & lunch spot for specialty crepe-hotcakes, omelets & burgers. Cash only.\n- 3703 Forbes Ave, Pittsburgh, PA 15213\n\n"+
-
 					"Primanti Bros.\n- American\n- Pittsburgh-born counter-serve chain known for its sandwiches.\n- 3803 Forbes Ave, Pittsburgh, PA 15213\n\n"+ 
-
 					"The Yard\n- American\n- Brick-walled bar with TVs, craft beer & pub grub, including a gourmet grilled-cheese menu.\n- 736 Bellefonte St, Pittsburgh, PA 15232\n- Alt: 100 Fifth Ave, Pittsburgh, PA 15222\n\n"+
-
 					"Chengdu Gourmet\n- Asian\n- Basic Sichuan spot offering both traditional and American-style Chinese eats in simple surrounds.\n- 5840 Forward Ave, Pittsburgh, PA 15217\n\n"+
-
 					"Everyday Noodles\n- Asian\n- A casual Chinese eatery specializing in noodle dishes that's known for its kitchen viewing window.\n- 5875 Forbes Ave, Pittsburgh, PA 15217\n\n"+
-
 					"How Lee\n- Asian\n- Spartan establishment with a large menu including familiar fare & specialty Sichuan entrees.\n- 5888 Forbes Ave, Pittsburgh, PA 15217\n\n"+
-
 					"Noodlehead(CASH ONLY)\n- Asian\n- BYOB, cash-only Thai joint featuring street-market noodles & other bites in cool, industrial digs.\n- 242 S Highland Ave, Pittsburgh, PA 15206\n\n"+
-
 					"Klavon's Ice Cream Parlor\n- Dessert\n- Charming, old-school spot for shakes, floats & sundaes made Penn State Creamery ice cream.\n- 2801 Penn Ave, Pittsburgh, PA 15222\n\n"+
-
 					"S&D Polish Deli\n- European\n- Simple Polish deli with traditional fare plus meats, sweets & products imported from Eastern Europe.\n- 2204 Penn Ave, Pittsburgh, PA 15222")
 		//begin schools
 	} else if (text.includes("berklee")){
@@ -1824,19 +1806,14 @@ function sendIntermediate(sender){
               },
               {
                 "type": "postback",
-                "title": "Int Open BH",
-                "payload": "intOpenBH"
+                "title": "Int 24 Taiji",
+                "payload": "int24Taiji"
               }
             ]
           },
           {
             "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
-              {
-                "type": "postback",
-                "title": "Int 24 Taiji",
-                "payload": "int24Taiji"
-              },
               {
                 "type": "postback",
                 "title": "Int Open Taiji",
@@ -1846,17 +1823,17 @@ function sendIntermediate(sender){
                 "type": "postback",
                 "title": "Int Open Chen",
                 "payload": "intOpenChen"
+              },
+              {
+                "type": "postback",
+                "title": "Int 42 Fist",
+                "payload": "int42Fist"
               }
             ]
           },
           {
             "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
-              {
-                "type": "postback",
-                "title": "Int 42 Fist",
-                "payload": "int42Fist"
-              },
               {
                 "type": "postback",
                 "title": "Int Trad Open BH",
@@ -1866,17 +1843,17 @@ function sendIntermediate(sender){
                 "type": "postback",
                 "title": "Int Broadsword",
                 "payload": "intBroadsword"
+              },
+              {
+                "type": "postback",
+                "title": "Int Straightsword",
+                "payload": "intStraightsword"
               }
             ]
           },
           {
             "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
-              {
-                "type": "postback",
-                "title": "Int Straightsword",
-                "payload": "intStraightsword"
-              },
               {
                 "type": "postback",
                 "title": "Int Nandao",
@@ -1886,17 +1863,17 @@ function sendIntermediate(sender){
                 "type": "postback",
                 "title": "Int Other Weapon",
                 "payload": "intOtherWeapon"
+              },
+              {
+                "type": "postback",
+                "title": "Int Staff",
+                "payload": "intStaff"
               }
             ]
           },
           {
             "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
-              {
-                "type": "postback",
-                "title": "Int Staff",
-                "payload": "intStaff"
-              },
               {
                 "type": "postback",
                 "title": "Int Spear",
@@ -1906,17 +1883,17 @@ function sendIntermediate(sender){
                 "type": "postback",
                 "title": "Int Southern Staff",
                 "payload": "intSouthernStaff"
+              },
+              {
+                "type": "postback",
+                "title": "Int Trad Long Weapon",
+                "payload": "intTradLongWeapon"
               }
             ]
           },
           {
             "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
-              {
-                "type": "postback",
-                "title": "Int Trad Long Weapon",
-                "payload": "intTradLongWeapon"
-              },
               {
                 "type": "postback",
                 "title": "Int Trad Short Weapon",
