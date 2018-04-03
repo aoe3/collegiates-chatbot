@@ -1308,12 +1308,6 @@ function decideMessage(sender, textInput){
 	//view events
 	} else if (text.includes("events")){
 		sendText(sender, "Please type 'beg', 'int', 'adv', 'beginner', 'intermediate', 'advanced', or 'groupset' to continue to that category.")
-	} else if ((text == "beg") || (text == "beginner")){
-		sendBeginner(sender)
-	} else if ((text == "int") || (text == "intermediate")){
-		sendIntermediate(sender)
-	} else if ((text == "adv") || (text == "advanced")){
-		sendAdvanced(sender)
 	} else if (text.includes("begchangquan")){
 	sendText(sender, begChangquan)	
 	} else if (text.includes("begnanquan")){
@@ -1413,6 +1407,12 @@ function decideMessage(sender, textInput){
 	} else if (text.includes("groupset")){
 		sendText(sender, groupsetHalf1)	
 		sendText(sender, groupsetHalf2)	
+	} else if ((text == "beg") || (text == "beginner")){
+		sendBeginner(sender)
+	} else if ((text == "int") || (text == "intermediate")){
+		sendIntermediate(sender)
+	} else if ((text == "adv") || (text == "advanced")){
+		sendAdvanced(sender)
 	} else if ((text.includes("beg")) || (text.includes("beginner"))){
 		sendBeginner(sender)
 	} else if ((text.includes("int")) || (text.includes("intermediate"))){
