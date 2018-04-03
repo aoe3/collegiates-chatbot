@@ -1187,7 +1187,16 @@ function decideMessage(sender, textInput){
 			"- For contact information, type 'contact'\n\n"+ 
 			"- To see all this info again, type 'help'")
 	} else if ((text == "parking") || text.includes("park")){ 
-		sendText(sender, "We are inquiring about parking. Please check back later.")
+		sendText(sender, 
+			"Here is a list of possible parking spots, barring regular street parking in the area "+
+			"(street parking costs vary but are in effect from 8am-5pm on Saturday; parking is free all day on Sunday should you need it).\n\n"+ 
+
+				"- Parking Garages on Darragh St\n"+
+				"- Cost Center Parking Garage\n"+
+				//"- Parking in front of the Fitzgerald Field House (will need final go-ahead from Jason)\n"+
+				"- Parking Garage on Terrace St\n"+
+				"- Parking Garage on Lothrop St\n"
+)
 	// map of venue with rings
 	} else if ((text == "venue") || text.includes("fitzgerald")){ 
 		let venueText = {text: "Here is a map of the venue:"}
