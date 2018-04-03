@@ -317,7 +317,7 @@ let intBroadsword =
 "- Anthony Wang - 0.00\n\n\n"
 
 let intStraightsword =
-"Female Straightsword\n\n"++
+"Female Straightsword\n\n"+
 "- Winni Gao - 0.00\n"+
 "- Jasmine Wong - 0.00\n"+
 "- Melodee Li - 0.00\n"+
