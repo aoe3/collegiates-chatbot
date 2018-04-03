@@ -1181,7 +1181,7 @@ function decideMessage(sender, textInput){
 			"- For ring info, type 'rings'\n\n"+ 
 			"- To find out what's going on right now, type 'schedule'\n\n"+ 
 			"- To learn more about parking, type 'parking'\n\n"+ 
-			"- For the venue map, type 'venue'\n\n"+ 
+			"- For useful maps, type 'map'\n\n"+ 
 			// "To see scores, type 'scores' \n \n"+ 
 			"- For the food court (ONLY FOR LUNCH ON DAY OF COMPETITION), type 'foodcourt' or 'lunch'\n\n"+ 
 			"- For local restaurants, type 'local'\n\n"+ 
@@ -1205,7 +1205,7 @@ function decideMessage(sender, textInput){
 		sendVenueImageMessage(sender)
 	} else if ((text == "map")){ 
 		sendMapOptions(sender, "What map would you like to see:")
-	} else if ((text == "surrounding") || text.includes("nearby")){ 
+	} else if ((text.includes("surrounding")) || text.includes("nearby")){ 
 		let staticLocalMapText = {text: "Here is a static, local map, with Fitzgerald highlighted at the top and the competitor-reserved hotel, Hampton Inn, UPMC:"}
 		sendRequest(sender, staticLocalMapText)
 		sendLocalMapImage(sender)
