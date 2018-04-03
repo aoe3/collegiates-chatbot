@@ -1090,6 +1090,188 @@ let vtech =
 "- Justin Lu\n"+
 "- Khang Nguyen\n"
 
+let ringOne = 
+"Male CQ - Nandu\n\n"+
+"Tim Wang\n"+
+"Patrick Moua"+
+
+"Female CQ \n\n"+
+"Joy Zeng\n"+
+"Caitlin Escudero\n"+
+"Sherlyn Chuang\n"+
+"Gwyneth Huynh\n"+
+"Bridget Keeney\n"+
+"Rebecca Chinn\n"+
+"Daisy Zheng\n"+
+"Kaitlyn Trinh\n"+
+"Emily Fan\n"+
+"Michelle Chiang\n"+
+"Alyssa Lo"+
+
+"Male CQ \n\n"+
+"Daniel Liang\n"+
+"Winston Lee\n"+
+"Varun Singh\n"+
+"Tianming Li\n"+
+"Chuan Chen\n"+
+"Dominic Chow\n"+
+"Jason Tang\n"+
+"Eric Fu\n"+
+"Jason Hui\n"+
+"Connor Hum\n"+
+"Philip Hwang\n"+
+"Robert Yu\n"+
+"Chi Tun Lam\n"+
+"Mario Caballero\n"+
+"Oey Chang\n"+
+"Jonathan Li\n"+
+"Jeffson Atienza\n"+
+"Xian Kai Ng\n"+
+"Khang Nguyen\n"+
+"Angel Pan\n"+
+"Erik Song\n"+
+"Howard Wang\n"+
+"Alexander Wu\n"+
+"Jason Zou\n"+
+"Albert Zhang\n"+
+"Ryan Zheng\n"+
+"Jemmy Zhou\n"+
+"Christopher Johnson"+
+
+"Open BH\n\n"+
+"Oey Chang\n"+
+"Robert Yu"+
+
+"Female NQ\n\n"+
+"Sabrina Chiang\n"+
+"Queenie Li"+
+
+"Male NQ\n\n"+
+"Darren Deng"+
+
+"F Trad. Open BH\n\n"+
+"Cecilia Springer"+
+
+"M Trad. Open BH\n\n"+
+"Alexander Lu\n"+
+"Connor Hum\n"+
+"Kristian Koeser\n"+
+"Winston Lee\n"+
+"Linfeng Wu"+
+
+"Female Broadsword\n\n"+
+"Michelle Sit\n"+
+"Daisy Zheng\n"+
+"Sabrina Chiang\n"+
+"Zoe Chan\n"+
+"Queenie Li\n"+
+"Kaitlyn Trinh\n"+
+"Irene Javier"+
+
+"Male Broadsword\n\n"+
+"Wesley Huie\n"+
+"Alexander Wu\n"+
+"Chuan Chen\n"+
+"Jason Zou\n"+
+"Jonathan Li\n"+
+"Daniel Liang\n"+
+"Khang Nguyen\n"+
+"Erik Song\n"+
+"Howard Wang\n"+
+"Stuart Sy\n"+
+"Jeffson Atienza\n"+
+"Oey Chang\n"+
+"Kevin Ty"+
+
+"Female Straightsword\n\n"+
+"Alyssa Lo\n"+
+"Sherlyn Chuang\n"+
+"Emily Fan\n"+
+"Hannah Ho\n"+
+"Gwyneth Huynh\n"+
+"Bridget Keeney\n"+
+"Kasey Chan\n"+
+"Dimei Wu\n"+
+"Emily Yang\n"+
+"Joy Zeng\n"+
+"Michelle Chiang"+
+
+"Male Straightsword\n\n"+
+"Alexander Lu\n"+
+"Daniel Liang\n"+
+"Dominic Chow\n"+
+"Mario Caballero\n"+
+"Christopher Johnson\n"+
+"Xian Kai Ng\n"+
+"Robert Yu\n"+
+"Kevin Qin\n"+
+"William Du\n"+
+"Ryan Zheng\n"+
+"Chi Tun Lam\n"+
+"Jemmy Zhou\n"+
+"Kevin Chen\n"+
+"Irwin Hui\n"+
+"Tim Wang"+
+
+"Female Other Weapon\n\n"+
+"Zoe Chan"+
+
+"Male Other Weapon\n\n"+
+"Irwin Hui\n"+
+"Winston Lee\n"+
+"Linfeng Wu\n"+
+"Kevin Chen"+
+
+"Female Staff\n\n"+
+"Bridget Keeney\n"+
+"Rebecca Chinn\n"+
+"Queenie Li"+
+
+"Male Staff\n\n"+
+"Connor Hum\n"+
+"Khang Nguyen\n"+
+"Tianming Li\n"+
+"Chuan Chen\n"+
+"Ryan Zheng\n"+
+"Brian Tran\n"+
+"Jason Zou\n"+
+"Patrick Moua\n"+
+"Oey Chang\n"+
+"Winston Lee\n"+
+"Jeffson Atienza"+
+
+"Female Spear\n\n"+
+"Kasey Chan\n"+
+"Emily Fan\n"+
+"Emily Yang\n"+
+"Alyssa Lo"+
+
+"Male Spear\n\n"+
+"Irwin Hui\n"+
+"Kristian Koeser\n"+
+"Jason Tang\n"+
+"Robert Yu\n"+
+"Jemmy Zhou"+
+
+"Male Southern Staff\n\n"+
+"Darren Deng"+
+
+"Female Trad. Short Weapon\n\n"+
+"Cecilia Springer\n"+
+"Michelle Chin"+
+
+"Male Trad. Short Weapon\n\n"+
+"Alexander Wu"+
+
+"Female Trad. Long Weapon\n\n"+
+"Cecilia Springer"+
+
+"Female Soft Weapon\n\n"+
+"Queenie Li"+
+
+"Male Soft Weapon\n\n"+
+"Eric Fu"
+
 //greetings
 let greetings =["Hello! I'm the ACWT Helper ChatBot! To best learn how to use me, type 'help' as a message!",
 			"Hi! I'm a helper chatbot for the ACWT! Want to know what I can do? Type 'help' as a message!",
@@ -1387,7 +1569,7 @@ function decideMessage(sender, textInput){
 		// 					"- Adv Trad.\n"+
 		// 					"- Adv TJ")
 	} else if ((text.includes("ring1")) || (text.includes("ring 1")) || (text.includes("mat1")) || (text.includes("mat 1"))){
-		sendText(sender, "Schedule still TBD.")
+		sendText(sender, ringOne)
 		// sendText(sender, 	"Ring 1\n\n"+
 		// 					"-Beg CQ\n"+
 		// 					"-Int CQ\n"+
