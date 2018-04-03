@@ -1093,7 +1093,7 @@ let vtech =
 let ringOne = 
 "Male CQ - Nandu\n\n"+
 "Tim Wang\n"+
-"Patrick Moua"+
+"Patrick Moua\n\n\n"+
 
 "Female CQ \n\n"+
 "Joy Zeng\n"+
@@ -1106,7 +1106,7 @@ let ringOne =
 "Kaitlyn Trinh\n"+
 "Emily Fan\n"+
 "Michelle Chiang\n"+
-"Alyssa Lo"+
+"Alyssa Lo\n\n\n"+
 
 "Male CQ \n\n"+
 "Daniel Liang\n"+
@@ -1136,28 +1136,28 @@ let ringOne =
 "Albert Zhang\n"+
 "Ryan Zheng\n"+
 "Jemmy Zhou\n"+
-"Christopher Johnson"+
+"Christopher Johnson\n\n\n"+
 
-"Open BH\n\n"+
+"Open Barehand\n\n"+
 "Oey Chang\n"+
-"Robert Yu"+
+"Robert Yu\n\n\n"+
 
 "Female NQ\n\n"+
 "Sabrina Chiang\n"+
-"Queenie Li"+
+"Queenie Li\n\n\n"+
 
 "Male NQ\n\n"+
-"Darren Deng"+
+"Darren Deng\n\n\n"+
 
-"F Trad. Open BH\n\n"+
-"Cecilia Springer"+
+"F Traditional Open Barehand\n\n"+
+"Cecilia Springer\n\n\n"+
 
-"M Trad. Open BH\n\n"+
+"M Traditional Open Barehand\n\n"+
 "Alexander Lu\n"+
 "Connor Hum\n"+
 "Kristian Koeser\n"+
 "Winston Lee\n"+
-"Linfeng Wu"+
+"Linfeng Wu\n\n\n"+
 
 "Female Broadsword\n\n"+
 "Michelle Sit\n"+
@@ -1166,7 +1166,7 @@ let ringOne =
 "Zoe Chan\n"+
 "Queenie Li\n"+
 "Kaitlyn Trinh\n"+
-"Irene Javier"+
+"Irene Javier\n\n\n"+
 
 "Male Broadsword\n\n"+
 "Wesley Huie\n"+
@@ -1181,7 +1181,7 @@ let ringOne =
 "Stuart Sy\n"+
 "Jeffson Atienza\n"+
 "Oey Chang\n"+
-"Kevin Ty"+
+"Kevin Ty\n\n\n"+
 
 "Female Straightsword\n\n"+
 "Alyssa Lo\n"+
@@ -1194,7 +1194,7 @@ let ringOne =
 "Dimei Wu\n"+
 "Emily Yang\n"+
 "Joy Zeng\n"+
-"Michelle Chiang"+
+"Michelle Chiang\n\n\n"+
 
 "Male Straightsword\n\n"+
 "Alexander Lu\n"+
@@ -1211,21 +1211,21 @@ let ringOne =
 "Jemmy Zhou\n"+
 "Kevin Chen\n"+
 "Irwin Hui\n"+
-"Tim Wang"+
+"Tim Wang\n\n\n"+
 
 "Female Other Weapon\n\n"+
-"Zoe Chan"+
+"Zoe Chan\n\n\n"+
 
 "Male Other Weapon\n\n"+
 "Irwin Hui\n"+
 "Winston Lee\n"+
 "Linfeng Wu\n"+
-"Kevin Chen"+
+"Kevin Chen\n\n\n"+
 
 "Female Staff\n\n"+
 "Bridget Keeney\n"+
 "Rebecca Chinn\n"+
-"Queenie Li"+
+"Queenie Li\n\n\n"+
 
 "Male Staff\n\n"+
 "Connor Hum\n"+
@@ -1238,39 +1238,39 @@ let ringOne =
 "Patrick Moua\n"+
 "Oey Chang\n"+
 "Winston Lee\n"+
-"Jeffson Atienza"+
+"Jeffson Atienza\n\n\n"+
 
 "Female Spear\n\n"+
 "Kasey Chan\n"+
 "Emily Fan\n"+
 "Emily Yang\n"+
-"Alyssa Lo"+
+"Alyssa Lo\n\n\n"+
 
 "Male Spear\n\n"+
 "Irwin Hui\n"+
 "Kristian Koeser\n"+
 "Jason Tang\n"+
 "Robert Yu\n"+
-"Jemmy Zhou"+
+"Jemmy Zhou\n\n\n"+
 
 "Male Southern Staff\n\n"+
-"Darren Deng"+
+"Darren Deng\n\n\n"+
 
-"Female Trad. Short Weapon\n\n"+
+"Female Traditional Short Weapon\n\n"+
 "Cecilia Springer\n"+
-"Michelle Chin"+
+"Michelle Chin\n\n\n"+
 
-"Male Trad. Short Weapon\n\n"+
-"Alexander Wu"+
+"Male Traditional Short Weapon\n\n"+
+"Alexander Wu\n\n\n"+
 
-"Female Trad. Long Weapon\n\n"+
-"Cecilia Springer"+
+"Female Traditional Long Weapon\n\n"+
+"Cecilia Springer\n\n\n"+
 
 "Female Soft Weapon\n\n"+
-"Queenie Li"+
+"Queenie Li\n\n\n"+
 
 "Male Soft Weapon\n\n"+
-"Eric Fu"
+"Eric Fu\n\n\n"
 
 //greetings
 let greetings =["Hello! I'm the ACWT Helper ChatBot! To best learn how to use me, type 'help' as a message!",
@@ -1569,7 +1569,7 @@ function decideMessage(sender, textInput){
 		// 					"- Adv Trad.\n"+
 		// 					"- Adv TJ")
 	} else if ((text.includes("ring1")) || (text.includes("ring 1")) || (text.includes("mat1")) || (text.includes("mat 1"))){
-		sendText(sender, ringOne)
+		sendText(sender, "Schedule still TBD.")
 		// sendText(sender, 	"Ring 1\n\n"+
 		// 					"-Beg CQ\n"+
 		// 					"-Int CQ\n"+
