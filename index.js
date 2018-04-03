@@ -1187,7 +1187,7 @@ function decideMessage(sender, textInput){
 			"- For local restaurants, type 'local'\n\n"+ 
 			"- For contact information, type 'contact'\n\n"+ 
 			"- To see all this info again, type 'help'")
-	} else if ((text == "parking") || text.includes("park")){ 
+	} else if ((text == "parking")){ 
 		sendText(sender, 
 			"Here is a list of possible parking spots, barring regular street parking in the area "+
 			"(street parking costs vary, but are in effect from 8am-5pm on Saturday; parking is free all day on Sunday should you need it).\n\n"+ 
