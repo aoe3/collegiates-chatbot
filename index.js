@@ -602,7 +602,6 @@ let advStaff =
 "- Khang Nguyen - 0.00\n"+
 "- Tianming Li - 0.00\n"+
 "- Chuan Chen - 0.00\n"+
-"- Ryan Zheng - 0.00\n"+
 "- Brian Tran - 0.00\n"+
 "- Jason Zou - 0.00\n"+
 "- Patrick Moua - 0.00\n"+
@@ -620,6 +619,7 @@ let advSpear =
 "Male Spear\n\n"+
 "- Irwin Hui - 0.00\n"+
 "- Kristian Koeser - 0.00\n"+
+"- Ryan Zheng - 0.00\n"+
 "- Jason Tang - 0.00\n"+
 "- Robert Yu - 0.00\n"+
 "- Jemmy Zhou - 0.00\n\n\n"
