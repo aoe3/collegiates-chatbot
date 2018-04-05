@@ -1412,7 +1412,9 @@ function decideMessage(sender, textInput){
 	} else if (text.includes("advtaijiweapon")){
 		sendText(sender, advTaijiWeapon)	
 	} else if (text.includes("advotherweapon")){
-		sendText(sender, advOtherWeapon)	
+		sendText(sender, advOtherWeapon)
+	} else if (text.includes("advnandao")){
+		sendText(sender, advNandao)	
 	} else if (text.includes("advstaff")){
 		sendText(sender, advStaff)	
 	} else if (text.includes("advspear")){
