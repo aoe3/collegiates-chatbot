@@ -257,7 +257,6 @@ let intNanquan =
 "- Noah Mastruserio - 0.00\n"+
 "- John Caldas - 0.00\n"+
 "- Vincent Ngo - 0.00\n"+
-"- Mohammad Ullah - 0.00\n"+
 "- John Maclean - 0.00\n\n\n"
 
 let intOpenBH =
@@ -332,7 +331,6 @@ let intStraightsword =
 
 let intNandao =
 "Male Nandao\n\n"+
-"- Mohammad Ullah - 0.00\n"+
 "- Noah Mastruserio - 0.00\n\n\n"
 
 let intOtherWeapon =
@@ -442,6 +440,7 @@ let advNanquan ="Female Nanquan\n\n"+
 "- Queenie Li - 0.00\n\n\n"+
 
 "Male Nanquan\n\n"+
+"- Mohammad Ullah - 0.00\n"+
 "- Darren Deng - 0.00\n\n\n"
 
 let advOpenBH =
@@ -580,6 +579,10 @@ let advTaijiWeapon =
 "- Ethyn Leong - 0.00\n"+
 "- William Du - 0.00\n"+
 "- Richard Nguyen - 0.00\n\n\n"
+
+let advNandao =
+"Male Nandao\n\n"+
+"- Mohammad Ullah - 0.00\n\n\n"
 
 let advOtherWeapon =
 "Female Other Weapon\n\n"+
@@ -1090,6 +1093,7 @@ let ringOne =
 "- ADV Male Broadsword\n"+
 "- ADV Female Straightsword\n"+
 "- ADV Male Straightsword\n"+
+"- ADV Male Nandao\n"+
 "- ADV Female Other Weapon\n"+
 "- ADV Male Other Weapon\n"+
 "- ADV Female Staff\n"+
@@ -2021,14 +2025,19 @@ function sendAdvanced(sender){
               },
               {
                 "type": "postback",
-                "title": "Adv Other Weapon",
-                "payload": "advOtherWeapon"
+                "title": "Adv Nandao",
+                "payload": "advNandao"
               }
             ]
           },
           {
             "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
+              {
+                "type": "postback",
+                "title": "Adv Other Weapon",
+                "payload": "advOtherWeapon"
+              },
               {
                 "type": "postback",
                 "title": "Adv Staff",
@@ -2038,17 +2047,17 @@ function sendAdvanced(sender){
                 "type": "postback",
                 "title": "Adv Spear",
                 "payload": "advSpear"
-              },
-              {
-                "type": "postback",
-                "title": "Adv Southern Staff",
-                "payload": "advSouthernStaff"
               }
             ]
           },
           {
             "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
             "buttons": [
+              {
+                "type": "postback",
+                "title": "Adv Southern Staff",
+                "payload": "advSouthernStaff"
+              },
               {
                 "type": "postback",
                 "title": "Adv Long Weapon",
@@ -2058,7 +2067,12 @@ function sendAdvanced(sender){
                 "type": "postback",
                 "title": "Adv Trad Short Weapon",
                 "payload": "advTradShortWeapon"
-              },
+              }
+            ]
+          },
+          {
+            "title": "Swipe left/right for more options. On browser, click on arrows in the menu below.",
+            "buttons": [
               {
                 "type": "postback",
                 "title": "Adv Trad Soft Weapon",
