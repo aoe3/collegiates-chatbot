@@ -1560,8 +1560,10 @@ function decideMessage(sender, textInput){
 		sendRingButtonMessage(sender, "What would you like to see?")
 	//rings
 	} else if ((text.includes("rings all")) || (text.includes("ringsall")) || (text.includes("ringall")) || (text.includes("all rings")) || (text.includes("ring all"))){
-		let completeSched = ringOne + "\n\n\n\n" + ringTwo + "\n\n\n\n" + ringThree
-		sendText(sender, completeSched)
+		
+		sendText(sender, ringOne)
+		sendText(sender, ringTwo)
+		sendText(sender, ringThree)
 	} else if ((text.includes("ring1")) || (text.includes("ring 1")) || (text.includes("mat1")) || (text.includes("mat 1"))){
 		sendText(sender, ringOne)
 	} else if ((text.includes("ring2")) || (text.includes("ring 2")) || (text.includes("mat2")) || (text.includes("mat 2"))){
