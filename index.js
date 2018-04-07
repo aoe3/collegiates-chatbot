@@ -89,10 +89,9 @@ let begChangquan =
 "- Jin Yun Chow - 0.00\n\n\n"+
 
 "Male Changquan\n\n"+
-"- Dylan Sanfilippo - 0.00\n"+
-"- Allen Peng - 0.00\n"+
-"- Kevin Marston - 0.00\n"+
-"- Benjamin Chen - 0.00\n"+
+"- Allen Peng - 6.63\n"+
+"- Kevin Marston - 6.21\n"+
+"- Benjamin Chen - 6.33\n"+
 "- Kyle Chan - 0.00\n"+
 "- Simon Nguyen - 0.00\n"+
 "- William Lund - 0.00\n"+
@@ -445,7 +444,7 @@ let advChangquan =
 "- Rebecca Chinn - 8.33\n"+
 "- Daisy Zheng - 8.26\n"+
 "- Kaitlyn Trinh - 7.76\n"+
-"- Emily Fan - 0.00\n"+
+"- Emily Fan - 8.85\n"+
 "- Michelle Chiang - 0.00\n"+
 "- Alyssa Lo - 0.00\n"+
 "- Crystal Huang - 0.00\n\n\n"+
