@@ -215,7 +215,7 @@ let begTradShortWeapon =
 //Intermediate
 let intChangquan =
 "Female Changquan\n\n"+
-"- Audrey Gunawan - 0.00\n"+
+"- Audrey Gunawan - 7.33\n"+
 "- Kathie Lin - 0.00\n"+
 "- Sara Ng - 0.00\n"+
 "- Kimberly Gomez - 0.00\n"+
@@ -441,7 +441,7 @@ let advChangquan =
 "- Joy Zeng - 8.26\n"+
 "- Caitlin Escudero - 8.48\n"+
 "- Gwyneth Huynh - 7.77\n"+
-"- Bridget Keeney - 0.00\n"+
+"- Bridget Keeney - 8.46\n"+
 "- Rebecca Chinn - 0.00\n"+
 "- Daisy Zheng - 0.00\n"+
 "- Kaitlyn Trinh - 0.00\n"+
