@@ -723,7 +723,7 @@ let groupsetHalf1 =
 "- Jennifer Tsui\n"+
 "- Chi Tun Lam\n\n"+
 
-"Cornell - Big Red Bearhand (better name to be decided): 0.00\n"+
+"Cornell - Baby's First Groupset: 0.00\n"+
 "- Albert Zhang\n"+
 "- Sara Ng\n"+
 "- Daisy Zheng\n"+
@@ -749,7 +749,7 @@ let groupsetHalf1 =
 
 "UMD: College Park:\n"+
 
-"1) B (ima change ltr): 0.00\n"+
+"1) Bae Team: 0.00\n"+
 "- Tianming Li\n"+
 "- Jason Tang\n"+
 "- Dominic Chow\n"+
@@ -765,7 +765,7 @@ let groupsetHalf1 =
 "- Alexander Lu\n"+
 "- Kelly Zhang\n\n"+
 
-"3) flamingo fans: 0.00\n"+
+"3) Bustin Jenedik's Fanclub: 0.00\n"+
 "- Michelle Tu\n"+
 "- Emily Yang\n"+
 "- Kyle Chan\n"+
