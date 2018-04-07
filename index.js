@@ -433,7 +433,7 @@ let intTradShortWeapon =
 //Advanced
 let advChangquanNandu =
 "Male Changquan(nandu)\n\n"+
-"- Tim Wang - .35\n"+
+"- Tim Wang - 8.35\n"+
 "- Patrick Moua - 0.00\n\n\n"
 
 let advChangquan =
