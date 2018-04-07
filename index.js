@@ -438,7 +438,7 @@ let advChangquanNandu =
 
 let advChangquan =
 "Female Changquan\n\n"+
-"- Joy Zeng - 0.00\n"+
+"- Joy Zeng - 8.26\n"+
 "- Caitlin Escudero - 0.00\n"+
 "- Gwyneth Huynh - 0.00\n"+
 "- Bridget Keeney - 0.00\n"+
