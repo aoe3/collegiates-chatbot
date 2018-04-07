@@ -216,7 +216,7 @@ let begTradShortWeapon =
 let intChangquan =
 "Female Changquan\n\n"+
 "- Audrey Gunawan - 7.33\n"+
-"- Kathie Lin - 0.00\n"+
+"- Kathie Lin - 7.27\n"+
 "- Sara Ng - 0.00\n"+
 "- Kimberly Gomez - 0.00\n"+
 "- Annie Shi - 0.00\n"+
