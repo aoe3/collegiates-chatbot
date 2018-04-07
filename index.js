@@ -217,7 +217,7 @@ let intChangquan =
 "Female Changquan\n\n"+
 "- Audrey Gunawan - 7.33\n"+
 "- Kathie Lin - 7.27\n"+
-"- Sara Ng - 0.00\n"+
+"- Sara Ng - 7.35\n"+
 "- Kimberly Gomez - 7.07\n"+
 "- Annie Shi - 0.00\n"+
 "- Michelle Tan - 0.00\n"+
