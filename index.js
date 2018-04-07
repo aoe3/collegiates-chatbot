@@ -51,148 +51,148 @@ app.post('/webhook/', function (req, res) {
 //Beginner
 let begChangquan =
 "Female Changquan\n\n"+
-"- Claire Tsau - 0.00\n"+
-"- Emily Vick - 0.00\n"+
-"- Christine Ou - 0.00\n"+
-"- Gabrianna Zacharias - 0.00\n"+
-"- Janette Levin - 0.00\n"+
-"- Shyanne Amoyo - 0.00\n"+
-"- Camryn Gray - 0.00\n"+
-"- Michelle Chen - 0.00\n"+
-"- Olivia Guo - 0.00\n"+
-"- Tian Low - 0.00\n"+
-"- Janet Abou Elias - 0.00\n"+
-"- Raki Sy - 0.00\n"+
-"- Christine Hwang - 0.00\n"+
-"- Janet Nguyen - 0.00\n"+
-"- Shannon Tsang - 0.00\n"+
-"- Bryanna Geiger - 0.00\n"+
-"- Elena Felix - 0.00\n"+
-"- Michelle Nguyen - 0.00\n"+
-"- Alexis Weyh - 0.00\n"+
-"- Jennifer Tsui - 0.00\n"+
-"- Dielai Yang - 0.00\n"+
-"- Kelly Zhang - 0.00\n"+
-"- Claire Lee - 0.00\n"+
-"- Victoria Crevoisier - 0.00\n"+
-"- Xuelin Hong - 0.00\n"+
-"- Claire Weber - 0.00\n"+
-"- Elissa He - 0.00\n"+
-"- Unique Wei - 0.00\n"+
-"- Jamie Evely - 0.00\n"+
-"- Helen Xu - 0.00\n"+
-"- Sara Moore - 0.00\n"+
-"- Cj Rogers - 0.00\n"+
-"- Doris Xu - 0.00\n"+
-"- Deborah Ma - 0.00\n"+
-"- Olivia Kuziel - 0.00\n"+
-"- Jin Yun Chow - 0.00\n\n\n"+
+"- Claire Tsau\n"+
+"- Emily Vick\n"+
+"- Christine Ou\n"+
+"- Gabrianna Zacharias\n"+
+"- Janette Levin\n"+
+"- Shyanne Amoyo\n"+
+"- Camryn Gray\n"+
+"- Michelle Chen\n"+
+"- Olivia Guo\n"+
+"- Tian Low\n"+
+"- Janet Abou Elias\n"+
+"- Raki Sy\n"+
+"- Christine Hwang\n"+
+"- Janet Nguyen\n"+
+"- Shannon Tsang\n"+
+"- Bryanna Geiger\n"+
+"- Elena Felix\n"+
+"- Michelle Nguyen\n"+
+"- Alexis Weyh\n"+
+"- Jennifer Tsui\n"+
+"- Dielai Yang\n"+
+"- Kelly Zhang\n"+
+"- Claire Lee\n"+
+"- Victoria Crevoisier\n"+
+"- Xuelin Hong\n"+
+"- Claire Weber\n"+
+"- Elissa He\n"+
+"- Unique Wei\n"+
+"- Jamie Evely\n"+
+"- Helen Xu\n"+
+"- Sara Moore\n"+
+"- Cj Rogers\n"+
+"- Doris Xu\n"+
+"- Deborah Ma\n"+
+"- Olivia Kuziel\n"+
+"- Jin Yun Chow\n\n\n"+
 
 "Male Changquan\n\n"+
-"- Allen Peng - 6.63\n"+
-"- Kevin Marston - 6.21\n"+
-"- Benjamin Chen - 6.33\n"+
-"- Kyle Chan - 6.65\n"+
-"- Simon Nguyen - 6.55\n"+
-"- William Lund - 6.20\n"+
-"- Nutong Her - 0.00\n"+
-"- Lucas Cheng - 0.00\n"+8
-"- Justin Lu - 0.00\n"+
-"- Julian Hodge - 0.00\n"+
-"- Christopher Tran - 0.00\n"+
-"- Michael Yeh - 0.00\n"+
-"- Angel Pan - 0.00\n"+
-"- Everett White - 0.00\n"+
-"- Francis Poon - 0.00\n"+
-"- Bienvenido Hernandez - 0.00\n\n\n"
+"- Allen Peng\n"+
+"- Kevin Marston\n"+
+"- Benjamin Chen\n"+
+"- Kyle Chan\n"+
+"- Simon Nguyen\n"+
+"- William Lund\n"+
+"- Nutong Her\n"+
+"- Lucas Cheng\n"+8
+"- Justin Lu\n"+
+"- Julian Hodge\n"+
+"- Christopher Tran\n"+
+"- Michael Yeh\n"+
+"- Angel Pan\n"+
+"- Everett White\n"+
+"- Francis Poon\n"+
+"- Bienvenido Hernandez\n\n\n"
 
 let begNanquan =
 "Female Nanquan\n\n"+
-"- Unique Wei - 0.00\n"+
-"- Alexis Weyh - 0.00\n"+
-"- Olivia Kuziel - 0.00\n"+
-"- Sara Moore - 0.00\n"+
-"- Samantha Ono - 0.00\n\n\n"+
+"- Unique Wei\n"+
+"- Alexis Weyh\n"+
+"- Olivia Kuziel\n"+
+"- Sara Moore\n"+
+"- Samantha Ono\n\n\n"+
 
 "Male Nanquan\n\n"+
-"- Lucas Verde - 0.00\n\n\n"
+"- Lucas Verde\n\n\n"
 
 let beg24Taiji =
 "Female 24 Taiji\n\n"+
-"- Jin Yun Chow - 0.00\n"+
-"- Jo Lin - 0.00\n\n\n"+
+"- Jin Yun Chow\n"+
+"- Jo Lin\n\n\n"+
 
 "Male 24 Taiji\n\n"+
-"- Kevin Marston - 0.00\n\n\n"
+"- Kevin Marston\n\n\n"
 
 let begOpenYang =
 "Female Open Yang\n\n"+
-"- Deborah Ma - 0.00\n\n\n"
+"- Deborah Ma\n\n\n"
 
 let begTradOpenBH =
 "Female Traditional Open Barehand\n\n"+
-"- Shannon Tsang - 0.00\n"+
-"- Claire Tsau - 0.00\n"+
-"- Shyanne Amoyo - 0.00\n"+
-"- Olivia Guo - 0.00\n"+
-"- Unique Wei - 0.00\n\n\n"+
+"- Shannon Tsang\n"+
+"- Claire Tsau\n"+
+"- Shyanne Amoyo\n"+
+"- Olivia Guo\n"+
+"- Unique Wei\n\n\n"+
 
 "Male Traditional Open Barehand\n\n"+
-"- Allen Peng - 0.00\n"+
-"- Justin Lu - 0.00\n\n\n"
+"- Allen Peng\n"+
+"- Justin Lu\n\n\n"
 
 let begBroadsword =
 "Female Broadsword\n\n"+
-"- Janet Abou Elias - 0.00\n"+
-"- Deborah Ma - 0.00\n"+
-"- Cj Rogers - 0.00\n"+
-"- Claire Tsau - 0.00\n"+
-"- Gabrianna Zacharias - 0.00\n\n\n"+
+"- Janet Abou Elias\n"+
+"- Deborah Ma\n"+
+"- Cj Rogers\n"+
+"- Claire Tsau\n"+
+"- Gabrianna Zacharias\n\n\n"+
 
 "Male Broadsword\n\n"+
-"- Robin Calvo - 0.00\n"+
-"- William Lund - 0.00\n"+
-"- Lucas Verde - 0.00\n"+
-"- Everett White - 0.00\n\n\n"
+"- Robin Calvo\n"+
+"- William Lund\n"+
+"- Lucas Verde\n"+
+"- Everett White\n\n\n"
 
 let begStraightsword =
 "Female Straightsword\n\n"+
-"- Olivia Guo - 0.00\n"+
-"- Lillian Lee - 0.00\n"+
-"- Janet Nguyen - 0.00\n"+
-"- Michelle Nguyen - 0.00\n"+
-"- Kelly Zhang - 0.00\n\n\n"+
+"- Olivia Guo\n"+
+"- Lillian Lee\n"+
+"- Janet Nguyen\n"+
+"- Michelle Nguyen\n"+
+"- Kelly Zhang\n\n\n"+
 
 "Male Straightsword\n\n"+
 "- Allen Peng"
 
 let begOtherWeapon =
 "Female Other Weapon\n\n"+
-"- Samantha Ono - 0.00\n\n\n"
+"- Samantha Ono\n\n\n"
 
 let begStaff =
 "Female Staff\n\n"+
-"- Gabrianna Zacharias - 0.00\n"+
-"- Christine Hwang - 0.00\n"+
-"- Bryanna Geiger - 0.00\n"+
-"- Shannon Tsang - 0.00\n"+
-"- Claire Weber - 0.00\n"+
-"- Janette Levin - 0.00\n"+
-"- Janet Abou Elias - 0.00\n\n\n"+
+"- Gabrianna Zacharias\n"+
+"- Christine Hwang\n"+
+"- Bryanna Geiger\n"+
+"- Shannon Tsang\n"+
+"- Claire Weber\n"+
+"- Janette Levin\n"+
+"- Janet Abou Elias\n\n\n"+
 
 "Male Staff\n\n"+
-"- Lucas Cheng - 0.00\n"+
-"- Benjamin Chen - 0.00\n"+
-"- Christopher Tran - 0.00\n"+
-"- Kyle Chan - 0.00\n"+
-"- Simon Nguyen - 0.00\n"+
-"- Francis Poon - 0.00\n"+
-"- Michael Yeh - 0.00\n"+
-"- Justin Lu - 0.00\n\n\n"
+"- Lucas Cheng\n"+
+"- Benjamin Chen\n"+
+"- Christopher Tran\n"+
+"- Kyle Chan\n"+
+"- Simon Nguyen\n"+
+"- Francis Poon\n"+
+"- Michael Yeh\n"+
+"- Justin Lu\n\n\n"
 
 let begTradShortWeapon =
 "Male Traditional Short Weapon\n\n"+
-"- Simon Nguyen - 0.00\n\n\n"
+"- Simon Nguyen\n\n\n"
 
 
 
@@ -214,195 +214,195 @@ let begTradShortWeapon =
 //Intermediate
 let intChangquan =
 "Female Changquan\n\n"+
-"- Audrey Gunawan - 7.33\n"+
-"- Kathie Lin - 7.27\n"+
-"- Sara Ng - 7.35\n"+
-"- Kimberly Gomez - 7.07\n"+
-"- Annie Shi - 6.52\n"+
-"- Jasmine Wong - 7.25\n"+
-"- Yong-yi Hu - 7.53\n"+
-"- Adanna Liu - 7.18\n"+
-"- Annmarie Cong - 7.70\n"+
-"- Julia Leung - 0.00\n"+
-"- Tiffany Hwu - 0.00\n"+
-"- Jessica Zhu - 0.00\n"+
-"- Jessica Luo - 0.00\n"+
-"- Michelle Tu - 0.00\n"+
-"- Melodee Li - 0.00\n"+
-"- Kristi Lin - 0.00\n"+
-"- Erika Yu - 0.00\n"+
-"- Karen Kuang - 0.00\n"+
-"- Rebecca Yap - 0.00\n"+
-"- Annie Hanichak - 0.00\n"+
-"- Winni Gao - 0.00\n"+
-"- Mekenzie Dyer - 0.00\n"+
-"- Lisa Yu - 0.00\n"+
-"- Kelly Zhang - 0.00\n\n\n"+
+"- Audrey Gunawan\n"+
+"- Kathie Lin\n"+
+"- Sara Ng\n"+
+"- Kimberly Gomez\n"+
+"- Annie Shi\n"+
+"- Jasmine Wong\n"+
+"- Yong-yi Hu\n"+
+"- Adanna Liu\n"+
+"- Annmarie Cong\n"+
+"- Julia Leung\n"+
+"- Tiffany Hwu\n"+
+"- Jessica Zhu\n"+
+"- Jessica Luo\n"+
+"- Michelle Tu\n"+
+"- Melodee Li\n"+
+"- Kristi Lin\n"+
+"- Erika Yu\n"+
+"- Karen Kuang\n"+
+"- Rebecca Yap\n"+
+"- Annie Hanichak\n"+
+"- Winni Gao\n"+
+"- Mekenzie Dyer\n"+
+"- Lisa Yu\n"+
+"- Kelly Zhang\n\n\n"+
 
 "Male Changquan\n\n"+
-"- Thomas Bozzi - 0.00\n"+
-"- Akshara Aditya - 0.00\n"+
-"- Robert Yang - 0.00\n"+
-"- Alden Liu - 0.00\n"+
-"- Bumjoon Kim - 0.00\n"+
-"- Ryan Wang - 0.00\n"+
-"- Chinmaya Aditya - 0.00\n"+
-"- Ethan Green - 0.00\n"+
-"- Kenneth Chen - 0.00\n"+
-"- Carlos Estrada - 0.00\n"+
-"- Henderson Wong - 0.00\n"+
-"- Tommy Yang - 0.00\n"+
-"- Davin Devara - 0.00\n"+
-"- Ethan Devara - 0.00\n"+
-"- Simon Lee - 0.00\n"+
-"- Brian Cheng - 0.00\n"+
-"- Haejin Park - 0.00\n"+
-"- Connor Maples - 0.00\n"+
-"- Danny Be - 0.00\n\n\n"
+"- Thomas Bozzi\n"+
+"- Akshara Aditya\n"+
+"- Robert Yang\n"+
+"- Alden Liu\n"+
+"- Bumjoon Kim\n"+
+"- Ryan Wang\n"+
+"- Chinmaya Aditya\n"+
+"- Ethan Green\n"+
+"- Kenneth Chen\n"+
+"- Carlos Estrada\n"+
+"- Henderson Wong\n"+
+"- Tommy Yang\n"+
+"- Davin Devara\n"+
+"- Ethan Devara\n"+
+"- Simon Lee\n"+
+"- Brian Cheng\n"+
+"- Haejin Park\n"+
+"- Connor Maples\n"+
+"- Danny Be\n\n\n"
 
 let intNanquan =
 "Female Nanquan\n\n"+
-"- Jasmine Pham - 0.00\n"+
-"- Kimberly Gomez - 0.00\n"+
-"- Shirley Mach - 0.00\n\n\n"+
+"- Jasmine Pham\n"+
+"- Kimberly Gomez\n"+
+"- Shirley Mach\n\n\n"+
 
 "Male Nanquan\n\n"+
-"- Alexandre Gunnerson - 0.00\n"+
-"- Eric Wang - 0.00\n"+
-"- Jeffrey Guo - 0.00\n"+
-"- Noah Mastruserio - 0.00\n"+
-"- John Caldas - 0.00\n"+
-"- Vincent Ngo - 0.00\n"+
-"- John Maclean - 0.00\n\n\n"
+"- Alexandre Gunnerson\n"+
+"- Eric Wang\n"+
+"- Jeffrey Guo\n"+
+"- Noah Mastruserio\n"+
+"- John Caldas\n"+
+"- Vincent Ngo\n"+
+"- John Maclean\n\n\n"
 
 let intOpenBH =
 "Female Open Barehand\n\n"+
-"- Jae Hee Jang - 0.00\n\n\n"
+"- Jae Hee Jang\n\n\n"
 
 let int24Taiji =
 "Female 24 Taiji\n\n"+
-"- Erika Yu - 0.00\n"+
-"- Jessica Luo - 0.00\n"+
-"- Sara Ng - 0.00\n"+
-"- Melodee Li - 0.00\n"+
-"- Annie Hanichak - 0.00\n"+
-"- Annie Shi - 0.00\n"+
-"- Adanna Liu - 0.00\n\n\n"
+"- Erika Yu\n"+
+"- Jessica Luo\n"+
+"- Sara Ng\n"+
+"- Melodee Li\n"+
+"- Annie Hanichak\n"+
+"- Annie Shi\n"+
+"- Adanna Liu\n\n\n"
 
 let intOpenTaiji =
 "Female Open Yang\n\n"+
-"- Julie Wang - 0.00\n\n\n"
+"- Julie Wang\n\n\n"
 
 let intOpenChen =
 "Male Open Chen\n\n"+
-"- Carlos Estrada - 0.00\n\n\n"
+"- Carlos Estrada\n\n\n"
 
 let int42Fist =
 "Female 42 Fist\n\n"+
-"- Erika Yu - 0.00\n\n\n"
+"- Erika Yu\n\n\n"
 
 let intTradOpenBH =
 "Female Traditional Open Barehand\n\n"+
-"- Karen Kuang - 0.00\n"+
-"- Sunny Chiu - 0.00\n"+
-"- Jasmine Chen - 0.00\n"+
-"- Jennie Wang - 0.00\n"+
-"- Jae Hee Jang - 0.00\n"+
-"- Julie Wang - 0.00\n"+
-"- Clarity Chua - 0.00\n"+
-"- Lisa Yu - 0.00\n\n\n"+
+"- Karen Kuang\n"+
+"- Sunny Chiu\n"+
+"- Jasmine Chen\n"+
+"- Jennie Wang\n"+
+"- Jae Hee Jang\n"+
+"- Julie Wang\n"+
+"- Clarity Chua\n"+
+"- Lisa Yu\n\n\n"+
 
 "Male Traditional Open Barehand\n\n"+
-"- Akshara Aditya - 0.00\n"+
-"- Simon Lee - 0.00\n"+
-"- Vincent Ngo - 0.00\n"+
-"- Henderson Wong - 0.00\n\n\n"
+"- Akshara Aditya\n"+
+"- Simon Lee\n"+
+"- Vincent Ngo\n"+
+"- Henderson Wong\n\n\n"
 
 let intBroadsword =
 "Female Broadsword\n\n"+
-"- Karen Kuang - 0.00\n"+
-"- Kristi Lin - 0.00\n"+
-"- Katie Zhao - 0.00\n\n\n"+
+"- Karen Kuang\n"+
+"- Kristi Lin\n"+
+"- Katie Zhao\n\n\n"+
 
 "Male Broadsword\n\n"+
-"- Chinmaya Aditya - 0.00\n"+
-"- Danny Be - 0.00\n"+
-"- Carlos Estrada - 0.00\n"+
-"- Mitchell Levasseur - 0.00\n"+
-"- Anthony Wang - 0.00\n\n\n"
+"- Chinmaya Aditya\n"+
+"- Danny Be\n"+
+"- Carlos Estrada\n"+
+"- Mitchell Levasseur\n"+
+"- Anthony Wang\n\n\n"
 
 let intStraightsword =
 "Female Straightsword\n\n"+
-"- Winni Gao - 0.00\n"+
-"- Jasmine Wong - 0.00\n"+
-"- Melodee Li - 0.00\n"+
-"- Rebecca Yap - 0.00\n"+
-"- Melanie Ngo - 0.00\n"+
-"- Sharon Shu - 0.00\n\n\n"+
+"- Winni Gao\n"+
+"- Jasmine Wong\n"+
+"- Melodee Li\n"+
+"- Rebecca Yap\n"+
+"- Melanie Ngo\n"+
+"- Sharon Shu\n\n\n"+
 
 "Male Straightsword\n\n"+
-"- Kenneth Chen - 0.00\n"+
-"- Haejin Park - 0.00\n"+
-"- Ryan Wang - 0.00\n\n\n"
+"- Kenneth Chen\n"+
+"- Haejin Park\n"+
+"- Ryan Wang\n\n\n"
 
 let intNandao =
 "Male Nandao\n\n"+
-"- Noah Mastruserio - 0.00\n\n\n"
+"- Noah Mastruserio\n\n\n"
 
 let intOtherWeapon =
 "Female Other Weapon\n\n"+
-"- Tiffany Hwu - 0.00\n"+
-"- Shirley Mach - 0.00\n"+
-"- Vivienne Nguyen - 0.00\n"+
-"- Sharon Shu - 0.00\n\n\n"+
+"- Tiffany Hwu\n"+
+"- Shirley Mach\n"+
+"- Vivienne Nguyen\n"+
+"- Sharon Shu\n\n\n"+
 
 "Male Other Weapon\n\n"+
-"- Henderson Wong - 0.00\n\n\n"
+"- Henderson Wong\n\n\n"
 
 let intStaff ="Female Staff\n\n"+
-"- Tiffany Hwu - 0.00\n"+
-"- Karen Kuang - 0.00\n\n\n"+
+"- Tiffany Hwu\n"+
+"- Karen Kuang\n\n\n"+
 
 "Male Staff\n\n"+
-"- Ethan Green - 0.00\n"+
-"- Erick Partida - 0.00\n"+
-"- Kwynn Johnson - 0.00\n\n\n"
+"- Ethan Green\n"+
+"- Erick Partida\n"+
+"- Kwynn Johnson\n\n\n"
 
 let intSpear =
 "Female Spear\n\n"+
-"- Annmarie Cong - 0.00\n"+
-"- Julia Leung - 0.00\n"+
-"- Michelle Tu - 0.00\n\n\n"+
+"- Annmarie Cong\n"+
+"- Julia Leung\n"+
+"- Michelle Tu\n\n\n"+
 
 "Male Spear\n\n"+
-"- Kenneth Chen - 0.00\n"+
-"- Ryan Wang - 0.00\n\n\n"
+"- Kenneth Chen\n"+
+"- Ryan Wang\n\n\n"
 
 let intSouthernStaff =
 "Female Southern Staff\n\n"+
-"- Jasmine Wong - 0.00\n\n\n"+
+"- Jasmine Wong\n\n\n"+
 
 "Male Southern Staff\n\n"+
-"- John Caldas - 0.00\n"+
-"- Eric Wang - 0.00\n\n\n"
+"- John Caldas\n"+
+"- Eric Wang\n\n\n"
 
 let intTradLongWeapon =
 "Female Traditional Long Weapon\n\n"+
-"- Lisa Yu - 0.00\n\n\n"+
+"- Lisa Yu\n\n\n"+
 
 "Male Traditional Long Weapon\n\n"+
-"- Eric Wang - 0.00\n\n\n"
+"- Eric Wang\n\n\n"
 
 let intTradShortWeapon =
 "Female Traditional Short Weapon\n\n"+
-"- Sunny Chiu - 0.00\n"+
-"- Kelly Zhang - 0.00\n"+
-"- Kristi Lin - 0.00\n"+
-"- Jessica Zhu - 0.00\n"+
-"- Clarity Chua - 0.00\n\n\n"+
+"- Sunny Chiu\n"+
+"- Kelly Zhang\n"+
+"- Kristi Lin\n"+
+"- Jessica Zhu\n"+
+"- Clarity Chua\n\n\n"+
 
 "Male Traditional Short Weapon\n\n"+
-"- Simon Lee - 0.00\n\n\n"
+"- Simon Lee\n\n\n"
 
 
 
@@ -436,259 +436,259 @@ let advChangquanNandu =
 
 let advChangquan =
 "Female Changquan\n\n"+
-"- Joy Zeng - 8.26\n"+
-"- Caitlin Escudero - 8.48\n"+
-"- Gwyneth Huynh - 7.77\n"+
-"- Bridget Keeney - 8.46\n"+
-"- Rebecca Chinn - 8.33\n"+
-"- Daisy Zheng - 8.26\n"+
-"- Kaitlyn Trinh - 7.76\n"+
-"- Emily Fan - 8.85\n"+
-"- Michelle Chiang - 8.03\n"+
-"- Alyssa Lo - 8.72\n"+
-"- Crystal Huang - 7.80\n\n\n"+
+"- Joy Zeng\n"+
+"- Caitlin Escudero\n"+
+"- Gwyneth Huynh\n"+
+"- Bridget Keeney\n"+
+"- Rebecca Chinn\n"+
+"- Daisy Zheng\n"+
+"- Kaitlyn Trinh\n"+
+"- Emily Fan\n"+
+"- Michelle Chiang\n"+
+"- Alyssa Lo\n"+
+"- Crystal Huang\n\n\n"+
 
 "Male Changquan\n\n"+
-// "- Daniel Liang - 0.00\n"+
-"- Winston Lee - 0.00\n"+
-"- Varun Singh - 0.00\n"+
-"- Tianming Li - 0.00\n"+
-"- Chuan Chen - 0.00\n"+
-"- Dominic Chow - 0.00\n"+
-"- Jason Tang - 0.00\n"+
-"- Eric Fu - 0.00\n"+
-"- Jason Hui - 0.00\n"+
-"- Connor Hum - 0.00\n"+
-"- Philip Hwang - 0.00\n"+
-"- Robert Yu - 0.00\n"+
-"- Chi Tun Lam - 0.00\n"+
-"- Mario Caballero - 0.00\n"+
-"- Oey Chang - 0.00\n"+
-"- Jonathan Li - 0.00\n"+
-"- Jeffson Atienza - 0.00\n"+
-"- Xian Kai Ng - 0.00\n"+
-"- Erik Song - 0.00\n"+
-"- Howard Wang - 0.00\n"+
-"- Alexander Wu - 0.00\n"+
-"- Jason Zou - 0.00\n"+
-"- Albert Zhang - 0.00\n"+
-"- Ryan Zheng - 0.00\n"+
-"- Jemmy Zhou - 0.00\n"+
-"- Khang Nguyen - 0.00\n"+
-"- Christopher Johnson - 0.00\n\n\n"
+// "- Daniel Liang\n"+
+"- Winston Lee\n"+
+"- Varun Singh\n"+
+"- Tianming Li\n"+
+"- Chuan Chen\n"+
+"- Dominic Chow\n"+
+"- Jason Tang\n"+
+"- Eric Fu\n"+
+"- Jason Hui\n"+
+"- Connor Hum\n"+
+"- Philip Hwang\n"+
+"- Robert Yu\n"+
+"- Chi Tun Lam\n"+
+"- Mario Caballero\n"+
+"- Oey Chang\n"+
+"- Jonathan Li\n"+
+"- Jeffson Atienza\n"+
+"- Xian Kai Ng\n"+
+"- Erik Song\n"+
+"- Howard Wang\n"+
+"- Alexander Wu\n"+
+"- Jason Zou\n"+
+"- Albert Zhang\n"+
+"- Ryan Zheng\n"+
+"- Jemmy Zhou\n"+
+"- Khang Nguyen\n"+
+"- Christopher Johnson\n\n\n"
 
 let advNanquan ="Female Nanquan\n\n"+
-"- Sabrina Chiang - 0.00\n"+
-"- Queenie Li - 0.00\n\n\n"+
+"- Sabrina Chiang\n"+
+"- Queenie Li\n\n\n"+
 
 "Male Nanquan\n\n"+
-"- Mohammad Ullah - 0.00\n"+
-"- Darren Deng - 0.00\n\n\n"
+"- Mohammad Ullah\n"+
+"- Darren Deng\n\n\n"
 
 let advOpenBH =
 "Male Open Barehand\n\n"+
-"- Oey Chang - 0.00\n"+
-"- Robert Yu - 0.00\n\n\n"
+"- Oey Chang\n"+
+"- Robert Yu\n\n\n"
 
 let adv24Taiji =
 "Female 24 Taiji\n\n"+
-"- Amy Pribadi - 0.00\n"+
-"- Gina Bao - 0.00\n"+
-"- Marianne Dang - 0.00\n\n\n"+
+"- Amy Pribadi\n"+
+"- Gina Bao\n"+
+"- Marianne Dang\n\n\n"+
 
 "Male 24 Taiji\n\n"+
-"- Michael Fang - 0.00\n"+
-"- Richard Nguyen - 0.00\n"+
-"- Kevin Chen - 0.00\n"+
-"- Jonathan Li - 0.00\n"+
-"- Ying Hong Tham - 0.00\n\n\n"
+"- Michael Fang\n"+
+"- Richard Nguyen\n"+
+"- Kevin Chen\n"+
+"- Jonathan Li\n"+
+"- Ying Hong Tham\n\n\n"
 
 let advOpenYang =
 "Male Open Yang\n\n"+
-"- William Du - 0.00\n"+
-"- Ethyn Leong - 0.00\n\n\n"
+"- William Du\n"+
+"- Ethyn Leong\n\n\n"
 
 let advOpenChen =
 "Female Open Chen\n\n"+
-"- Dimei Wu - 0.00\n"+
-"- Marianne Dang - 0.00\n"+
-"- Amy Pribadi - 0.00\n"+
-"- Gina Bao - 0.00\n\n\n"+
+"- Dimei Wu\n"+
+"- Marianne Dang\n"+
+"- Amy Pribadi\n"+
+"- Gina Bao\n\n\n"+
 
 "Male Open Chen\n\n"+
-"- Philip Hwang - 0.00\n"+
-"- Ying Hong Tham - 0.00\n"+
-"- Michael Fang - 0.00\n"+
-"- William Du - 0.00\n\n\n"
+"- Philip Hwang\n"+
+"- Ying Hong Tham\n"+
+"- Michael Fang\n"+
+"- William Du\n\n\n"
 
 let adv42Fist =
 "Female 42 Fist\n\n"+
-"- Amy Pribadi - 0.00\n"+
-"- Marianne Dang - 0.00\n\n\n"+
+"- Amy Pribadi\n"+
+"- Marianne Dang\n\n\n"+
 
 "Male 42 Fist\n\n"+
-"- Ying Hong Tham - 0.00\n"+
-"- Michael Fang - 0.00\n\n\n"
+"- Ying Hong Tham\n"+
+"- Michael Fang\n\n\n"
 
 let advInternalOpenFist =
 "Female Internal Open Fist\n\n"+
-"- Cecilia Springer - 0.00\n\n\n"+
+"- Cecilia Springer\n\n\n"+
 
 "Male Internal Open Fist\n\n"+
-"- Richard Nguyen - 0.00\n\n\n"
+"- Richard Nguyen\n\n\n"
 
 let advTradOpenBH =
 "Female Traditional Open Barehand\n\n"+
-"- Cecilia Springer - 0.00\n"+
-"- Rebecca Chinn - 0.00\n\n\n"+
+"- Cecilia Springer\n"+
+"- Rebecca Chinn\n\n\n"+
 
 "Male Traditional Open Barehand\n\n"+
-"- Alexander Lu - 0.00\n"+
-"- Connor Hum - 0.00\n"+
-"- Kristian Koeser - 0.00\n"+
-"- Winston Lee - 0.00\n"+
-"- Linfeng Wu - 0.00\n\n\n"
+"- Alexander Lu\n"+
+"- Connor Hum\n"+
+"- Kristian Koeser\n"+
+"- Winston Lee\n"+
+"- Linfeng Wu\n\n\n"
 
 let advBroadsword =
 "Female Broadsword\n\n"+
-"- Michelle Sit - 0.00\n"+
-"- Daisy Zheng - 0.00\n"+
-"- Sabrina Chiang - 0.00\n"+
-"- Rebecca Chinn - 0.00\n"+
-"- Zoe Chan - 0.00\n"+
-"- Queenie Li - 0.00\n"+
-"- Kaitlyn Trinh - 0.00\n"+
-"- Irene Javier - 0.00\n\n\n"+
+"- Michelle Sit\n"+
+"- Daisy Zheng\n"+
+"- Sabrina Chiang\n"+
+"- Rebecca Chinn\n"+
+"- Zoe Chan\n"+
+"- Queenie Li\n"+
+"- Kaitlyn Trinh\n"+
+"- Irene Javier\n\n\n"+
 
 "Male Broadsword\n\n"+
-"- Wesley Huie - 0.00\n"+
-"- Alexander Wu - 0.00\n"+
-"- Chuan Chen - 0.00\n"+
-"- Jason Zou - 0.00\n"+
-"- Jonathan Li - 0.00\n"+
-"- Daniel Liang - 0.00\n"+
-"- Khang Nguyen - 0.00\n"+
-"- Erik Song - 0.00\n"+
-"- Howard Wang - 0.00\n"+
-"- Stuart Sy - 0.00\n"+
-"- Jeffson Atienza - 0.00\n"+
-"- Oey Chang - 0.00\n"+
-"- Kevin Ty - 0.00\n\n\n"
+"- Wesley Huie\n"+
+"- Alexander Wu\n"+
+"- Chuan Chen\n"+
+"- Jason Zou\n"+
+"- Jonathan Li\n"+
+"- Daniel Liang\n"+
+"- Khang Nguyen\n"+
+"- Erik Song\n"+
+"- Howard Wang\n"+
+"- Stuart Sy\n"+
+"- Jeffson Atienza\n"+
+"- Oey Chang\n"+
+"- Kevin Ty\n\n\n"
 
 let advStraightsword =
 "Female Straightsword\n\n"+
-"- Alyssa Lo - 0.00\n"+
-"- Emily Fan - 0.00\n"+
-"- Hannah Ho - 0.00\n"+
-"- Gwyneth Huynh - 0.00\n"+
-"- Bridget Keeney - 0.00\n"+
-"- Kasey Chan - 0.00\n"+
-"- Dimei Wu - 0.00\n"+
-"- Emily Yang - 0.00\n"+
-"- Joy Zeng - 0.00\n"+
-"- Michelle Chiang - 0.00\n\n\n"+
+"- Alyssa Lo\n"+
+"- Emily Fan\n"+
+"- Hannah Ho\n"+
+"- Gwyneth Huynh\n"+
+"- Bridget Keeney\n"+
+"- Kasey Chan\n"+
+"- Dimei Wu\n"+
+"- Emily Yang\n"+
+"- Joy Zeng\n"+
+"- Michelle Chiang\n\n\n"+
 
 "Male Straightsword\n\n"+
-"- Alexander Lu - 0.00\n"+
-"- Daniel Liang - 0.00\n"+
-"- Dominic Chow - 0.00\n"+
-"- Mario Caballero - 0.00\n"+
-"- Christopher Johnson - 0.00\n"+
-"- Xian Kai Ng - 0.00\n"+
-"- Robert Yu - 0.00\n"+
-"- Kevin Qin - 0.00\n"+
-"- William Du - 0.00\n"+
-"- Ryan Zheng - 0.00\n"+
-"- Chi Tun Lam - 0.00\n"+
-"- Jemmy Zhou - 0.00\n"+
-"- Kevin Chen - 0.00\n"+
-"- Irwin Hui - 0.00\n"+
-"- Tim Wang - 0.00\n\n\n"
+"- Alexander Lu\n"+
+"- Daniel Liang\n"+
+"- Dominic Chow\n"+
+"- Mario Caballero\n"+
+"- Christopher Johnson\n"+
+"- Xian Kai Ng\n"+
+"- Robert Yu\n"+
+"- Kevin Qin\n"+
+"- William Du\n"+
+"- Ryan Zheng\n"+
+"- Chi Tun Lam\n"+
+"- Jemmy Zhou\n"+
+"- Kevin Chen\n"+
+"- Irwin Hui\n"+
+"- Tim Wang\n\n\n"
 
 let adv42Sword =
 "Female 42 Sword\n\n"+
-"- Dimei Wu - 0.00\n"+
-"- Amy Pribadi - 0.00\n\n\n"+
+"- Dimei Wu\n"+
+"- Amy Pribadi\n\n\n"+
 
 "Male 42 Sword\n\n"+
-"- Ying Hong Tham - 0.00\n\n\n"
+"- Ying Hong Tham\n\n\n"
 
 let advTaijiWeapon =
 "Female Taiji Weapon\n\n"+
-"- Marianne Dang - 0.00\n"+
-"- Gina Bao - 0.00\n\n\n"+
+"- Marianne Dang\n"+
+"- Gina Bao\n\n\n"+
 
 "Male Taiji Weapon\n\n"+
-"- Ethyn Leong - 0.00\n"+
-"- William Du - 0.00\n"+
-"- Richard Nguyen - 0.00\n\n\n"
+"- Ethyn Leong\n"+
+"- William Du\n"+
+"- Richard Nguyen\n\n\n"
 
 let advNandao =
 "Male Nandao\n\n"+
-"- Mohammad Ullah - 0.00\n\n\n"
+"- Mohammad Ullah\n\n\n"
 
 let advOtherWeapon =
 "Female Other Weapon\n\n"+
-"- Zoe Chan - 0.00\n\n\n"+
+"- Zoe Chan\n\n\n"+
 
 "Male Other Weapon\n\n"+
-"- Irwin Hui - 0.00\n"+
-"- Winston Lee - 0.00\n"+
-"- Linfeng Wu - 0.00\n"+
-"- Kevin Chen - 0.00\n\n\n"
+"- Irwin Hui\n"+
+"- Winston Lee\n"+
+"- Linfeng Wu\n"+
+"- Kevin Chen\n\n\n"
 
 let advStaff =
 "Female Staff\n\n"+
-"- Bridget Keeney - 0.00\n"+
-"- Rebecca Chinn - 0.00\n"+
-"- Queenie Li - 0.00\n\n\n"+
+"- Bridget Keeney\n"+
+"- Rebecca Chinn\n"+
+"- Queenie Li\n\n\n"+
 
 "Male Staff\n\n"+
-"- Connor Hum - 0.00\n"+
-"- Khang Nguyen - 0.00\n"+
-"- Tianming Li - 0.00\n"+
-"- Chuan Chen - 0.00\n"+
-"- Brian Tran - 0.00\n"+
-"- Jason Zou - 0.00\n"+
-"- Patrick Moua - 0.00\n"+
-"- Oey Chang - 0.00\n"+
-"- Winston Lee - 0.00\n"+
-"- Jeffson Atienza - 0.00\n\n\n"
+"- Connor Hum\n"+
+"- Khang Nguyen\n"+
+"- Tianming Li\n"+
+"- Chuan Chen\n"+
+"- Brian Tran\n"+
+"- Jason Zou\n"+
+"- Patrick Moua\n"+
+"- Oey Chang\n"+
+"- Winston Lee\n"+
+"- Jeffson Atienza\n\n\n"
 
 let advSpear =
 "Female Spear\n\n"+
-"- Kasey Chan - 0.00\n"+
-"- Emily Fan - 0.00\n"+
-"- Emily Yang - 0.00\n"+
-"- Alyssa Lo - 0.00\n\n\n"+
+"- Kasey Chan\n"+
+"- Emily Fan\n"+
+"- Emily Yang\n"+
+"- Alyssa Lo\n\n\n"+
 
 "Male Spear\n\n"+
-"- Irwin Hui - 0.00\n"+
-"- Kristian Koeser - 0.00\n"+
-"- Ryan Zheng - 0.00\n"+
-"- Jason Tang - 0.00\n"+
-"- Robert Yu - 0.00\n"+
-"- Jemmy Zhou - 0.00\n\n\n"
+"- Irwin Hui\n"+
+"- Kristian Koeser\n"+
+"- Ryan Zheng\n"+
+"- Jason Tang\n"+
+"- Robert Yu\n"+
+"- Jemmy Zhou\n\n\n"
 
 let advSouthernStaff =
 "Male Southern Staff\n\n"+
-"- Darren Deng - 0.00\n\n\n"
+"- Darren Deng\n\n\n"
 
 let advLongWeapon =
 "Female Traditional Long Weapon\n\n"+
-"- Cecilia Springer - 0.00\n\n\n"
+"- Cecilia Springer\n\n\n"
 
 let advTradShortWeapon =
 "Female Traditional Short Weapon\n\n"+
-"- Cecilia Springer - 0.00\n"+
-"- Michelle Chin - 0.00\n\n\n"+
+"- Cecilia Springer\n"+
+"- Michelle Chin\n\n\n"+
 
 "Male Traditional Short Weapon\n\n"+
-"- Alexander Wu - 0.00\n\n\n"
+"- Alexander Wu\n\n\n"
 
 let advTradSoftWeapon =
 "Female Soft Weapon\n\n"+
-"- Queenie Li - 0.00\n\n\n"
+"- Queenie Li\n\n\n"
 
 
 
