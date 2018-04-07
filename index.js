@@ -97,7 +97,7 @@ let begChangquan =
 "- Simon Nguyen - 0.00\n"+
 "- William Lund - 0.00\n"+
 "- Nutong Her - 0.00\n"+
-"- Lucas Cheng - 0.00\n"+
+"- Lucas Cheng - 0.00\n"+8
 "- Justin Lu - 0.00\n"+
 "- Julian Hodge - 0.00\n"+
 "- Christopher Tran - 0.00\n"+
@@ -433,7 +433,7 @@ let intTradShortWeapon =
 //Advanced
 let advChangquanNandu =
 "Male Changquan(nandu)\n\n"+
-"- Tim Wang - 0.00\n"+
+"- Tim Wang - .35\n"+
 "- Patrick Moua - 0.00\n\n\n"
 
 let advChangquan =
