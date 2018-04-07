@@ -449,7 +449,7 @@ let advChangquan =
 "- Crystal Huang - 7.80\n\n\n"+
 
 "Male Changquan\n\n"+
-"- Daniel Liang - 0.00\n"+
+// "- Daniel Liang - 0.00\n"+
 "- Winston Lee - 0.00\n"+
 "- Varun Singh - 0.00\n"+
 "- Tianming Li - 0.00\n"+
