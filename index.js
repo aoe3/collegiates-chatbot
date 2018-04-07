@@ -1587,7 +1587,7 @@ function decideMessage(sender, textInput){
 
 
 	} else if (text == "schedule"){
-		sendText(sender, "Ring 1: Female ADV Trad. Long Weapon. \nRing 2: Finished. \nRing 3: Female BEG 24 Taijiquan.")
+		sendText(sender, "Ring 1: Finished. \nRing 2: Finished. \nRing 3: Female/Male BEG 24 Taijiquan, Female INT 24 Taijiquan.")
 
 
 
