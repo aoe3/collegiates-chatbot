@@ -222,7 +222,7 @@ let intChangquan =
 "- Jasmine Wong - 7.25\n"+
 "- Yong-yi Hu - 7.53\n"+
 "- Adanna Liu - 7.18\n"+
-"- Annmarie Cong - 0.00\n"+
+"- Annmarie Cong - 7.70\n"+
 "- Julia Leung - 0.00\n"+
 "- Tiffany Hwu - 0.00\n"+
 "- Jessica Zhu - 0.00\n"+
