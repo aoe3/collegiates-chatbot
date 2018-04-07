@@ -218,7 +218,7 @@ let intChangquan =
 "- Audrey Gunawan - 7.33\n"+
 "- Kathie Lin - 7.27\n"+
 "- Sara Ng - 0.00\n"+
-"- Kimberly Gomez - 0.00\n"+
+"- Kimberly Gomez - 7.07\n"+
 "- Annie Shi - 0.00\n"+
 "- Michelle Tan - 0.00\n"+
 "- Jasmine Wong - 0.00\n"+
@@ -444,7 +444,7 @@ let advChangquan =
 "- Bridget Keeney - 8.46\n"+
 "- Rebecca Chinn - 8.33\n"+
 "- Daisy Zheng - 8.26\n"+
-"- Kaitlyn Trinh - 0.00\n"+
+"- Kaitlyn Trinh - 7.76\n"+
 "- Emily Fan - 0.00\n"+
 "- Michelle Chiang - 0.00\n"+
 "- Alyssa Lo - 0.00\n"+
