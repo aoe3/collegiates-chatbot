@@ -94,7 +94,7 @@ let begChangquan =
 "- Benjamin Chen - 6.33\n"+
 "- Kyle Chan - 6.65\n"+
 "- Simon Nguyen - 6.55\n"+
-"- William Lund - 0.00\n"+
+"- William Lund - 6.20\n"+
 "- Nutong Her - 0.00\n"+
 "- Lucas Cheng - 0.00\n"+8
 "- Justin Lu - 0.00\n"+
