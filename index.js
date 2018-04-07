@@ -93,7 +93,7 @@ let begChangquan =
 "- Kevin Marston - 6.21\n"+
 "- Benjamin Chen - 6.33\n"+
 "- Kyle Chan - 6.65\n"+
-"- Simon Nguyen - 0.00\n"+
+"- Simon Nguyen - 6.55\n"+
 "- William Lund - 0.00\n"+
 "- Nutong Her - 0.00\n"+
 "- Lucas Cheng - 0.00\n"+8
@@ -221,7 +221,7 @@ let intChangquan =
 "- Annie Shi - 6.52\n"+
 "- Jasmine Wong - 7.25\n"+
 "- Yong-yi Hu - 7.53\n"+
-"- Adanna Liu - 0.00\n"+
+"- Adanna Liu - 7.18\n"+
 "- Annmarie Cong - 0.00\n"+
 "- Julia Leung - 0.00\n"+
 "- Tiffany Hwu - 0.00\n"+
