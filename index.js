@@ -440,7 +440,7 @@ let advChangquan =
 "Female Changquan\n\n"+
 "- Joy Zeng - 8.26\n"+
 "- Caitlin Escudero - 8.48\n"+
-"- Gwyneth Huynh - 0.00\n"+
+"- Gwyneth Huynh - 7.77\n"+
 "- Bridget Keeney - 0.00\n"+
 "- Rebecca Chinn - 0.00\n"+
 "- Daisy Zheng - 0.00\n"+
