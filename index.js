@@ -713,7 +713,7 @@ let advTradSoftWeapon =
 
 
 let groupsetHalf1 = 
-"Columbia - ~cu later ;) : 0.00\n"+
+"Columbia - ~cu later ;) :\n"+
 "- Rebecca Chinn\n"+
 "- Janette Levin\n"+
 "- Haejin Park\n"+
@@ -721,7 +721,7 @@ let groupsetHalf1 =
 "- Jennifer Tsui\n"+
 "- Chi Tun Lam\n\n"+
 
-"Cornell - Baby's First Groupset: 0.00\n"+
+"Cornell - Baby's First Groupset:\n"+
 "- Albert Zhang\n"+
 "- Sara Ng\n"+
 "- Daisy Zheng\n"+
@@ -729,7 +729,7 @@ let groupsetHalf1 =
 "- Erika Yu\n"+
 "- Ethyn Leong\n\n"+
 
-"Northern Arizona - NAU Iron Fist: 0.00\n"+
+"Northern Arizona - NAU Iron Fist:\n"+
 "- Mekenzie Dyer \n"+
 "- Bumjoon Kim\n"+
 "- Alexis Weyh\n"+
@@ -737,7 +737,7 @@ let groupsetHalf1 =
 "- Jamie Evely\n"+
 "- Sara Moore\n\n"+
 
-"Stanford - Stanford Wushu: 0.00\n"+
+"Stanford - Stanford Wushu:\n"+
 "- William Du\n"+
 "- Michael Fang\n"+
 "- Jin Yun Chow\n"+
@@ -747,7 +747,7 @@ let groupsetHalf1 =
 
 "UMD: College Park:\n"+
 
-"1) Bae Team: 0.00\n"+
+"1) Bae Team:\n"+
 "- Tianming Li\n"+
 "- Jason Tang\n"+
 "- Dominic Chow\n"+
@@ -755,7 +755,7 @@ let groupsetHalf1 =
 "- Christopher Tran\n"+
 "- Jae Hee Jang\n\n"+
 
-"2) HEEEE HAW: 0.00\n"+
+"2) HEEEE HAW:\n"+
 "- Connor Maples\n"+
 "- Benjamin Chen\n"+
 "- Claire Weber\n"+
@@ -763,7 +763,7 @@ let groupsetHalf1 =
 "- Alexander Lu\n"+
 "- Kelly Zhang\n\n"+
 
-"3) Bustin Jenedik's Fanclub: 0.00\n"+
+"3) Bustin Jenedik's Fanclub:\n"+
 "- Michelle Tu\n"+
 "- Emily Yang\n"+
 "- Kyle Chan\n"+
@@ -771,7 +771,7 @@ let groupsetHalf1 =
 "- Francis Poon\n"+
 "- Julia Leung\n\n"+
 
-"Pitt - Bao Down PITTches: 0.00\n"+
+"Pitt - Bao Down PITTches:\n"+
 "- Gina Bao\n"+
 "- Melodee Li\n"+
 "- Adanna Liu\n"+
@@ -779,7 +779,7 @@ let groupsetHalf1 =
 "- Jonathan Li\n"+
 "- Annie Shi\n\n"+
 
-"UVA - WuHoos: 0.00\n"+
+"UVA - WuHoos:\n"+
 "- Mario Caballero\n"+
 "- Erik Song\n"+
 "- Katie Zhao\n"+
@@ -788,7 +788,7 @@ let groupsetHalf1 =
 "- CJ Rogers\n\n"
 
 let groupsetHalf2 = "UC Berkeley:\n"+
-"1) Cal Wushu A Team: 0.00\n"+
+"1) Cal Wushu A Team:\n"+
 "- Robert Yu\n"+
 "- Jason Zou\n"+
 "- Queenie Li\n"+
@@ -796,7 +796,7 @@ let groupsetHalf2 = "UC Berkeley:\n"+
 "- Alyssa Lo\n"+
 "- Emily Fan\n\n"+
 
-"2) Cal Wushu Baewatch Team: 0.00\n"+
+"2) Cal Wushu Baewatch Team:\n"+
 "- Cecilia Springer\n"+
 "- Vincent Ngo\n"+
 "- Eric Fu\n"+
@@ -804,7 +804,7 @@ let groupsetHalf2 = "UC Berkeley:\n"+
 "- Shannon Tsang\n"+
 "- Olivia Guo\n\n"+
 
-"3) The Mighty C: 0.00\n"+
+"3) The Mighty C:\n"+
 "- Ryan Zheng\n"+
 "- Unique Wei\n"+
 "- Claire Tsau\n"+
@@ -812,7 +812,7 @@ let groupsetHalf2 = "UC Berkeley:\n"+
 "- Henderson Wong\n"+
 "- Julie Wang\n\n"+
 
-"UCI - UCI's Jasmine Milk Tea-M: 0.00\n"+
+"UCI - UCI's Jasmine Milk Tea-M:\n"+
 "- Jasmine Wong\n"+
 "- Kristi Lin\n"+
 "- Ryan Wang\n"+
@@ -822,7 +822,7 @@ let groupsetHalf2 = "UC Berkeley:\n"+
 
 "UCLA:\n"+
 
-"1) Spi-C Team: 0.00\n"+
+"1) Spi-C Team:\n"+
 "- Michelle Tan\n"+
 "- Janet Nguyen\n"+
 "- Michelle Nguyen\n"+
@@ -830,7 +830,7 @@ let groupsetHalf2 = "UC Berkeley:\n"+
 "- Samantha Ono\n"+
 "- Clarity Chua\n\n"+
 
-"2) The Big Baller Brand Team: 0.00\n"+
+"2) The Big Baller Brand Team:\n"+
 "- Chinmaya Aditya\n"+
 "- Akshara Aditya\n"+
 "- Eric Wang\n"+
@@ -838,7 +838,7 @@ let groupsetHalf2 = "UC Berkeley:\n"+
 "- Annmarie Cong\n"+
 "- Jennie Wang\n\n"+
 
-"3) Wakan大麻辣: 0.00\n"+
+"3) Wakan大麻辣:\n"+
 "- Connor Hum\n"+
 "- Xian Kai Ng\n"+
 "- Alexander Wu\n"+
@@ -846,7 +846,7 @@ let groupsetHalf2 = "UC Berkeley:\n"+
 "- Gwyneth Huynh\n"+
 "- Dimei Wu\n\n"+
 
-"UCSD - Team Meow Dao: 0.00\n"+
+"UCSD - Team Meow Dao:\n"+
 "- Winston Lee\n"+
 "- Zoe Chan\n"+
 "- Kaitlyn Trinh\n"+
@@ -854,7 +854,7 @@ let groupsetHalf2 = "UC Berkeley:\n"+
 "- Michelle Sit\n"+
 "- Darren Deng\n\n"+
 
-"VCU - Doki Doki Wushu Club: 0.00\n"+
+"VCU - Doki Doki Wushu Club:\n"+
 "- Wesley Huie\n"+
 "- Claire Lee\n"+
 "- Bienvenido Hernandez\n"+
