@@ -91,17 +91,18 @@ let begChangquan =
 "Male Changquan\n\n"+
 "- Dylan Sanfilippo - 0.00\n"+
 "- Allen Peng - 0.00\n"+
-"- Nutong Her - 0.00\n"+
+"- Kevin Marston - 0.00\n"+
 "- Benjamin Chen - 0.00\n"+
 "- Kyle Chan - 0.00\n"+
 "- Simon Nguyen - 0.00\n"+
 "- William Lund - 0.00\n"+
-"- Kevin Marston - 0.00\n"+
+"- Nutong Her - 0.00\n"+
 "- Lucas Cheng - 0.00\n"+
 "- Justin Lu - 0.00\n"+
 "- Julian Hodge - 0.00\n"+
 "- Christopher Tran - 0.00\n"+
 "- Michael Yeh - 0.00\n"+
+"- Angel Pan - 0.00\n"+
 "- Everett White - 0.00\n"+
 "- Francis Poon - 0.00\n"+
 "- Bienvenido Hernandez - 0.00\n\n\n"
@@ -274,7 +275,7 @@ let int24Taiji =
 "- Adanna Liu - 0.00\n\n\n"
 
 let intOpenTaiji =
-"Female Open Taiji\n\n"+
+"Female Open Yang\n\n"+
 "- Julie Wang - 0.00\n\n\n"
 
 let intOpenChen =
@@ -363,6 +364,9 @@ let intSpear =
 "- Ryan Wang - 0.00\n\n\n"
 
 let intSouthernStaff =
+"Female Southern Staff\n\n"+
+"- Jasmine Wong - 0.00\n\n\n"+
+
 "Male Southern Staff\n\n"+
 "- John Caldas - 0.00\n"+
 "- Eric Wang - 0.00\n\n\n"
@@ -395,7 +399,6 @@ let advChangquan =
 "Female Changquan\n\n"+
 "- Joy Zeng - 0.00\n"+
 "- Caitlin Escudero - 0.00\n"+
-"- Sherlyn Chuang - 0.00\n"+
 "- Gwyneth Huynh - 0.00\n"+
 "- Bridget Keeney - 0.00\n"+
 "- Rebecca Chinn - 0.00\n"+
@@ -403,7 +406,8 @@ let advChangquan =
 "- Kaitlyn Trinh - 0.00\n"+
 "- Emily Fan - 0.00\n"+
 "- Michelle Chiang - 0.00\n"+
-"- Alyssa Lo - 0.00\n\n\n"+
+"- Alyssa Lo - 0.00\n"+
+"- Crystal Huang - 0.00\n\n\n"+
 
 "Male Changquan\n\n"+
 "- Daniel Liang - 0.00\n"+
@@ -424,8 +428,6 @@ let advChangquan =
 "- Jonathan Li - 0.00\n"+
 "- Jeffson Atienza - 0.00\n"+
 "- Xian Kai Ng - 0.00\n"+
-"- Khang Nguyen - 0.00\n"+
-"- Angel Pan - 0.00\n"+
 "- Erik Song - 0.00\n"+
 "- Howard Wang - 0.00\n"+
 "- Alexander Wu - 0.00\n"+
@@ -433,6 +435,7 @@ let advChangquan =
 "- Albert Zhang - 0.00\n"+
 "- Ryan Zheng - 0.00\n"+
 "- Jemmy Zhou - 0.00\n"+
+"- Khang Nguyen - 0.00\n"+
 "- Christopher Johnson - 0.00\n\n\n"
 
 let advNanquan ="Female Nanquan\n\n"+
@@ -497,7 +500,8 @@ let advInternalOpenFist =
 
 let advTradOpenBH =
 "Female Traditional Open Barehand\n\n"+
-"- Cecilia Springer - 0.00\n\n\n"+
+"- Cecilia Springer - 0.00\n"+
+"- Rebecca Chinn - 0.00\n\n\n"+
 
 "Male Traditional Open Barehand\n\n"+
 "- Alexander Lu - 0.00\n"+
@@ -511,6 +515,7 @@ let advBroadsword =
 "- Michelle Sit - 0.00\n"+
 "- Daisy Zheng - 0.00\n"+
 "- Sabrina Chiang - 0.00\n"+
+"- Rebecca Chinn - 0.00\n"+
 "- Zoe Chan - 0.00\n"+
 "- Queenie Li - 0.00\n"+
 "- Kaitlyn Trinh - 0.00\n"+
@@ -534,7 +539,6 @@ let advBroadsword =
 let advStraightsword =
 "Female Straightsword\n\n"+
 "- Alyssa Lo - 0.00\n"+
-"- Sherlyn Chuang - 0.00\n"+
 "- Emily Fan - 0.00\n"+
 "- Hannah Ho - 0.00\n"+
 "- Gwyneth Huynh - 0.00\n"+
@@ -632,7 +636,7 @@ let advSouthernStaff =
 "- Darren Deng - 0.00\n\n\n"
 
 let advLongWeapon =
-"Female Long Weapon\n\n"+
+"Female Traditional Long Weapon\n\n"+
 "- Cecilia Springer - 0.00\n\n\n"
 
 let advTradShortWeapon =
@@ -644,11 +648,8 @@ let advTradShortWeapon =
 "- Alexander Wu - 0.00\n\n\n"
 
 let advTradSoftWeapon =
-"Female Traditional Soft Weapon\n\n"+
-"- Queenie Li - 0.00\n\n\n"+
-
-"Male Traditional Soft Weapon\n\n"+
-"- Eric Fu - 0.00\n\n\n"
+"Female Soft Weapon\n\n"+
+"- Queenie Li - 0.00\n\n\n"
 
 let groupsetHalf1 = 
 "Columbia - ~cu later ;) : 0.00\n"+
@@ -1104,8 +1105,7 @@ let ringOne =
 "- ADV Female Traditional Short Weapon\n"+
 "- ADV Male Traditional Short Weapon\n"+
 "- ADV Female Traditional Long Weapon\n"+
-"- ADV Female Soft Weapon\n"+
-"- ADV Male Soft Weapon\n"
+"- ADV Female Soft Weapon\n"
 
 let ringTwo = 
 "This is the order for ring 2. Type 'events' to see who is in what event!\n\n"+
@@ -1120,6 +1120,7 @@ let ringTwo =
 "- INT Female Straightsword\n"+
 "- INT Male Straightsword\n"+
 "- INT Male Nandao\n"+
+"- INT Female Southern Staff\n"+
 "- INT Male Southern Staff\n"+
 "- INT Female Other Weapon\n"+
 "- INT Male Other Weapon\n"+
@@ -1148,17 +1149,17 @@ let ringThree =
 "- BEG Male Staff\n"+
 "- BEG Female Staff\n"+
 "- BEG Male Traditional Short Weapon\n"+
-"- BEG Male 24\n"+
-"- BEG Female 24\n"+
-"- INT Female 24\n"+
-"- ADV Male 24\n"+
-"- ADV Female 24\n"+
 "- ADV Male Open Yang\n"+
 "- BEG Female Open Yang\n"+
 "- INT Female Open Yang\n"+
 "- INT Male Open Chen\n"+
 "- ADV Male Open Chen \n"+
 "- ADV Female Open Chen\n"+
+"- BEG Female 24\n"+
+"- BEG Male 24\n"+
+"- INT Female 24\n"+
+"- ADV Male 24\n"+
+"- ADV Female 24\n"+
 "- ADV Male 42 Fist\n"+
 "- INT Female 42 Fist\n"+
 "- ADV Female 42 Fist\n"+
@@ -1833,7 +1834,7 @@ function sendIntermediate(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Int Open Taiji",
+                "title": "Int Open Yang",
                 "payload": "intOpenTaiji"
               },
               {
@@ -2062,7 +2063,7 @@ function sendAdvanced(sender){
               },
               {
                 "type": "postback",
-                "title": "Adv Long Weapon",
+                "title": "Adv Traditional Long Weapon",
                 "payload": "advLongWeapon"
               },
               {
@@ -2077,7 +2078,7 @@ function sendAdvanced(sender){
             "buttons": [
               {
                 "type": "postback",
-                "title": "Adv Trad Soft Weapon",
+                "title": "Adv Soft Weapon",
                 "payload": "advTradSoftWeapon"
               }
             ]
