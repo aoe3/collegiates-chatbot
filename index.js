@@ -1557,7 +1557,7 @@ function decideMessage(sender, textInput){
 	
 	//what happens on what ring throughout day
 	} else if ((text == "rings") || (text == "ring")){
-		sendRingButtonMessage(sender, "What would you like to see? Or type 'ringall' to see EVERYTHING")
+		sendRingButtonMessage(sender, "What would you like to see?")
 	//rings
 	} else if ((text.includes("rings all")) || (text.includes("ringsall")) || (text.includes("ringall")) || (text.includes("all rings")) || (text.includes("ring all"))){
 		let completeSched = ringOne + "\n\n\n\n" + ringTwo + "\n\n\n\n" + ringThree
