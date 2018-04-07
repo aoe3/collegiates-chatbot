@@ -195,6 +195,23 @@ let begTradShortWeapon =
 "Male Traditional Short Weapon\n\n"+
 "- Simon Nguyen - 0.00\n\n\n"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Intermediate
 let intChangquan =
 "Female Changquan\n\n"+
@@ -388,6 +405,30 @@ let intTradShortWeapon =
 
 "Male Traditional Short Weapon\n\n"+
 "- Simon Lee - 0.00\n\n\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //Advanced
 let advChangquanNandu =
@@ -650,6 +691,28 @@ let advTradShortWeapon =
 let advTradSoftWeapon =
 "Female Soft Weapon\n\n"+
 "- Queenie Li - 0.00\n\n\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 let groupsetHalf1 = 
 "Columbia - ~cu later ;) : 0.00\n"+
@@ -1080,6 +1143,13 @@ let vtech =
 "- Justin Lu\n"+
 "- Khang Nguyen\n"
 
+
+
+
+
+
+
+
 let ringOne = 
 "This is the order for ring 1. Type 'events' to see who is in what event!\n\n"+
 "- ADV Male CQ - Nandu\n"+
@@ -1107,6 +1177,25 @@ let ringOne =
 "- ADV Female Traditional Long Weapon\n"+
 "- ADV Female Soft Weapon\n"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let ringTwo = 
 "This is the order for ring 2. Type 'events' to see who is in what event!\n\n"+
 "- INT Female CQ\n"+
@@ -1132,6 +1221,26 @@ let ringTwo =
 "- INT Male Traditional Short Weapon\n"+
 "- INT Female Traditional Long Weapon\n"+
 "- INT Male Traditional Long Weapon\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 let ringThree = 
 "This is the order for ring 3. Type 'events' to see who is in what event!\n\n"+
@@ -1169,6 +1278,15 @@ let ringThree =
 "- ADV Female 42 Sword\n"+
 "- ADV Male Taiji Weapon\n"+
 "- ADV Female Taiji Weapon\n"
+
+
+
+
+
+
+
+
+
 
 //greetings
 let greetings =["Hello! I'm the ACWT Helper ChatBot! To best learn how to use me, type 'help' as a message!",
@@ -1453,8 +1571,72 @@ function decideMessage(sender, textInput){
 	} else if ((text.includes("ring3")) || (text.includes("ring 3")) || (text.includes("mat3")) || (text.includes("mat 3"))){
 		sendText(sender, ringThree)
 	//POTENTIAL real-time schedule... what's happening now?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	} else if (text == "schedule"){
-		sendText(sender, "Ring 1: Has not started yet. \nRing 2: Has not started yet. \nRing 3: Has not started yet.")
+		sendText(sender, "Ring 1: Warming up. \nRing 2: Warming up. \nRing 3: Warming up.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	//pitt wushu contact stuff
 	} else if (text == "contact"){
 		sendText(sender, "To get in touch:\n\nE-mail: pittwushu@gmail.com\nTel: ‭Alyssa, +1 (717) 977-0886‬")
