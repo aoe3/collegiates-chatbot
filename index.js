@@ -442,7 +442,7 @@ let advChangquan =
 "- Caitlin Escudero - 8.48\n"+
 "- Gwyneth Huynh - 7.77\n"+
 "- Bridget Keeney - 8.46\n"+
-"- Rebecca Chinn - 0.00\n"+
+"- Rebecca Chinn - 8.33\n"+
 "- Daisy Zheng - 0.00\n"+
 "- Kaitlyn Trinh - 0.00\n"+
 "- Emily Fan - 0.00\n"+
