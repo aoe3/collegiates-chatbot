@@ -92,7 +92,7 @@ let begChangquan =
 "- Allen Peng - 6.63\n"+
 "- Kevin Marston - 6.21\n"+
 "- Benjamin Chen - 6.33\n"+
-"- Kyle Chan - 0.00\n"+
+"- Kyle Chan - 6.65\n"+
 "- Simon Nguyen - 0.00\n"+
 "- William Lund - 0.00\n"+
 "- Nutong Her - 0.00\n"+
@@ -220,7 +220,7 @@ let intChangquan =
 "- Kimberly Gomez - 7.07\n"+
 "- Annie Shi - 6.52\n"+
 "- Jasmine Wong - 7.25\n"+
-"- Yong-yi Hu - 0.00\n"+
+"- Yong-yi Hu - 7.53\n"+
 "- Adanna Liu - 0.00\n"+
 "- Annmarie Cong - 0.00\n"+
 "- Julia Leung - 0.00\n"+
@@ -446,7 +446,7 @@ let advChangquan =
 "- Emily Fan - 8.85\n"+
 "- Michelle Chiang - 8.03\n"+
 "- Alyssa Lo - 8.72\n"+
-"- Crystal Huang - 0.00\n\n\n"+
+"- Crystal Huang - 7.80\n\n\n"+
 
 "Male Changquan\n\n"+
 "- Daniel Liang - 0.00\n"+
