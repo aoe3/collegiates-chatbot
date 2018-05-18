@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
 	res.send("I am the Annual Collegiate Wushu Tournament chatbot!")
 })
 
-let token = "EAAE8KvOZCFv8BANkH83XSfCll4Wbj8epmq7yB74eRzD505sSPdv8sO2lDFhbjXravOBIDg7aXquu2yy4X6U1KQqqCF2EKBOHC3tpAAOGH8kKooWEyRrqSuLu7KQBN2hzek8fJrJfgwTAVZAdSS9bh1cUDcmZBYT6zgtGvZB1ZAgZDZD"
+let token = "EAACEdEose0cBAK9xE4r4vlPf5l2dy2dmrAtRyahxekpBjt3WFuP8XCLvtUyw7kl4lfJZBxEYCI929zuevXvX6iPr5ZAYk1wYenj3Dioi1W8HpZCpkLgSwT00KlgnoiUOLGkPkDREM2XoX3mqTobRyLj2AexXF6ZBnhJtVywq177GDzA5we2GECRyJI9KhZCmifttXkouS6gZDZD"
 
 //Facebook
 
