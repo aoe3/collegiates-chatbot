@@ -1806,7 +1806,7 @@ function sendLocalMapImage(sender){
 function sendRequest(sender, messageData) {
 	request({
 		url: "https://graph.facebook.com/v2.6/me/messages",
-		qs : {access_token : token},
+		qs : {access_token : "https://graph.facebook.com/endpoint?key=value&access_token=347630152390399|6bfe0fb5b16997a6c35dc057292355b5"},
 		method: "POST",
 		json: {
 			recipient: {id: sender},
